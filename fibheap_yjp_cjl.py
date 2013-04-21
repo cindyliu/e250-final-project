@@ -107,7 +107,7 @@ class Tree(object) :
             
     # NEW FUNCTION THAT SEARCHES FOR NODE GIVEN A ROOT NODE AND A KEY
     #   NO IDEA IF THIS WORKS....
-    def find_in_tree(self,tnode,k)
+    def find_in_tree(self,tnode,k) :
         if k < tnode.key :
             return None
         elif k == tnode.key :
@@ -284,7 +284,7 @@ class FibHeap(object) :
 						
     # decreases the key of the given TreeNode to the specified value
     def decr_key(self,tnode, new_key) :
-        pass
+        
 
     # removes the given TreeNode from the heap (does not return the node)
     def delete(self,tnode) :
