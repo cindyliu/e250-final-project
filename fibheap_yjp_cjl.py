@@ -10,6 +10,7 @@ class TreeNode(object):
         self.key = k
         # change below from "value" to "v"; also, this should be a pointer to the 
         # corresponding element in the overarching list of all vertices
+        #change
         self.val = v
         self.prev = None
         self.next = None
