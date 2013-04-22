@@ -124,7 +124,7 @@ class CircNode(object) :
         self.prev = None
         self.next = None
 
-    def key(self) :
+    def key(self):
         return self.tree.root.key
 
     def merge(self,other_node) :
@@ -150,31 +150,33 @@ class FibHeap(object) :
         # always insert cnode before the current min
         cnode.prev = self.min.prev
         cnode.next = self.min
-        #not sure if this line of code will work
-        if self.min.prev != None :
-            self.min.prev.next = cnode
+        self.min.prev.next = cnode
         self.min.prev = cnode
-        if (cnode.tree.root.key < self.min):
+        if (cnode.tree.root.key < self.min.tree.root.key):
             #self.min points to a cnode, and self.min() returns a TreeNode
             self.min = cnode
 			
     # returns the minimum element of the heap (as a TreeNode) without
     #   removing it
-    def get_min(self):
-        return self.min.tree.root
+    #def get_min(self):
+    #    return self.min.tree.root
 
     # returns the minimum element of the heap (as a TreeNode) and removes
     # it from the heap
     def pop(self) :
         if self.is_empty() :
             return None
+        # if there is only one circnode and only one tnode in that circnode (e.g., no children)
+        elif (self.min.prev == self.min) and len(self.min.tree.root.children) == 0 :
+            temp_min = self.min.tree.root
+            self.min = None
+            return temp_min
         else: 
             temp_min = self.min.tree.root
             #concatenate the min's children into root list
             for child in temp_min.children:
-                self.insert(CircNode(Tree(child))
+                self.insert(CircNode(Tree(child)))
             # cut out old min
-            # not sure if this line of code will work
             self.min.prev.next = self.min.next
             self.min.next.prev = self.min.prev
             # Choose a new self.min, looking from the right of the old self.min
@@ -182,7 +184,7 @@ class FibHeap(object) :
             # consolidate trees so that no two roots have same degree
             self.min = self.get_min(self.consolidate_trees(self.min))
             #return the min saved at the beginning as TreeNode
-            return self.temp_min
+            return temp_min
 
     #this method gives back the circnode that contains the min root key 
     #in the circularly linked list of trees, given any circnode in that
@@ -191,14 +193,13 @@ class FibHeap(object) :
         start_circnode = circnode
         curr_circnode = circnode
         temp_min = circnode
-        not_full_circle = true
+        not_full_circle = True
         while True :
             if curr_circnode.next is start_circnode:
                 break
             elif curr_circnode.next.tree.root.key < temp_min.tree.root.key :
                 temp_min = curr_circnode.next
-            else :
-                curr_circnode = curr_circnode.next
+            curr_circnode = curr_circnode.next
         return temp_min
 		
     #this method consolidates the trees so that no two roots have 
@@ -210,18 +211,21 @@ class FibHeap(object) :
     # circnode and do the same. once one consolidation happens, run 
     # roots_have_same_degree again. repeat until roots_have_same_degree says false
     def consolidate_trees(self,circnode):
-        circnode_with_duplicate_degree = ring_has_two_or_more_circnodes_w_same_degree (circnode)
+        circnode_with_duplicate_degree = self.ring_has_two_or_more_circnodes_w_same_degree (circnode)
         circnode_i_know_is_in_circle = circnode
         while circnode_with_duplicate_degree != None :
-            circnode_i_know_is_in_circle = consolidate_trees_single (circnode_with_duplicate_degree)
-            circnode_with_duplicate_degree = ring_has_two_or_more_circnodes_w_same_degree (circnode_i_know_is_in_circle)
+            print '\nthis is new iteration'
+            self.print_heap()
+            circnode_i_know_is_in_circle = self.consolidate_trees_single (circnode_with_duplicate_degree)
+            circnode_with_duplicate_degree = self.ring_has_two_or_more_circnodes_w_same_degree (circnode_i_know_is_in_circle)
         return circnode_i_know_is_in_circle
             
     # returns a circnode that has the same degree as one or more other circnodes in the ring
     # returns None otherwise
     def ring_has_two_or_more_circnodes_w_same_degree (self,circnode) :
         start_circnode = circnode
-        if another_circnode_w_same_degree_as_this (start_circnode) :
+        curr_circnode = circnode
+        if self.another_circnode_w_same_degree_as_this (start_circnode) :
             return start_circnode
         else:
             while True:
@@ -229,7 +233,7 @@ class FibHeap(object) :
                     return None
                 else:
                     curr_circnode = curr_circnode.next
-                    if another_circnode_w_same_degree_as_this (curr_circnode) :
+                    if self.another_circnode_w_same_degree_as_this (curr_circnode) :
                         return curr_circnode            
     
     # runs through the circular doubly linked list of roots and returns 
@@ -253,13 +257,13 @@ class FibHeap(object) :
         while True: 
             curr_circnode = curr_circnode.next
             if len(curr_circnode.tree.root.children) == start_circnode_degree:
-                if curr_circnode.key < start_circnode.key :
+                if curr_circnode.key() < start_circnode.key() :
                     #curr_circnode will end up staying in the circular doubly linked list
                     #so cut out start_circnode from the circle
                     start_circnode.prev.next = start_circnode.next
                     start_circnode.next.prev = start_circnode.prev
                     #and merge in the start_circnode
-                    curr_circnode.merge (start_circnode)
+                    start_circnode.merge (curr_circnode)
                     return curr_circnode
                 else:
                     curr_circnode.prev.next = curr_circnode.next
@@ -285,8 +289,9 @@ class FibHeap(object) :
         
     # restructures the heap's core double-linked-list after the removal
     #   of one of the heap's elements
-    def restructure(self) :
-        pass
+    # REMOVED BECAUSE LIKE CONSOLIDATE TREES
+    #def restructure(self) :
+    #    pass
         
     # yjp: prints all the nodes in the heap, and use for testing
     def print_heap (self) :

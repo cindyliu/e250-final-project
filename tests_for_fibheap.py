@@ -81,9 +81,14 @@ tnode18.add_child(tnode39)
 tnode41.add_child(tnode44)
 fibheap.insert(circnode3)
 
-#fibheap.print_heap()
+fibheap.print_heap()
+print "\nthis is after pop"
 
 fibheap.pop()
 #min_Tree = Tree(fibheap.pop())
 #min_Tree.print_tree()
 fibheap.print_heap()
+
+# test for one-node heap
+fibheap1 = FibHeap()
+fibheap1.insert(CircNode(Tree(TreeNode(50,"url"))))
