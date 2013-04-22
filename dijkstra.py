@@ -1,32 +1,115 @@
-from fibheap import *
-
-def Dijkstra(G,start,end):
-	dist = {}	#distances
-	pred = {}	#predecessors
-	heap = FibHeap()   # est.dist. of non-final vert.
-	heap[start] = 0
-	
-	for v in heap:
-		dist[v] = heap[v]
-		if v == end: break
-		
-		for w in G[v]:
-			vwLength = dist[v] + G[v][w]
-			if w in dist:
-				if vwLength < dist[w]:
-					raise ValueError, "Error"
-			elif w not in heap or vwLength < heap[w]:
-				heap[w] = vwLength
-				P[w] = v
-	
-	return (dist,P)
-			
-def shortestPath(G,start,end):
-	dist,P = Dijkstra(G,start,end)
-	Path = []
-	while 1:
-		Path.append(end)
-		if end == start: break
-		end = P[end]
-	Path.reverse()
-	return Path
+  #!/usr/bin/python  
+import string  
+import time  
+    
+  # represents a vertex in the graph  
+class Vertex:  
+       def __init__(self, name):  
+            self.name = name         # name of the vertex  
+            self.dist = 1000         # distance to this vertex from start vertex  
+            self.prev = None        # previous vertex to this vertex  
+            self.flag = 0           # access flag  
+     
+     
+  # represents an edge in the graph  
+class Edge:  
+       def __init__(self, u, v, length):  
+            self.start = u  
+            self.end = v  
+            self.length = length  
+    
+    
+# read a text file and generate the graph according to declarations  
+def generateGraph(V, E):  
+       file = open("graph_def", "r")  
+       line = file.readline()  
+       line = line[:-1]  
+       while line:  
+            taglist = string.split(line)  
+            if taglist[0] == 'vertex':  
+                 V.append(Vertex(taglist[1]))  
+            elif taglist[0] == 'edge':  
+                 E.append(Edge(taglist[1], taglist[2], string.atoi(taglist[3])))  
+                 E.append(Edge(taglist[2], taglist[1], string.atoi(taglist[3])))  
+            line = file.readline()  
+            line = line[:-1]            
+       file.close()  
+    
+    
+  # returns the smallest vertex in V but not in S  
+def pickSmallestVertex(V):  
+       minVertex = None  
+       for vertex in V:  
+            if vertex.flag == 0:  
+                 minVertex = vertex  
+                 break  
+       if minVertex == None:  
+            return minVertex  
+       for vertex in V:  
+            if vertex.flag == 0 and vertex.dist < minVertex.dist:  
+                 minVertex = vertex  
+       return minVertex  
+    
+    
+  # returns the edges list of vertex u  
+def pickEdgesList(u, E):  
+       uv = []  
+       for edge in E:  
+            if edge.start == u.name:  
+                 uv.append(edge)  
+       return uv  
+    
+    
+def findShortestPath(V, E, S, A):  
+       # set A vertex distance to zero  
+       for vertex in V:  
+            if vertex.name == A:  
+                 vertex.dist = 0  
+    
+       u = pickSmallestVertex(V)  
+       while u != None:  
+            u.flag = 1  
+            uv = pickEdgesList(u, E)  
+            v = None  
+            for edge in uv:  
+                 # take the vertex v  
+                 for vertex in V:  
+                      if vertex.name == edge.end:  
+                           v = vertex  
+                           break  
+                 if v.dist > u.dist + edge.length:  
+                       v.dist = u.dist + edge.length  
+                       v.prev = u  
+            u = pickSmallestVertex(V)  
+    
+    
+def printGraph(V, E):  
+       print('vertices:')  
+       for vertex in V:  
+            previous = vertex.prev       
+            if previous == None:  
+                 print(vertex.name, vertex.dist, previous)  
+            else:  
+                 print(vertex.name, vertex.dist, previous.name)  
+       print('edges:')  
+       for edge in E:       
+            print(edge.start, edge.end, edge.length)  
+    
+    
+def main():  
+       print('Starting Dijkstra\'s Algorithm...')       
+       t1 = time.time()  
+       # graph elements  
+       V = []  
+       E = []  
+       S = []  
+       generateGraph(V, E)       
+       printGraph(V, E)  
+       findShortestPath(V, E, S, 'a')  
+       printGraph(V, E)  
+       print 'dummy '         
+       t2 = time.time()  
+       print t2-t1  
+    
+    
+main()  
