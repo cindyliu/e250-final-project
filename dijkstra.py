@@ -1,3 +1,7 @@
+ # modified version of python implementation of Dijkstra's Shortest
+ #Path Algorithm by Asanka P. Sayakkara. Original code can be found at
+# http://recolog.blogspot.com/2012/02/dijkstras-shortest-path-algorithm.html
+ 
   #!/usr/bin/python  
 import string  
 import time  
