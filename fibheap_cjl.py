@@ -42,7 +42,7 @@ class TreeNode(object):
         if cut_index >= len(self.children) or cut_index < 0 :
             return None
             
-        if cut_index+1 <= len(self.children)-1 and cut_index -1 >=0 :
+        if cut_index+1 < len(self.children) and cut_index > 0 :
             # connect (child after the one to be cut) to
             # (child before the one to be cut)
             self.children[cut_index + 1].prev = self.children[cut_index - 1]
@@ -194,17 +194,32 @@ class FibHeap(object) :
         if self.size == 1 :
             self.min = None
         else :
-            if len(self.min.tree.root.children) == 0 :
+            num_children = len(self.min.tree.root.children)
+            if self.min.tree.degree != num_children :
+                print "key = %g, degree = %d, num children = %d" % (
+                    self.min.tree.root.key, self.min.tree.degree, num_children)
+            if self.min.tree.degree == 0 :
                 self.min.prev.next = self.min.next
                 self.min.next.prev = self.min.prev
             else :
-                for child in self.min.tree.root.children :
-                    child.parent = None
-                self.min.tree.root.children[1].prev.next = self.min.next
-                self.min.next.prev = self.min.tree.root.children[1].prev
-                self.min.tree.root.children[1].prev = self.min.prev
-                self.min.prev.next = self.min.tree.root.children[1]
-        self.size -= 1
+                self.min.tree.root.children[0].parent = None
+                new_head = CircNode(Tree(self.min.tree.root.children[0]))
+                new_tail = new_head
+                if self.min.tree.degree > 1 :
+                    curr_child = new_head
+                    for child in self.min.tree.root.children[1:] :
+                        child.parent = None
+                        curr_child.next = CircNode(Tree(child))
+                        curr_child.next.prev = curr_child
+                        curr_child = curr_child.next
+                        if child == self.min.tree.root.children[-1] :
+                            new_tail = curr_child
+                self.min.prev.next = new_head
+                new_head.prev = self.min.prev
+                self.min.next.prev = new_tail
+                new_tail.next = self.min.next
+        self.size += len(self.min.tree.root.children) - 1
+        self.min = self.min.next
         self.restructure()
         return returnval
 
@@ -225,25 +240,34 @@ class FibHeap(object) :
                     degrees[currCNode.tree.degree] = currCNode
                     currCNode = currCNode.next
                 else :
-                    currPrev = currCNode.prev
-                    currNext = currCNode.next
-                    currCNode = currCNode.merge(degrees[currCNode.tree.degree])
-                    currCNode.prev = currPrev
-                    currCNode.next = currNext
+                    mergeNode = self.remove_node(degrees[currCNode.tree.degree])
+                    degrees[currCNode.tree.degree] = None
+                    currCNode.merge(mergeNode)
+                    if self.min == mergeNode :
+                        self.min = currCNode
                     self.size -= 1
+                    
+
+    def remove_node(self, cnode) :
+        cnode.prev.next = cnode.next
+        cnode.next.prev = cnode.prev
+        cnode.prev = cnode.next = cnode
+        return cnode
 
     # decreases the key of the given TreeNode to the specified value,
     # cutting children off into new trees if the min-heap invariant becomes
     # violated in the new configuration
     def decr_key(self, tnode, new_key) :
+        print "decr-ing tnode %g to %g" % (tnode.key,new_key)
         if new_key >= tnode.key :
             raise InvalidKey("New key must be less than old key")
         else :
             tnode.key = new_key
-            if tnode.key < tnode.parent.key :
-                fix_heap_recursive(tnode)
-            if tnode.key < self.min.tree.root.key :
-                self.min.tree.root = tnode
+            if (tnode.parent != None) :
+                if (tnode.key < tnode.parent.key) :
+                    self.fix_heap_recursive(tnode)
+            else :
+                self.reset_min(self.min)
 
     def fix_heap_recursive(self, tnode) :
         if tnode.parent != None :
@@ -253,6 +277,18 @@ class FibHeap(object) :
             self.insert(new_root)
             if parent_marked :
                 fix_heap_recursive(theParent)
+
+    def reset_min(self,circnode) : 
+        start_circnode = circnode
+        curr_circnode = circnode
+        temp_min = circnode
+        while True :
+            if curr_circnode.next is start_circnode:
+                break
+            elif curr_circnode.next.tree.root.key < temp_min.tree.root.key :
+                temp_min = curr_circnode.next
+            curr_circnode = curr_circnode.next
+        return temp_min
 
     # removes the given TreeNode from the heap (does not return the node)
     def delete(self,tnode) :
@@ -275,15 +311,17 @@ class FibHeap(object) :
         
     # yjp: prints all the nodes in the heap, and use for testing
     def print_heap (self) :
-        start_circnode = self.min
-        curr_circnode = self.min
-        print "This is a heap of size %d and min %d:" % (
+        print "\nThis is a heap of size %d and min %g:" % (
             self.size, self.min.tree.root.key)
-        print ('this is a circnode:')
-        curr_circnode.tree.print_tree()
-        while curr_circnode.next is not start_circnode :
-            print ('\nthis is a circnode:')
-            curr_circnode = curr_circnode.next
+        curr_circnode = self.min
+        for i in range(-1,self.size) :
+            print "\nthis is a circnode:"
             curr_circnode.tree.print_tree()
+            curr_circnode = curr_circnode.next
 
-        
+    def print_CDDL(self) :
+        print "\nHeap CDDL:"
+        curr_circnode = self.min
+        for i in range(-1,self.size) :
+            print "Circnode " + repr(curr_circnode.tree.root.key)
+            curr_circnode = curr_circnode.next
