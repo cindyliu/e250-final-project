@@ -73,12 +73,8 @@ class TreeNode(object):
         for child in tnode.children :
             print (s + 'Node key:' + repr(child.key))
             if len(child.children) > 0 :
-                child.print_treenode_and_children(child,self.add_indent(s))
-    
-    def add_indent(self,s) :
-        s += '\t'
-        return s
-    
+                child.print_treenode_and_children(child,'\t'+s)
+
 
 # this class represents one of the trees the Fibonacci heap is a collection of
 # it holds a reference to the root node of the tree and the degree of the
@@ -276,7 +272,7 @@ class FibHeap(object) :
             new_root = theParent.cut_child(theParent.children.index(tnode))
             self.insert(new_root)
             if parent_marked :
-                fix_heap_recursive(theParent)
+                self.fix_heap_recursive(theParent)
 
     def reset_min(self,circnode) : 
         start_circnode = circnode
