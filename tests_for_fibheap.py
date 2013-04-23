@@ -40,6 +40,7 @@ tree2.print_tree()
 
 # ****** tests for FibHeap functions ***********
 
+# *** pop() ***
 # try to recreate the situation in the princeton notes
 tnode7 = TreeNode(7,"url")
 tnode30 = TreeNode(30,"url")
@@ -82,13 +83,25 @@ tnode41.add_child(tnode44)
 fibheap.insert(circnode3)
 
 fibheap.print_heap()
-print "\nthis is after pop"
 
+print "\nthis is after pop"
 fibheap.pop()
-#min_Tree = Tree(fibheap.pop())
-#min_Tree.print_tree()
 fibheap.print_heap()
 
 # test for one-node heap
+print "\n this is test of pop for one-node (key 50) FibHeap"
 fibheap1 = FibHeap()
 fibheap1.insert(CircNode(Tree(TreeNode(50,"url"))))
+pop_result = fibheap1.pop()
+print repr(pop_result.key)
+print ("remaining tree is empty:" + repr(fibheap1.is_empty()))
+
+# *** find ***
+print "\n this is test of find"
+print "this is the FibHeap we search"
+temp_answer_tnode = fibheap.find(7)
+print "find 7 (at root):" + repr(temp_answer_tnode.key)
+temp_answer_tnode = fibheap.find(35)
+print "find 35 (child of child):" + repr(temp_answer_tnode.key)
+temp_answer_tnode = fibheap.find(51)
+print "find 51 (doesn't exist):" + repr(temp_answer_tnode)

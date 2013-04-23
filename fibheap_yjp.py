@@ -71,6 +71,18 @@ class TreeNode(object):
         s += '    '
         return s
     
+    def find(self,key) :
+        #check your own key
+        if self.key == key:
+            return self
+        #check all your children's recursively
+        if len(self.children) > 0:
+            for child in self.children:
+                temp_answer = child.find(key)
+                if temp_answer != None:
+                    return temp_answer
+        else:
+            return None
 
 # this class represents one of the trees the Fibonacci heap is a collection of
 # it holds a reference to the root node of the tree and the degree of the
@@ -285,7 +297,19 @@ class FibHeap(object) :
 
     # returns the TreeNode with the given key, or None if key not in heap
     def find(self,key) :
-        pass
+        start_circnode = self.min
+        curr_circnode = self.min
+        answer_tnode = curr_circnode.tree.root.find(key)
+        if answer_tnode != None:
+            return answer_tnode
+        while True:
+            if curr_circnode.next == start_circnode :
+                return None
+            curr_circnode = curr_circnode.next 
+            answer_tnode = curr_circnode.tree.root.find(key)
+            if answer_tnode != None:
+                return answer_tnode
+            
         
     # restructures the heap's core double-linked-list after the removal
     #   of one of the heap's elements
