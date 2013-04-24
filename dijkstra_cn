@@ -9,7 +9,7 @@ from dict_to_tnodes import *
 #and the url of the desired destination
 
 def findShortestPath(fibheap,destination):  
-	   while !fibheab.is_empty 
+	   while not fibheap.is_empty 
 	   
        		# set root node
        		root = fibheap.min.tree.root
@@ -19,13 +19,13 @@ def findShortestPath(fibheap,destination):
        			break
        	
       		 #updating distances by 1 and prev fields to root node. 		      
-       		for neighbor in root.neighbors:
-         		if neighbord.key > (neighbor.key +1):
-       				neighbor.key = neighbor.key +1
-       			else
-       				neighbor.finished = 1
-       		
+       		for neighbor in r oot.neighbors:
+         		if neighbor.key > (neighbor.key +1):
+       				fibheap.decr_key(neighbor,neighbor.key +1)
+       			       		
        			neighbor.dij_prev = root
+       			
+       		root.finished = true
        		
        		#Popping off the root of the heap
       		 fibheap.pop()
