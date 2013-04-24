@@ -23,7 +23,7 @@ def findShortestPath(fibheap,destination):
        	
       		 #updating distances by 1 and prev fields to root node. 		      
        		for neighbor in root.neighbors:
-         		if neighbor.key > (neighbor.key +1):
+         		if (not neighbor.finished) & (neighbor.key > (neighbor.key +1)):
        				fibheap.decr_key(neighbor,neighbor.key +1)
        			       		
        			neighbor.dij_prev = root
