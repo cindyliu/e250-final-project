@@ -306,7 +306,7 @@ class FibHeap(object) :
                     curr_circnode.next.prev = curr_circnode.prev
                     curr_circnode.merge (start_circnode)
                     return start_circnode
-						
+						f
     # decreases the key of the given TreeNode to the specified value
     def decr_key(self,tnode, new_key) :
         pass
@@ -357,7 +357,7 @@ class FibHeap(object) :
     #def restructure(self) :
     #    pass
         
-    # yjp: prints all the nodes in the heap, and use for testing
+    # yjp: prints all the nodes in the heap, and use  testing
     def print_heap (self,output_f) :
         start_circnode = self.min
         curr_circnode = self.min
