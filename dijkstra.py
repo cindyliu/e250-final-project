@@ -5,6 +5,32 @@
   #!/usr/bin/python  
 import string  
 import time  
+
+from dict_to_tnodes import * 
+        
+def main():
+    opts, args = parse_options()
+
+    url = args[0]
+
+    if opts.links:
+        getLinks(url)
+        raise SystemExit, 0
+
+    depth = opts.depth
+
+    sTime = time.time()
+	
+    output_f = open("output.txt", "w+")
+    
+    print "Crawling %s (Max Depth: %d)" % (url, depth)
+    crawler = Crawler(url, depth)
+    crawler.crawl()
+    dict = crawler.urls
+    #create ring of one-node circnodes with the urls found
+    fibheap = from_dict_to_fibheap(dict, url)
+    
+    
     
   # represents a vertex in the graph  
 class Vertex:  

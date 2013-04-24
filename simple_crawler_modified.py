@@ -17,11 +17,11 @@ from bs4 import BeautifulSoup
 # http://code.activestate.com/recipes/576551-simple-web-crawler/
 # and is under the MIT License
 
-__version__ = "0.2"
-__copyright__ = "CopyRight (C) 2008-2011 by James Mills"
-__license__ = "MIT"
-__author__ = "James Mills"
-__author_email__ = "James Mills, James dot Mills st dotred dot com dot au"
+__version__ = "0.1"
+__copyright__ = "Adopted from code that is copyrighted (C) 2008-2011 by James Mills"
+__license__ = "Adopted from code owned by MIT"
+__author__ = "Adopted by Y. Park, C. Liu, and C. Nobre based on code by James Mills"
+__author_email__ = "Adopted by Y. Park, C. Liu, and C. Nobre based on code by James Mills, James dot Mills st dotred dot com dot au"
 
 USAGE = "%prog [options] <url>"
 VERSION = "%prog v" + __version__
@@ -47,9 +47,9 @@ class Crawler(object):
         q = Queue()
         for url in page.urls:
             q.put(url)
-            #put in each link in the dict value (list of links)
-            self.urls[self.root].append(url)
-            #self.urls[self.root] = [templist.append(url) for templist in self.urls[self.root]]
+            #put in each link in the dict value (list of links), if it's not the same as the self.root
+            if self.root != url:
+                self.urls[self.root].append(url)
         followed = [self.root]
 
         n = 0
@@ -74,9 +74,8 @@ class Crawler(object):
                             if not self.urls.has_key(url):
                                 #I try to put in the link as an item in the value corresponding to the key
                                 self.urls[url] = [url_2]
-                            else:
+                            elif url != url_2:
                                 self.urls[url].append(url_2)
-							#    self.urls[url] = [templist.append(url_2) for templist in self.urls[url]]
                             self.links += 1
                             q.put(url_2)
                         if n > self.depth and self.depth > 0:
