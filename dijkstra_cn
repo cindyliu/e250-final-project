@@ -1,0 +1,65 @@
+
+  #!/usr/bin/python  
+from dict_to_tnodes import * 
+
+        
+#algorithm to find the shortes path from the home page 
+#(min node of the heap) to the destination url
+#takes in the fibheap generated from the starting link
+#and the url of the desired destination
+
+def findShortestPath(fibheap,destination):  
+	   while !fibheab.is_empty 
+	   
+       		# set root node
+       		root = fibheap.min.tree.root
+       
+       		if root.self_url == destination:
+       			return root
+       			break
+       	
+      		 #updating distances by 1 and prev fields to root node. 		      
+       		for neighbor in root.neighbors:
+         		if neighbord.key > (neighbor.key +1):
+       				neighbor.key = neighbor.key +1
+       			else
+       				neighbor.finished = 1
+       		
+       			neighbor.dij_prev = root
+       		
+       		#Popping off the root of the heap
+      		 fibheap.pop()
+       
+    
+def main():  
+
+       
+    opts, args = parse_options()
+
+    url = args[0]
+
+    if opts.links:
+        getLinks(url)
+        raise SystemExit, 0
+
+    depth = opts.depth
+
+    sTime = time.time()
+	
+    output_f = open("output.txt", "w+")
+    
+    print "Crawling %s (Max Depth: %d)" % (url, depth)
+    crawler = Crawler(url, depth)
+    crawler.crawl()
+    dict = crawler.urls
+    #create ring of one-node circnodes with the urls found
+    fibheap = from_dict_to_fibheap(dict, url)
+    
+    findShortestPath (fibheap,'http://en.wikipedia.org/wiki/Peafowl#mw-navigation')
+    
+    
+       print('Starting Dijkstra\'s Algorithm...')       
+       findShortestPath(V, E, S, 'a')  
+       
+    
+main()  
