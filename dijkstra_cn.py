@@ -8,18 +8,21 @@ from dict_to_tnodes import *
 #takes in the fibheap generated from the starting link
 #and the url of the desired destination
 
-def findShortestPath(fibheap,destination):  
-	   while not fibheap.is_empty 
-	   
+def findShortestPath(fibheap,destination): 
+ 	print ("Starting shortest path")
+	while not fibheap.is_empty: 
+	   	print ("We're in!")
        		# set root node
        		root = fibheap.min.tree.root
+       		print (root.self_url)
        
        		if root.self_url == destination:
+       			print ("Found shortest path as: ")
        			return root
        			break
        	
       		 #updating distances by 1 and prev fields to root node. 		      
-       		for neighbor in r oot.neighbors:
+       		for neighbor in root.neighbors:
          		if neighbor.key > (neighbor.key +1):
        				fibheap.decr_key(neighbor,neighbor.key +1)
        			       		
@@ -28,7 +31,7 @@ def findShortestPath(fibheap,destination):
        		root.finished = true
        		
        		#Popping off the root of the heap
-      		 fibheap.pop()
+      		fibheap.pop()
        
     
 def main():  
@@ -44,22 +47,17 @@ def main():
 
     depth = opts.depth
 
-    sTime = time.time()
-	
-    output_f = open("output.txt", "w+")
-    
-    print "Crawling %s (Max Depth: %d)" % (url, depth)
+   
     crawler = Crawler(url, depth)
     crawler.crawl()
     dict = crawler.urls
     #create ring of one-node circnodes with the urls found
     fibheap = from_dict_to_fibheap(dict, url)
     
-    findShortestPath (fibheap,'http://en.wikipedia.org/wiki/Peafowl#mw-navigation')
+    print('Starting Dijkstra\'s Algorithm...')       
+     
+    findShortestPath (fibheap,'http://en.wikipedia.org/wiki/Peafowl')
     
     
-       print('Starting Dijkstra\'s Algorithm...')       
-       findShortestPath(V, E, S, 'a')  
-       
-    
+      
 main()  
