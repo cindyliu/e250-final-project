@@ -12,23 +12,23 @@ def from_dict_to_fibheap(dict,starting_url) :
     #first key is going to be the start url -> initiate with 0 distance (key)
     is_start_url = True
     for key in dict:
-        if key == starting_url:
-            key_tnode = TreeNode(0, key)
+        if key == starting_url and is_start_url:
+            key_tnode = TreeNode(0, key.lower())
             fibheap.insert(key_tnode)
             is_start_url = False
-        else:
-            # check if tnode already exists in circnode ring
-            key_tnode = fibheap.find_on_self_url(key)        
-            # if it doesn't, add it
-            if key_tnode == None :
-                key_tnode = TreeNode(float("inf"), key)
-                fibheap.insert(key_tnode)
-            # for each of the urls in its val, check if tnode already exists in circnode ring
+            continue
+        # check if tnode already exists in circnode ring
+        key_tnode = fibheap.find_on_self_url(key.lower())        
+        # if it doesn't, add it
+        if key_tnode == None :
+            key_tnode = TreeNode(float("inf"), key.lower())
+            fibheap.insert(key_tnode)
+        # for each of the urls in its val, check if tnode already exists in circnode ring
         for val_url in dict[key]:
             val_tnode = fibheap.find_on_self_url(val_url)
             # if it doesn't exist, add the tnode
             if val_tnode == None:
-                val_tnode = TreeNode(float("inf"), val_url)
+                val_tnode = TreeNode(float("inf"), val_url.lower())
                 fibheap.insert(val_tnode)
             # the connect this val_url tnode to key tnode
             key_tnode.neighbors.append(val_tnode)

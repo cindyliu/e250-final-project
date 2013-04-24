@@ -1,5 +1,4 @@
-
-  #!/usr/bin/python  
+#!/usr/bin/python  
 from dict_to_tnodes import * 
 
         
