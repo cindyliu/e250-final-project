@@ -222,8 +222,9 @@ class FibHeap(object) :
         if self.is_empty() :
             return None
         returnval = self.min.tree.root
-        if (self.size == 1) && (self.min.tree.degree == 0):
+        if (self.size == 1) and (self.min.tree.degree == 0):
             self.min = None
+            self.size = 0
         else :
             num_children = len(self.min.tree.root.children)
             if self.min.tree.degree != num_children :
@@ -249,9 +250,9 @@ class FibHeap(object) :
                 new_head.prev = self.min.prev
                 self.min.next.prev = new_tail
                 new_tail.next = self.min.next
-        self.size += len(self.min.tree.root.children) - 1
-        self.min = self.min.next
-        self.restructure()
+                self.size += len(self.min.tree.root.children) - 1
+                self.min = self.min.next
+                self.restructure()
         return returnval
 
     # restructures the heap's core double-linked-list after the removal
