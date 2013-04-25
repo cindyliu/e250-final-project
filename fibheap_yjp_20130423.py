@@ -222,7 +222,7 @@ class FibHeap(object) :
         if self.is_empty() :
             return None
         returnval = self.min.tree.root
-        if self.size == 1 :
+        if (self.size == 1) && (self.min.tree.degree == 0):
             self.min = None
         else :
             num_children = len(self.min.tree.root.children)
