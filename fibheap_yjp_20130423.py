@@ -274,7 +274,9 @@ class FibHeap(object) :
                     mergeNode = self.remove_node(degrees[currCNode.tree.degree])
                     degrees[currCNode.tree.degree] = None
                     currCNode.merge(mergeNode)
-                    if self.min == mergeNode :
+#                    if self.min == mergeNode :
+#                        self.min = currCNode
+                    if currCNode.tree.root.key <= self.min.tree.root.key :
                         self.min = currCNode
                     self.size -= 1
                     
