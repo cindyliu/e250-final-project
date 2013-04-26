@@ -1,0 +1,1980 @@
+
+This is a heap of size493and min:0
+
+this is a circnode:
+Tree root:0
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:inf
+Tree degree: 0
+
+this is a circnode:
+Tree root:0
+Tree degree: 0
+
+ this is the min of the heaphttp://en.wikipedia.org/wiki/peafowl

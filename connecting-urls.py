@@ -15,7 +15,7 @@ def main():
     sTime = time.time()
 	
     output_for_destination_urls = open("options_for_destination_urls.txt", "w+")    
-    output_for_debugging = open("output_for_debugging.txt", "w+") 
+    output_f = open("output_for_debugging.txt", "w+") 
     print "Crawling %s (Max Depth: %d)" % (url, depth)
     crawler = Crawler(url, depth)
     crawler.crawl()
@@ -30,7 +30,7 @@ def main():
     
     i = 0
     for elt in list_form_of_dict:
-        print >> output_for_destination_urls, "\n" + repr(i) + " " + elt
+        print >> output_for_destination_urls, "\n" + repr(i) + " " + repr(elt)
         i = i+1
     # should ask user to input a number matching of these potential destination urls
     # and reject that are <0 or > len of the list    
@@ -40,11 +40,11 @@ def main():
     print "The destination url you selected is " + list_form_of_dict[int(float(index_dest_url))]
     
     #create fibheap/Dijkstra's graph with the urls found
-    fibheap = from_dict_to_fibheap(dict, url)
-    fibheap.print_heap(output_for_debugging)
-    print >> output_for_debugging, "\n this is the min of the heap" + fibheap.min.tree.root.self_url
+    fibheap = from_dict_to_fibheap(dict, url, output_f)
+    #fibheap.print_heap(output_f)
+    print >> output_f, "\n this is the min of the heap" + fibheap.min.tree.root.self_url
     
-    findShortestPath(fibheap,list_form_of_dict[int(float(index_dest_url))])
+    findShortestPath(fibheap,list_form_of_dict[int(float(index_dest_url))],output_f)
     
 if __name__ == "__main__":
     main()
