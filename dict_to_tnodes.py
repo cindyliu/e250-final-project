@@ -4,6 +4,12 @@
 
 from fibheap_yjp_20130423_jeanette_debugging import *
 from simple_crawler_modified import *
+import ubigraph
+
+#U = ubigraph.Ubigraph()
+#U.clear()
+
+
 
 # just assume for now that you will be passed a dict
 # returns a fibheap
@@ -15,6 +21,8 @@ def from_dict_to_fibheap(dict,starting_url,output_f) :
         if key == starting_url and is_start_url:
             key_tnode = TreeNode(0, key.lower())
             fibheap.insert(key_tnode, output_f)
+            #x = U.newVertex(shape="sphere", color="#ffff00")
+
             is_start_url = False
         else:
             # check if tnode already exists in circnode ring
