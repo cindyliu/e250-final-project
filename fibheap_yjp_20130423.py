@@ -27,10 +27,12 @@ class TreeNode(object):
         self.marked = False
         # added pointer to parent, if any
         self.parent = None
+        self.in_tree = None
 
     # adds a child to this parent node, updating its linked-list of children
     # O(1)
     def add_child(self,new_child) :
+        new_child.in_tree = None
         if len(self.children) > 0 :
             # new_child's 'prev' should point to end of children list
             new_child.prev = self.children[-1]
@@ -39,10 +41,14 @@ class TreeNode(object):
             new_child.next = self.children[-1].next
             # last child's next now points to the new child
             self.children[-1].next = new_child
+            # first child's prev now also points to the new child
+            self.children[0].prev = new_child
         # new child points to parent
         new_child.parent = self
         #actually add the child to the children list
         self.children.append(new_child)
+        if self.in_tree != None :
+            self.in_tree.degree += 1
 
     # cuts a child, updating linked-list of children and returning cut node
     # also sets this node's marked status to TRUE
@@ -79,13 +85,19 @@ class TreeNode(object):
         new_root.marked = False
         # the caller will have to take care of inserting the new root
         # into the ring of roots
+        if self.in_tree != None :
+            self.in_tree.degree -= 1
         return new_root
 
-    def print_treenode_and_children(self,tnode,s,output_f) :
+    def print_treenode_and_children(self,tnode,s) :
         for child in tnode.children :
-            print >> output_f, (s + 'Node key:' + repr(child.key))
+            markedness = 'F'
+            if child.marked :
+                markedness = 'T'
+            other_data = "(parent=%g,prev=%g,next=%g,#children=%d,marked=%c)" % (child.parent.key,child.prev.key,child.next.key,len(child.children),markedness)
+            print (s + 'Node key:' + repr(child.key) + other_data)
             if len(child.children) > 0 :
-                child.print_treenode_and_children(child,'\t'+s, output_f)
+                child.print_treenode_and_children(child,'\t'+s)
 
     def find(self,key) :
         #check your own key
@@ -123,6 +135,8 @@ class Tree(object) :
         self.root = tnode
         # degree is the number of children that the node has
         self.degree = len(self.root.children)
+        self.in_circnode = None
+        tnode.in_tree = self
 
     def add(self,tnode) :
         # YJP: changed this around to be consistent with other functions
@@ -130,16 +144,16 @@ class Tree(object) :
         # child of the node to be added
         if self.root.key < tnode.key :
             self.root.add_child(tnode)
-            self.degree += 1
+            tnode.in_tree = None
         # else vice versa
         else :
             tnode.add_child(self.root)
+            self.root.in_tree = None
             self = Tree(tnode)
             
     def cut(self,tnode) :
         #index returns the index pos of first occurrence of tnode in list
         new_root = self.root.cut_child(self.root.children.index(tnode))
-        self.root.degree -= 1
         return Tree(new_root)
         
     # NOT SURE HOW THIS IS DIFFERENT FROM ADD (SEEMS REDUNDANT, 
@@ -150,15 +164,18 @@ class Tree(object) :
     def merge_with(self,tree) :
         if self.root.key < tree.root.key :
             self.add(tree.root)
+            tree.in_circnode = None
             return self
         else :
             tree.add(self.root)
+            self.in_circnode = None
             return tree
-    
-    def print_tree(self, output_f):
-        print >> output_f,('Tree root:' +repr(self.root.key))
-        print >> output_f, "Tree degree: %d" % self.degree
-        self.root.print_treenode_and_children(self.root,'', output_f)
+
+    def print_tree(self):
+        print('Tree root:' +repr(self.root.key))
+        print "Tree degree: %d" % self.degree
+        self.root.print_treenode_and_children(self.root,'')
+
 
 # this class represents a node of the linked list at the core of the Fibonacci
 # heap; it is a wrapper for the tree that is the actual list element
@@ -176,12 +193,14 @@ class CircNode(object) :
         tree.root.prev = tree.root.next = tree.root
         self.tree = tree
         self.prev = self.next = self
+        tree.in_circnode = self
 
     def key(self):
         return self.tree.root.key
 
     def merge(self,other_node) :
         self.tree = self.tree.merge_with(other_node.tree)
+        self.tree.in_circnode = self
 
 # the actual Fibonacci heap
 # contains only a reference to the min CircNode in the heap
@@ -226,33 +245,19 @@ class FibHeap(object) :
             self.min = None
             self.size = 0
         else :
-            num_children = len(self.min.tree.root.children)
-            if self.min.tree.degree != num_children :
-                print "key = %g, degree = %d, num children = %d" % (
-                    self.min.tree.root.key, self.min.tree.degree, num_children)
-            if self.min.tree.degree == 0 :
-                self.min.prev.next = self.min.next
-                self.min.next.prev = self.min.prev
-            else :
-                self.min.tree.root.children[0].parent = None
-                new_head = CircNode(Tree(self.min.tree.root.children[0]))
-                new_tail = new_head
-                if self.min.tree.degree > 1 :
-                    curr_child = new_head
-                    for child in self.min.tree.root.children[1:] :
-                        child.parent = None
-                        curr_child.next = CircNode(Tree(child))
-                        curr_child.next.prev = curr_child
-                        curr_child = curr_child.next
-                        if child == self.min.tree.root.children[-1] :
-                            new_tail = curr_child
-                self.min.prev.next = new_head
-                new_head.prev = self.min.prev
-                self.min.next.prev = new_tail
-                new_tail.next = self.min.next
-                self.size += len(self.min.tree.root.children) - 1
-                self.min = self.min.next
-                self.restructure()
+            # a chunk of code was removed here; stored in scratchpad
+            if self.min.tree.degree > 0 :
+                for child in self.min.tree.root.children :
+                    child.parent = child.prev = child.next = None
+                    self.insert(child)
+            self.min.prev.next = self.min.next
+            self.min.next.prev = self.min.prev
+            self.min = self.min.next
+            self.size -= 1
+            self.restructure()
+        returnval.prev = returnval.next = returnval.parent = None
+        returnval.children = []
+        returnval.marked = False
         return returnval
 
     # restructures the heap's core double-linked-list after the removal
@@ -277,9 +282,10 @@ class FibHeap(object) :
                     currCNode.merge(mergeNode)
 #                    if self.min == mergeNode :
 #                        self.min = currCNode
-                    if currCNode.tree.root.key <= self.min.tree.root.key :
-                        self.min = currCNode
                     self.size -= 1
+                if currCNode.tree.root.key <= self.min.tree.root.key :
+                    self.min = currCNode
+
                     
 
     def remove_node(self, cnode) :
@@ -301,7 +307,8 @@ class FibHeap(object) :
                 if (tnode.key < tnode.parent.key) :
                     self.fix_heap_recursive(tnode)
             else :
-                self.reset_min(self.min)
+                if tnode.key < self.min.tree.root.key :
+                    self.min = tnode.in_circnode
 
     def fix_heap_recursive(self, tnode) :
         if tnode.parent != None :
@@ -370,19 +377,19 @@ class FibHeap(object) :
             answer_tnode = curr_circnode.tree.root.find_on_self_url(url)
             if answer_tnode != None:
                 return answer_tnode   
-                
-    # yjp: prints all the nodes in the heap, and use for testing
-    def print_heap (self, output_f) :
-        print >> output_f, "\nThis is a heap of size" + repr(self.size) + "and min:" + repr(self.min.tree.root.key)
+
+    def print_heap (self) :
+        print "\nThis is a heap of size %d and min %g:" % (
+            self.size, self.min.tree.root.key)
         curr_circnode = self.min
         for i in range(-1,self.size) :
-            print >> output_f, "\nthis is a circnode:"
-            curr_circnode.tree.print_tree(output_f)
+            print "\nthis is a circnode:"
+            curr_circnode.tree.print_tree()
             curr_circnode = curr_circnode.next
 
-    def print_CDDL(self, output_f) :
-        print >> output_f, "\nHeap CDDL:"
+    def print_CDDL(self) :
+        print "\nHeap CDDL:"
         curr_circnode = self.min
         for i in range(-1,self.size) :
-            print >> output_f, "Circnode " + repr(curr_circnode.tree.root.key)
+            print "Circnode " + repr(curr_circnode.tree.root.key)
             curr_circnode = curr_circnode.next

@@ -1,6 +1,6 @@
 # tests for fibheap
 
-from fibheap_cjl import *
+from fibheap_yjp_20130423 import *
 
 # ****** tests for TreeNode functions ***********
 print "Testing TreeNode.add_child"

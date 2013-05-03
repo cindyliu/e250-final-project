@@ -33,6 +33,12 @@ VERSION = "%prog v" + __version__
 
 AGENT = "%s/%s" % (__name__, __version__)
 
+dictfilename = "url_dict.txt"
+dictfile = open(dictfilename, 'w+')
+#dictfile.truncate(0)
+key_prefix = "key "
+val_prefix = "val "
+
 class Crawler(object):
 
     def __init__(self, root, depth, locked=True):
@@ -49,14 +55,16 @@ class Crawler(object):
         page = Fetcher(self.root)
         page.fetch()
         self.urls[self.root] = []
+        dictfile.write(key_prefix + self.root + '\n')
         q = Queue()
         for url in page.urls:
             if re.match('http://en.wikipedia.org/wiki/([a-z]*)$', url.lower()):
                 q.put(url)
+                dictfile.write(val_prefix + url + '\n')
                 #put in each link in the dict value (list of links), if it's not the same as the self.root
                 if self.root != url:
                     self.urls[self.root].append(url)
-                if len(self.urls[self.root]) > 10:
+                if len(self.urls[self.root]) >= 10:
                     break
         followed = [self.root]
 
@@ -73,10 +81,11 @@ class Crawler(object):
                     host = urlparse.urlparse(url)[1]
                     if self.locked and re.match(".*%s" % self.host, host):
                         followed.append(url)
+                        dictfile.write(key_prefix + url + '\n')
                         self.followed += 1
                         page = Fetcher(url)
                         page.fetch()
-                        print "Fetched this url" + url
+                        print "Fetched this url: " + url
                         n += 1
                         for i, url_2 in enumerate(page):
                             if re.match('http://en.wikipedia.org/wiki/([a-z]*)$', url_2.lower()) == None:
@@ -84,8 +93,10 @@ class Crawler(object):
                             if not self.urls.has_key(url):
                                 #I try to put in the link as an item in the value corresponding to the key
                                 self.urls[url] = [url_2]
+                                dictfile.write(val_prefix + url_2 + '\n')
                             elif url != url_2:
                                 self.urls[url].append(url_2)
+                                dictfile.write(val_prefix + url_2 + '\n')
                             self.links += 1
                             q.put(url_2)
                             if len(self.urls[url]) > 10:
@@ -96,6 +107,7 @@ class Crawler(object):
                 except Exception, e:
                     print "ERROR: Can't process url '%s' (%s)" % (url, e)
                     print format_exc()
+        dictfile.close()
 
 class Fetcher(object):
 
@@ -169,6 +181,13 @@ def parse_options():
     parser.add_option("-d", "--depth",
             action="store", type="int", default=30, dest="depth",
             help="Maximum depth to traverse")
+    parser.add_option("-t", "--type",
+    		action="store", type="string", default="fibheap", dest="type",
+    		help="The type of priority structure to use for Dijkstra")
+    parser.add_option("-f", "--file",
+            action="store_true", default=False, dest="from_file",
+            help="If specified, will read dict from file instead of\
+                  from crawler")
 
     opts, args = parser.parse_args()
 

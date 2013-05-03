@@ -1,0 +1,96 @@
+
+    def print_treenode_and_children(self,tnode,s,output_f) :
+        for child in tnode.children :
+            print >> output_f, (s + 'Node key:' + repr(child.key))
+            if len(child.children) > 0 :
+                child.print_treenode_and_children(child,'\t'+s, output_f)
+
+
+
+    def print_tree(self, output_f):
+        print >> output_f,('Tree root:' +repr(self.root.key))
+        print >> output_f, "Tree degree: %d" % self.degree
+        self.root.print_treenode_and_children(self.root,'', output_f)
+
+
+
+    # yjp: prints all the nodes in the heap, and use for testing
+    def print_heap (self, output_f) :
+        print >> output_f, "\nThis is a heap of size" + repr(self.size) + "and min:" + repr(self.min.tree.root.key)
+        curr_circnode = self.min
+        for i in range(-1,self.size) :
+            print >> output_f, "\nthis is a circnode:"
+            curr_circnode.tree.print_tree(output_f)
+            curr_circnode = curr_circnode.next
+
+    def print_CDDL(self, output_f) :
+        print >> output_f, "\nHeap CDDL:"
+        curr_circnode = self.min
+        for i in range(-1,self.size) :
+            print >> output_f, "Circnode " + repr(curr_circnode.tree.root.key)
+            curr_circnode = curr_circnode.next
+
+
+
+
+
+            num_children = len(self.min.tree.root.children)
+            if self.min.tree.degree != num_children :
+                print "key = %g, degree = %d, num children = %d" % (
+                    self.min.tree.root.key, self.min.tree.degree, num_children)
+            if self.min.tree.degree == 0 :
+                self.min.prev.next = self.min.next
+                self.min.next.prev = self.min.prev
+            else :
+                self.min.tree.root.children[0].parent = None
+                new_head = CircNode(Tree(self.min.tree.root.children[0]))
+                new_tail = new_head
+                if self.min.tree.degree > 1 :
+                    curr_child = new_head
+                    for child in self.min.tree.root.children[1:] :
+                        child.parent = None
+                        curr_child.next = CircNode(Tree(child))
+                        curr_child.next.prev = curr_child
+                        curr_child = curr_child.next
+                        if child == self.min.tree.root.children[-1] :
+                            new_tail = curr_child
+                self.min.prev.next = new_head
+                new_head.prev = self.min.prev
+                self.min.next.prev = new_tail
+                new_tail.next = self.min.next
+            self.size += len(self.min.tree.root.children) - 1
+            self.min = self.min.next
+            self.restructure()
+
+
+
+
+
+
+from fibheap_yjp_20130423 import *
+tnode1 = TreeNode(1,"tnode1")
+tnode2 = TreeNode(2,"tnode2")
+tnode3 = TreeNode(3,"tnode3")
+tnode4 = TreeNode(4,"tnode4")
+tnode5 = TreeNode(5,"tnode5")
+tnode6 = TreeNode(6,"tnode6")
+tnode7 = TreeNode(7,"tnode7")
+tnode8 = TreeNode(8,"tnode8")
+tnode9 = TreeNode(9,"tnode9")
+fh = FibHeap()
+fh.insert(tnode9)
+fh.insert(tnode5)
+fh.insert(tnode7)
+fh.insert(tnode8)
+fh.insert(tnode3)
+fh.insert(tnode6)
+fh.print_heap()
+fh.pop().key
+fh.print_heap()
+
+
+
+
+from dict_to_tnodes_prioqueue_20130429_wiki import *
+dictfile = "url_dict.txt"
+dict = build_dict(dictfile)

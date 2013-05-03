@@ -6,20 +6,20 @@ from fibheap_yjp_20130429_wiki import *
 from simple_crawler_modified_20130429_wiki import *
 
 # just assume for now that you will be passed a dict
-# returns a fibheap
-def from_dict_to_fibheap_urlset(dict,starting_url,output_f) :
-    fibheap = FibHeap()
+# returns a heapq
+def from_dict_to_heapq_urlset(dict,starting_url,output_f) :
+    heap = []
     urlset = set()
     #first key is going to be the start url -> initiate with 0 distance (key)
     is_start_url = True
     for key in dict:
         urlset.add(key.lower())
-        if key.lower() == starting_url.lower() and is_start_url:
+        if key == starting_url and is_start_url:
             key_tnode = TreeNode(0, key.lower())
-            fibheap.insert(key_tnode, output_f)
+            heapq.heappush(heap, key_tnode)
             is_start_url = False
         else:
-            # check if tnode already exists in circnode ring
+###            # check if tnode already exists in circnode ring
             key_tnode = fibheap.find_on_self_url(key.lower(),output_f)        
             # if it doesn't, add it
             if key_tnode == None :
