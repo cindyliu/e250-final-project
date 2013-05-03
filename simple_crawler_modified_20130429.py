@@ -50,6 +50,8 @@ class Crawler(object):
             #put in each link in the dict value (list of links), if it's not the same as the self.root
             if self.root != url:
                 self.urls[self.root].append(url)
+            if len(self.urls[self.root]) > 10:
+                break
         followed = [self.root]
 
         n = 0
