@@ -1,6 +1,6 @@
 # this is the front end for connecting-urls program
 from dijkstra_yjp_20130429_wiki import * 
-from dijkstra_prioqueue_20130429_wiki import *
+from dijkstra_prioqueue_wiki import *
 
 # main command-line options:
 # -d => specify the depth to crawl; default is 30

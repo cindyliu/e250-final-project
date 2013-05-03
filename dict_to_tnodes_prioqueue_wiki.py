@@ -3,10 +3,9 @@
 # with pointer to starting url and fields for each tnode set to the default values
 
 from fibheap_yjp_20130429_wiki import TreeNode
-from simple_crawler_modified_20130429_wiki import *
+from simple_crawler_modified_wiki import *
 from prioqueue_helpers_wiki import *
 from Queue import PriorityQueue
-from operator import attrgetter
 
 # just assume for now that you will be passed a dict
 # returns a prioqueue
@@ -17,23 +16,31 @@ def from_dict_to_prioqueue_urlset(dict,starting_url) :
     is_start_url = True
     for key in dict:
         urlset.add(key.lower())
+#        print "key is %s with #val_urls %d" % (key.lower(), len(dict[key]))
         if key.lower() == starting_url.lower() and is_start_url:
             key_tnode = TreeNode(0, key.lower())
-            prioq.put_nowait(key_tnode)
-            prioq.queue.sort(key=attrgetter("key"))
+            pq_push(prioq, key_tnode)
+#            print "ADDRESS OF KEY IS %d" % id(key_tnode)
             is_start_url = False
         else:
-            key_tnode = TreeNode(float("inf"), key.lower())
-            prioq.put_nowait(key_tnode)
+            key_tnode = pq_member(prioq, key.lower())
+            if key_tnode == None :
+                key_tnode = TreeNode(float("inf"), key.lower())
+                pq_push(prioq, key_tnode)
+#            print "ADDRESS OF KEY IS %d" % id(key_tnode)
         # for each of the urls in its val, check if tnode already exists in circnode ring
         for val_url in dict[key]:
             urlset.add(val_url.lower())
+#            print "\tval_url is " + val_url.lower()
             # if it doesn't exist, add the tnode
-            val_tnode = TreeNode(float("inf"), val_url.lower())
-            if not pq_member(prioq, val_url.lower()) :
-                prioq.put_nowait(val_tnode)
-                prioq.queue.sort(key=attrgetter("key"))
+            val_tnode = pq_member(prioq, val_url.lower())
+            if val_tnode == None :
+#                print "\t\tnot member"
+                val_tnode = TreeNode(float("inf"), val_url.lower())
+                pq_push(prioq, val_tnode)
+#            print "\t\tADDRESS OF VAL_URL IS %d" % id(val_tnode)
             key_tnode.neighbors.append(val_tnode)
+#        print "\t#neighbors is %d" % len(key_tnode.neighbors)
     print "\tmin key: %g, url: %s" % (
         prioq.queue[0].key, prioq.queue[0].self_url)
     print "\tsize of prioqueue: %d" % prioq.qsize()
