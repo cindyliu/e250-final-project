@@ -315,7 +315,7 @@
 
 157 u'http://www.raisingpeacocks.net/'
 
-158 u'http://en.wikipedia.org/w/index.php?title=Peafowl&amp;oldid=552027092'
+158 u'http://en.wikipedia.org/w/index.php?title=Peafowl&amp;oldid=552730943'
 
 159 u'http://en.wikipedia.org/wiki/Help:Categories'
 
@@ -385,11 +385,11 @@
 
 192 u'http://en.wikipedia.org/w/index.php?title=Peafowl&amp;action=info'
 
-193 u'http://en.wikipedia.org/w/index.php?title=Special:Cite&amp;page=Peafowl&amp;id=552027092'
+193 u'http://en.wikipedia.org/w/index.php?title=Special:Cite&amp;page=Peafowl&amp;id=552730943'
 
 194 u'http://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Peafowl'
 
-195 u'http://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Peafowl&amp;oldid=552027092&amp;writer=rl'
+195 u'http://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Peafowl&amp;oldid=552730943&amp;writer=rl'
 
 196 u'http://en.wikipedia.org/w/index.php?title=Peafowl&amp;printable=yes'
 
@@ -851,7 +851,7 @@
 
 425 u'http://www.raisingpeacocks.net/'
 
-426 u'http://en.wikipedia.org/w/index.php?title=Peafowl&amp;oldid=552027092'
+426 u'http://en.wikipedia.org/w/index.php?title=Peafowl&amp;oldid=552730943'
 
 427 u'http://en.wikipedia.org/wiki/Help:Categories'
 
@@ -921,11 +921,11 @@
 
 460 u'http://en.wikipedia.org/w/index.php?title=Peafowl&amp;action=info'
 
-461 u'http://en.wikipedia.org/w/index.php?title=Special:Cite&amp;page=Peafowl&amp;id=552027092'
+461 u'http://en.wikipedia.org/w/index.php?title=Special:Cite&amp;page=Peafowl&amp;id=552730943'
 
 462 u'http://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Peafowl'
 
-463 u'http://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Peafowl&amp;oldid=552027092&amp;writer=rl'
+463 u'http://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Peafowl&amp;oldid=552730943&amp;writer=rl'
 
 464 u'http://en.wikipedia.org/w/index.php?title=Peafowl&amp;printable=yes'
 
@@ -1685,7 +1685,7 @@
 
 842 u'http://www.raisingpeacocks.net/'
 
-843 u'http://en.wikipedia.org/w/index.php?title=Peafowl&amp;oldid=552027092'
+843 u'http://en.wikipedia.org/w/index.php?title=Peafowl&amp;oldid=552730943'
 
 844 u'http://en.wikipedia.org/wiki/Help:Categories'
 
@@ -1753,11 +1753,11 @@
 
 876 u'http://en.wikipedia.org/w/index.php?title=Peafowl&amp;action=info'
 
-877 u'http://en.wikipedia.org/w/index.php?title=Special:Cite&amp;page=Peafowl&amp;id=552027092'
+877 u'http://en.wikipedia.org/w/index.php?title=Special:Cite&amp;page=Peafowl&amp;id=552730943'
 
 878 u'http://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Peafowl'
 
-879 u'http://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Peafowl&amp;oldid=552027092&amp;writer=rl'
+879 u'http://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Peafowl&amp;oldid=552730943&amp;writer=rl'
 
 880 u'http://en.wikipedia.org/w/index.php?title=Peafowl&amp;printable=yes'
 
