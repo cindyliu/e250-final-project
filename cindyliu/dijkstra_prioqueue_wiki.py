@@ -4,11 +4,14 @@ from operator import attrgetter
 
 #algorithm to find the shortest path from the home page 
 #(min node of the heap) to the destination url
-#takes in the fibheap generated from the starting link
+#takes in the priority queue generated from the starting link
 #and the url of the desired destination
 
-def findShortestPath_PQ(prioq,destination): 
+def findShortestPath_PQ(prioq,destination,G):
+	dij_path = []
+    dij_path.append(fibheap.min.tree.root.self_url) 
     print ("Starting shortest path...")
+    #finished = False
     print (prioq.empty())
     while not prioq.empty() :
         # set current node
@@ -24,6 +27,9 @@ def findShortestPath_PQ(prioq,destination):
                 current_tnode_printed = current
                 while current_tnode_printed.dij_prev != None:
                     print current_tnode_printed.self_url
+                    G[current_tnode_printed.self_url][current_tnode_printed.dij_prev.self_url]["type"]="dij"
+                    G.add_node(current_tnode_printed.self_url,type="dij",dist=current_tnode_printed.key) 
+                    dij_path.append(current_tnode_printed.self_url)   
                     current_tnode_printed = current_tnode_printed.dij_prev
                 print current_tnode_printed.self_url  
                 break
@@ -37,11 +43,21 @@ def findShortestPath_PQ(prioq,destination):
 #                print "new neighbkey=%g" % (neighbor.key)
 #                print "before sort " + prioq.queue[0].self_url
                 prioq.queue.sort(key=attrgetter("key"))
-#                print "after sort " + prioq.queue[0].self_url
+#               print "after sort " + prioq.queue[0].self_url
                 neighbor.dij_prev = current
+                G.add_node(current.self_url,dist=current.key)  
+                
 #                print "\tadded %s" % neighbor.self_url
 
         #after updating as necessary, this node is in "finished" pile
         current.finished = True
         
+        
+    	G.add_node(current.self_url,status="finished",dist=current.key)
+    	if current.dij_prev != None:
+            G[current.self_url][current.dij_prev.self_url]["type"]="finished"
+       	    	
+        
         pq_pop(prioq)
+        
+    return G, dij_path

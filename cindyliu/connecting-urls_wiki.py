@@ -14,6 +14,7 @@ def main():
     if opts.links:
         getLinks(url)
         raise SystemExit, 0
+        
 
     depth = opts.depth
     qtype = opts.type
@@ -52,7 +53,7 @@ def main():
         print "Please specify one of the following priority structures:"
         print "\t  fibheap - Fibonacci Heap"
 #        print "\t    heapq - min-priority heap (array implemented)"
-        print "\tprioqueue - priority queue"
+        print "\t prioqueue - priority queue"
         sys.exit(1)
     
     # should write a numbered list of potential destination urls to a list
