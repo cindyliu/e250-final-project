@@ -92,5 +92,4 @@ fh.print_heap()
 
 
 from dict_to_tnodes_prioqueue_20130429_wiki import *
-dictfile = "url_dict.txt"
-dict = build_dict(dictfile)
+dict = build_dict("urldict")
