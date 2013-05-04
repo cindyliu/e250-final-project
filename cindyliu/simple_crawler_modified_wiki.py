@@ -81,11 +81,11 @@ class Crawler(object):
                     host = urlparse.urlparse(url)[1]
                     if self.locked and re.match(".*%s" % self.host, host):
                         followed.append(url)
-                        dictfile.write(key_prefix + url + '\n')
                         self.followed += 1
                         page = Fetcher(url)
                         page.fetch()
                         print "Fetched this url: " + url
+                        dictfile.write(key_prefix + url + '\n')
                         n += 1
                         for i, url_2 in enumerate(page):
                             if re.match('http://en.wikipedia.org/wiki/([a-z]*)$', url_2.lower()) == None:
@@ -106,7 +106,7 @@ class Crawler(object):
                             break
                 except Exception, e:
                     print "ERROR: Can't process url '%s' (%s)" % (url, e)
-                    print format_exc()
+#                    print format_exc()
         dictfile.close()
 
 class Fetcher(object):
@@ -186,8 +186,8 @@ def parse_options():
     		help="The type of priority structure to use for Dijkstra")
     parser.add_option("-f", "--file",
             action="store_true", default=False, dest="from_file",
-            help="If specified, will read dict from file instead of\
-                  from crawler")
+            help="If specified, will read dict from 'url_dict.txt' instead\
+                  of from crawler")
 
     opts, args = parser.parse_args()
 

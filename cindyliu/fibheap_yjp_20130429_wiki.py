@@ -27,6 +27,14 @@ class TreeNode(object):
         self.marked = False
         # added pointer to parent, if any
         self.parent = None
+        self.cnode = None
+
+    def __lt__(self, other) :
+        if hasattr(other, 'key') :
+            return self.key < other.key
+        else :
+            print >> sys.stderr, "Error: key comparison using key-less object"
+            return self.key < other
 
     # adds a child to this parent node, updating its linked-list of children
     # O(1)
@@ -176,6 +184,7 @@ class CircNode(object) :
         tree.root.marked = False
         tree.root.parent = None
         tree.root.prev = tree.root.next = tree.root
+        tree.root.cnode = self
         self.tree = tree
         self.prev = self.next = self
         self.checked_for_consolidation = False
@@ -218,7 +227,7 @@ class FibHeap(object) :
                  self.min = cnode
         self.size += 1
         self.total_size += 1
-        print>> output_f, "after an insert*************"
+#        print>> output_f, "after an insert*************"
         self.print_heap(output_f)
         return cnode
 			
@@ -230,7 +239,7 @@ class FibHeap(object) :
     # returns the minimum element of the heap (as a TreeNode) and removes
     # it from the heap
     def pop(self,output_f) :
-        print>> output_f, "\npop happened ***************"
+#        print>> output_f, "\npop happened ***************"
         if self.is_empty(output_f) :
             return None
         else :
@@ -312,7 +321,7 @@ class FibHeap(object) :
                 temp_min_key = self.min.key(output_f)
             # if we run across a cnode with a degree larger than we are tracking
             if currCNode.tree.degree > max_degree :
-                print>>output_f, "THIS IS THE PROBLEM AREA!! (A)**********"
+#                print>>output_f, "THIS IS THE PROBLEM AREA!! (A)**********"
                 for i in range (max_degree, currCNode.tree.degree) :
                     degrees.append(None)
                 degrees[currCNode.tree.degree] = currCNode
@@ -321,7 +330,7 @@ class FibHeap(object) :
             # if we have come all the way back to the same cnode, and the next 
             # cnode has been checked to have no duplicates either, we've run the whole ring
             if degrees[currCNode.tree.degree] is currCNode :
-                print>>output_f, "THIS IS THE PROBLEM AREA!! (B)**********"
+#                print>>output_f, "THIS IS THE PROBLEM AREA!! (B)**********"
                 currCNode.checked_for_consolidation = True
                 if currCNode.next.checked_for_consolidation == True:
                     break
@@ -329,7 +338,7 @@ class FibHeap(object) :
                     currCNode = currCNode.next
                     continue
             if degrees[currCNode.tree.degree] == None :
-                print>>output_f, "THIS IS THE PROBLEM AREA!! (C)**********"
+#                print>>output_f, "THIS IS THE PROBLEM AREA!! (C)**********"
                 degrees[currCNode.tree.degree] = currCNode
                 currCNode = currCNode.next
             else :
@@ -337,9 +346,9 @@ class FibHeap(object) :
                 mergeNode = degrees[currCNode.tree.degree]
                 degrees[currCNode.tree.degree] = None
                 if mergeNode.key(output_f) < currCNode.key(output_f):
-                    print>>output_f, "THIS IS THE PROBLEM AREA!! (D)**********"
-                    print>>output_f, "mergeNode is " + repr(mergeNode.tree.root.self_url) + "with key " + repr(mergeNode.tree.root.key) + "and with degree " + repr(mergeNode.tree.degree)
-                    print>>output_f, "currCNode is " + repr(currCNode.tree.root.self_url) + "with key " + repr(currCNode.tree.root.key) + "and with degree " + repr(currCNode.tree.degree)
+#                    print>>output_f, "THIS IS THE PROBLEM AREA!! (D)**********"
+#                    print>>output_f, "mergeNode is " + repr(mergeNode.tree.root.self_url) + "with key " + repr(mergeNode.tree.root.key) + "and with degree " + repr(mergeNode.tree.degree)
+#                    print>>output_f, "currCNode is " + repr(currCNode.tree.root.self_url) + "with key " + repr(currCNode.tree.root.key) + "and with degree " + repr(currCNode.tree.degree)
                     mergeNode.prev.next = mergeNode.next
                     mergeNode.next.prev = mergeNode.prev
                     mergeNode.next = currCNode.next
@@ -351,14 +360,14 @@ class FibHeap(object) :
                         self.min = mergeNode
                     currCNode = mergeNode
                 else:
-                    print>>output_f, "THIS IS THE PROBLEM AREA!! (E)**********"
+ #                   print>>output_f, "THIS IS THE PROBLEM AREA!! (E)**********"
                     self.remove_node(mergeNode,output_f)
                     currCNode.tree.root.add_child(mergeNode.tree.root,output_f)
                     if mergeNode is self.min:
                         self.min = currCNode
                 currCNode.checked_for_consolidation = False
                 self.size -= 1
-            print>>output_f, "\nafter one iteration of restructure*******************"
+#            print>>output_f, "\nafter one iteration of restructure*******************"
             self.print_heap(output_f)
                             
     def remove_node(self, cnode,output_f) :
@@ -371,7 +380,7 @@ class FibHeap(object) :
     # cutting children off into new trees if the min-heap invariant becomes
     # violated in the new configuration
     def decr_key(self, tnode, new_key, output_f) :
-        print >> output_f, "Decr_key happened! ********************"
+#        print >> output_f, "Decr_key happened! ********************"
         #print "decr-ing tnode %g to %g" % (tnode.key,new_key)
         if new_key >= tnode.key :
             raise InvalidKey("New key must be less than old key")
@@ -381,8 +390,9 @@ class FibHeap(object) :
                 if (tnode.key < tnode.parent.key) :
                     #fix_heap uses insert, which should update the min 
                     self.fix_heap_recursive(tnode, output_f)
-            else :
-                self.reset_min(self.min,output_f)
+            elif tnode.key < self.min.tree.root.key :
+                 self.min = tnode.cnode
+#                self.reset_min(self.min,output_f)
     
     def fix_heap_recursive(self, tnode, output_f) :
         if tnode.parent != None :
@@ -396,17 +406,17 @@ class FibHeap(object) :
             else:
                 theParent.marked = True
 
-    def reset_min(self,circnode,output_f) : 
-        start_circnode = circnode
-        curr_circnode = circnode
-        temp_min = circnode
-        while True :
-            if curr_circnode.next is start_circnode:
-                break
-            elif curr_circnode.next.tree.root.key < temp_min.tree.root.key :
-                temp_min = curr_circnode.next
-            curr_circnode = curr_circnode.next
-        self.min = temp_min
+#    def reset_min(self,circnode,output_f) : 
+#        start_circnode = circnode
+#        curr_circnode = circnode
+#        temp_min = circnode
+#        while True :
+#            if curr_circnode.next is start_circnode:
+#                break
+#            elif curr_circnode.next.tree.root.key < temp_min.tree.root.key :
+#                temp_min = curr_circnode.next
+#            curr_circnode = curr_circnode.next
+#        self.min = temp_min
 
     # removes the given TreeNode from the heap (does not return the node)
     def delete(self,tnode, output_f) :

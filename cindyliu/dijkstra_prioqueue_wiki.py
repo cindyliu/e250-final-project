@@ -13,8 +13,8 @@ def findShortestPath_PQ(prioq,destination):
     while not prioq.empty() :
         # set current node
         current = prioq.queue[0]
-        print "this is url of prioqueue min: " + (current.self_url) 
-        print "\t  key/dist: " + repr(current.key)
+#        print "this is url of prioqueue min: " + (current.self_url) 
+#        print "\t  key/dist: " + repr(current.key)
 #        print "\t#neighbors: %d" % len(current.neighbors)
 #        print "\t   ADDRESS: %d" % id(current)
 #        print "prioqueue total size is: " + repr(prioq.qsize())

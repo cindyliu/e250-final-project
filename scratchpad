@@ -93,3 +93,8 @@ fh.print_heap()
 
 from dict_to_tnodes_prioqueue_20130429_wiki import *
 dict = build_dict("urldict")
+
+
+
+MOVED dict.write LINE IN simple_crawler_modified_wiki.py
+CHANGING FIBHEAP....added 3 lines of code

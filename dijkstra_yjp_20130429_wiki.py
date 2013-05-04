@@ -13,8 +13,8 @@ def findShortestPath(fibheap,destination,output_f):
     while not fibheap.is_empty(output_f):
         # set current node
         current = fibheap.min.tree.root
-#        print "\nthis is url of fibheap min " + (fibheap.min.tree.root.self_url) 
-#        print "this is key/dist of fibheap min " + repr(fibheap.min.tree.root.key)
+#        print "\nfibheap min: " + (fibheap.min.tree.root.self_url) 
+#        print "\tkey/dist: " + repr(fibheap.min.tree.root.key)
 #        print "fibheap 'size' is: " + repr(fibheap.size)      
 #        print "fibheap 'total_size' is: " + repr(fibheap.total_size)            
 #        print "number of children of min is: " + repr(len(fibheap.min.tree.root.children))

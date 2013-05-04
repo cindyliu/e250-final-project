@@ -35,5 +35,8 @@ def from_dict_to_fibheap_urlset(dict,starting_url,output_f) :
                 fibheap.insert(val_tnode,output_f)
             # the connect this val_url tnode to key tnode
             key_tnode.neighbors.append(val_tnode)
+#    print "min key: %g, url: %s" % (fibheap.min.tree.root.key, fibheap.min.tree.root.self_url)
+    print "size of fibheap: %d" % fibheap.size
+    print "size of dict: %d" % len(dict)
     return fibheap, urlset
         
