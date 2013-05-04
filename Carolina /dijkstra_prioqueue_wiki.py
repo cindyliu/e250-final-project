@@ -8,16 +8,16 @@ from operator import attrgetter
 #and the url of the desired destination
 
 def findShortestPath_PQ(prioq,destination,G):
-	dij_path = []
-    dij_path.append(fibheap.min.tree.root.self_url) 
+    dij_path = []
+    dij_path.append(prioq.queue[0].self_url) 
     print ("Starting shortest path...")
     #finished = False
     print (prioq.empty())
     while not prioq.empty() :
         # set current node
         current = prioq.queue[0]
-#        print "this is url of prioqueue min: " + (current.self_url) 
-#        print "\t  key/dist: " + repr(current.key)
+        print "this is url of prioqueue min: " + (current.self_url) 
+        print "\t  key/dist: " + repr(current.key)
 #        print "\t#neighbors: %d" % len(current.neighbors)
 #        print "\t   ADDRESS: %d" % id(current)
 #        print "prioqueue total size is: " + repr(prioq.qsize())

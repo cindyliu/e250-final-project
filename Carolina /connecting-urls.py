@@ -1,14 +1,18 @@
 # this is the front end for connecting-urls program
-from dijkstra_yjp_20130429_wiki import * 
+from dijkstra import * 
+from graph import *
 from dijkstra_prioqueue_wiki import *
-from dijkstra_binheap_wiki import *
-from dict_operations_wiki import *
+
 
 # main command-line options:
 # -d => specify the depth to crawl; default is 30
 # -t => specify which priority structure to use for Dijkstra's;
-#		default is "fibheap", other options are "heapq" and "prioqueue"
+#		default is "fibheap", the other option is "prioqueue"
+# -f => instead of recrawling all pages, read from dict file
+
 def main():
+
+    #Parsing out input arguments
     opts, args = parse_options()
 
     url = args[0]
@@ -16,71 +20,71 @@ def main():
     if opts.links:
         getLinks(url)
         raise SystemExit, 0
-        
-
+    
+    
+    
     depth = opts.depth
     qtype = opts.type
+    dict_from_file = opts.from_file
 
+
+    #start_time = time.time()
     start_time = dict_time = time.clock()
     dict = {}
-
-    output_for_destination_urls = open("options_for_destination_urls.txt", "w+")     
-    output_f = open("output_for_debugging.txt", "w+") 
-
-    if opts.from_file :
+    
+    output_for_destination_urls = open("options_for_destination_urls.txt", "w+")  
+    output_f = open("output_for_debugging.txt", "w+")    
+    
+    if dict_from_file :
         dict = build_dict(dictfilename)
         if len(dict) == 0 :
             print >> sys.stderr, "Error: empty dictionary"
             exit(1)
         dict_time = time.clock() - start_time
-        print "Finished building dict from file: took %gms" % (1000*dict_time)
-        write_dict(dict, "File_Dict_Output-" + qtype + ".txt") 
+        print "Finished building dict from file: took %ds" % dict_time
     else :   
         print "Crawling %s (Max Depth: %d)" % (url, depth)
         crawler = Crawler(url, depth)
         crawler.crawl()
         dict = crawler.urls
         dict_time = time.clock() - start_time
-        print "Got dict from crawler: crawling took %gms" % (1000*dict_time)
-        write_dict(dict, "Crawled_Dict_Output.txt") 
-
-#create fibheap/Dijkstra's graph with the urls found
+        print "Got dict from crawler: crawling took %ds" % dict_time
+        
+        
+    #Create graph from dict
+    G = dict_2_graph(dict,url)
+    
+  #create fibheap from the urls found
     if qtype == "fibheap" :
         (fibheap,urlset) = from_dict_to_fibheap_urlset(dict, url, output_f)
-        print "Making Fibheap took %gms" %(1000*(time.clock() - start_time - dict_time))
+        print "Finished making Fibheap; making Fibheap took %ds" %(time.clock() - start_time - dict_time)
         print "size of set %d" %(len(urlset))
-    elif qtype == "binheap" :
-        (bheap,urlset) = from_dict_to_binheap_urlset(dict, url)
-        print "Making Binheap took %gms" % (1000*(time.clock() - start_time - dict_time))
-        print "size of set %d" %(len(urlset))
+#	elif qtype == "heapq" :
     elif qtype == "prioqueue" :
         (prioq,urlset) = from_dict_to_prioqueue_urlset(dict, url)
-        print "Making PrioQueue took %gms" %(1000*(time.clock() - start_time - dict_time))
+        print "Finished making PrioQueue; took %ds" %(time.clock() - start_time - dict_time)
         print "size of urlset %d" % len(urlset)
     else :
         print "Please specify one of the following priority structures:"
         print "\t  fibheap - Fibonacci Heap"
-<<<<<<< HEAD
-        print "\t  binheap - min-priority binary heap (array implemented)"
-        print "\tprioqueue - priority queue"
-=======
 #        print "\t    heapq - min-priority heap (array implemented)"
         print "\t prioqueue - priority queue"
->>>>>>> bd1102ee111a3303a1f5695b0cc0079c0f86d7d8
         sys.exit(1)
     
+        
     # should write a numbered list of potential destination urls to a list
     # and the list writes to options_for_destination_urls.txt
-
-    start_time = time.clock()
+    
     i = 0
     list_of_urls = []
     for elt in urlset:
         list_of_urls.append(elt)
-        print >> output_for_destination_urls, repr(i) + " " + repr(elt)
+        print >> output_for_destination_urls, "\n" + repr(i) + " " + repr(elt)
         i = i+1
     output_for_destination_urls.close()
-    print "Getting destination urls took %gms" % (1000*(time.clock() - start_time))
+    
+    json.dump(list(urlset), open('web_page/options.json','w'))
+
         
     # should ask user to input a number matching of these potential destination urls
     # and reject that are <0 or > len of the list    
@@ -89,20 +93,35 @@ def main():
         index_dest_url = raw_input("Number is too big or too small. Please enter an integer corresponding to the destination url you wish to connect to, that is listed in options_for_destination_urls.txt")
     print "The destination url you selected is " + list_of_urls[int(float(index_dest_url))]
     
+    #print >> output_f, "\n this is the min of the heap" + fibheap.min.tree.root.self_url
+    
+    #(G,dij_path) = findShortestPath(fibheap,list_of_urls[int(float(index_dest_url))],output_f,G)
+    
     start_time = time.clock()
     
     if qtype == "fibheap" :
-#        print >> output_f, "\n this is the min of the heap" + fibheap.min.tree.root.self_url
-        findShortestPath(fibheap, list_of_urls[int(float(index_dest_url))], output_f)
-    elif qtype == "prioqueue" :
-        findShortestPath_PQ(prioq, list_of_urls[int(float(index_dest_url))])
-    elif qtype == "binheap" :
-        findShortestPath_BH(bheap, list_of_urls[int(float(index_dest_url))])
+        print >> output_f, "\n this is the min of the heap" + fibheap.min.tree.root.self_url
+        (G,dij_path) = findShortestPath(fibheap,list_of_urls[int(float(index_dest_url))],output_f,G)
+    elif qtype == "prioqueue":
+         (G,dij_path) =findShortestPath_PQ(prioq, list_of_urls[int(float(index_dest_url))],G)
     else :
         print >> sys.stderr, "Error: invalid priority structure given"
         sys.exit(1)
     
-    print "Dijkstra's took %gms." % (1000*(time.clock() - start_time))
+    print "Dijkstra's took %ds." % (time.clock() - start_time)
+    
+    
+    
+    #Outputting graph info to JSON formated file for visualization 
+    d = json_graph.node_link_data(G) # node-link format to serialize
+    
+    #write json 
+    json.dump(d, open('web_page/links.json','w'))
+    json.dump(dij_path, open('web_page/dij_path.json','w'))
+
+    # open URL in running web browser
+    http_server.load_url('web_page/site_map.html')
+    
     
 if __name__ == "__main__":
     main()
