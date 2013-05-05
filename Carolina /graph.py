@@ -16,8 +16,7 @@ def dict_2_graph(dict,home_url) :
 
  #Creating a graph of the dict for plotting
     G=nx.Graph()
-    
-    #first key is going to be the start url 
+
     
     for key in dict:
         G.add_node(key.lower())
@@ -25,6 +24,7 @@ def dict_2_graph(dict,home_url) :
         for val_url in dict[key]:
             G.add_edge(key.lower(),val_url.lower(),type="fib")
          
+    #first key is going to be the start url      
     G.add_node(home_url.lower(),type="home")
          
     return G

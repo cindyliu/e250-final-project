@@ -1,5 +1,3 @@
-# this combines cindy and jeanette's work thus far
-
 # this class represents a node within a tree within a Fibonacci heap;
 #   i.e., the actual elements of the heap
 # it contains fields for the necessary key, value, and children data,
