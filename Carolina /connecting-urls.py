@@ -1,8 +1,6 @@
 # this is the front end for connecting-urls program
-from dijkstra import * 
 from graph import *
-from dijkstra_prioqueue_wiki import *
-
+from dijkstra import *
 
 # main command-line options:
 # -d => specify the depth to crawl; default is 30
@@ -20,21 +18,21 @@ def main():
     if opts.links:
         getLinks(url)
         raise SystemExit, 0
-    
-    
-    
+      
     depth = opts.depth
     qtype = opts.type
     dict_from_file = opts.from_file
 
-
-    #start_time = time.time()
+	#Starting timer
     start_time = dict_time = time.clock()
-    dict = {}
     
+    #dict = {}
+    
+    #Creating output files 
     output_for_destination_urls = open("options_for_destination_urls.txt", "w+")  
     output_f = open("output_for_debugging.txt", "w+")    
     
+    #Checking if dictionary has been created, and "read_from_dict" option given
     if dict_from_file :
         dict = build_dict(dictfilename)
         if len(dict) == 0 :
@@ -51,19 +49,20 @@ def main():
         print "Got dict from crawler: crawling took %ds" % dict_time
         
         
-    #Create graph from dict
+    #Creating graph for visualization from dict
     G = dict_2_graph(dict,url)
     
-  #create fibheap from the urls found
+  #create fibheap or priority queue from the urls found
     if qtype == "fibheap" :
         (fibheap,urlset) = from_dict_to_fibheap_urlset(dict, url, output_f)
         print "Finished making Fibheap; making Fibheap took %ds" %(time.clock() - start_time - dict_time)
         print "size of set %d" %(len(urlset))
-#	elif qtype == "heapq" :
+
     elif qtype == "prioqueue" :
         (prioq,urlset) = from_dict_to_prioqueue_urlset(dict, url)
         print "Finished making PrioQueue; took %ds" %(time.clock() - start_time - dict_time)
         print "size of urlset %d" % len(urlset)
+   
     else :
         print "Please specify one of the following priority structures:"
         print "\t  fibheap - Fibonacci Heap"
@@ -83,7 +82,7 @@ def main():
         i = i+1
     output_for_destination_urls.close()
     
-    json.dump(list(urlset), open('web_page/options.json','w'))
+    json.dump(list(urlset), open('web_page/link_options.json','w'))
 
         
     # should ask user to input a number matching of these potential destination urls
@@ -110,16 +109,14 @@ def main():
     
     print "Dijkstra's took %ds." % (time.clock() - start_time)
     
-    
-    
     #Outputting graph info to JSON formated file for visualization 
     d = json_graph.node_link_data(G) # node-link format to serialize
     
-    #write json 
+    #Exporting JSON Files for js function in webpage 
     json.dump(d, open('web_page/links.json','w'))
     json.dump(dij_path, open('web_page/dij_path.json','w'))
 
-    # open URL in running web browser
+    # open URL in  web browser
     http_server.load_url('web_page/site_map.html')
     
     
