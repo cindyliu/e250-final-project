@@ -1,0 +1,87 @@
+fibheap crawled 6
+dict 3544.69
+make 15.227
+dijk 49.643
+fibheap file 6
+dict 0.429
+make 14.577
+dijk 48.894
+fibheap file 6
+dict 0.367
+make 15.419
+dijk 0.042
+fibheap file 6
+dict 0.345
+make 13.822
+dijk 36.754
+fibheap file 6
+dict 0.431
+make 17.651
+dijk 46.519
+fibheap crawled 6
+dict 3390.6
+make 15.494
+fibheap crawled 6
+dict 3404.82
+make 18.703
+dijk 49.161
+fibheap crawled 6
+dict 3409.39
+make 15.627
+dijk 45.974
+fibheap crawled 6
+dict 3531.94
+make 15.542
+dijk 41.151
+fibheap crawled 6
+dict 3399.06
+make 19.295
+dijk 51.391
+fibheap crawled 6
+dict 3393.54
+make 19.871
+dijk 42.954
+fibheap file 6
+dict 0.363
+make 13.251
+dijk 36.108
+fibheap file 6
+dict 0.458
+make 14.735
+dijk 46
+fibheap file 6
+dict 0.447
+make 14.287
+dijk 49.423
+fibheap crawled 6
+dict 3437.38
+make 18.82
+dijk 38.922
+fibheap crawled 40
+dict 11266.8
+make 273.427
+dijk 642.195
+fibheap crawled 40
+dict 11359.6
+make 280.824
+dijk 692.768
+fibheap crawled 4
+dict 3269.9
+make 6.481
+dijk 23.827
+fibheap crawled 4
+dict 3273.76
+make 6.53
+dijk 25.635
+fibheap crawled 4
+dict 3269.51
+make 6.46
+dijk 23.951
+fibheap crawled 4
+dict 3278.07
+make 6.631
+dijk 25.795
+fibheap crawled 4
+dict 3252.6
+make 6.61
+dijk 25.639

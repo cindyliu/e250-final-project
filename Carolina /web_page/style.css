@@ -1,0 +1,121 @@
+
+circle.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  fill:red;
+}
+
+circle.node.home {
+  stroke: red;
+  stroke-width: 14px;
+}
+
+circle.node.dij {
+  stroke: red;
+  stroke-width: 3.5px;
+  fill:red;
+}
+
+
+line.link.fib {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+line.link.dij {
+  stroke: red;
+  stroke-opacity: .6;
+  stroke-width: 5px;
+}
+
+line.link.finished {
+  stroke: red;
+  stroke-opacity: .6;
+  stroke-width: 3.5px;
+  stroke-dasharray: 0,2 1;
+}
+
+text {
+  font: 12px sans-serif;
+  pointer-events: none;
+}
+
+text.shadow {
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-opacity: .8;
+}
+ 
+body {
+  overflow: auto;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+#chart, #header, #footer {
+  position: absolute;
+}
+
+#chart {
+  top: 200;
+}
+
+#header, #footer {
+  z-index: 1;
+  /*display: block;*/
+  font-size: 36px;
+  font-weight: 300;
+  text-shadow: 0 3px 0 #fff;
+}
+
+#header.inverted, #footer.inverted {
+  color: #fff;
+  text-shadow: 0 1px 4px #000;
+}
+
+
+#header {
+  top: 60px;
+  left: 50px;  
+  text-align: right;
+}
+
+
+.subtitle {
+  position: absolute;
+  right: 0;
+  width: 1280px;
+  font-size: 18px;
+  color: #555;
+}
+
+#table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 45px;
+	width: 750px;
+	border-collapse: collapse;
+	text-align: left;
+}
+#table th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+#table td
+{
+	border-bottom: 1px solid #ccc;
+	color: #669;
+	padding: 6px 8px;
+}
+#table tbody tr:hover td
+{
+	color: #009;
+}
+

@@ -1,0 +1,76 @@
+
+0 'http://en.wikipedia.org'
+
+1 u'http://en.wikipedia.org/wiki/permian'
+
+2 u'http://en.wikipedia.org/wiki/glyph'
+
+3 u'http://en.wikipedia.org/wiki/carboniferous'
+
+4 u'http://en.wikipedia.org/wiki/myspace'
+
+5 u'http://en.wikipedia.org/wiki/primate'
+
+6 u'http://en.wikipedia.org/wiki/cambrian'
+
+7 u'http://en.wikipedia.org/wiki/volume'
+
+8 u'http://en.wikipedia.org/wiki/jurassic'
+
+9 u'http://en.wikipedia.org/wiki/precambrian'
+
+10 u'http://en.wikipedia.org/wiki/paleogene'
+
+11 u'http://en.wikipedia.org/wiki/portmanteau'
+
+12 u'http://en.wikipedia.org/wiki/silurian'
+
+13 u'http://en.wikipedia.org/wiki/expert'
+
+14 u'http://en.wikipedia.org/wiki/information'
+
+15 u'http://en.wikipedia.org/wiki/circa'
+
+16 u'http://en.wikipedia.org/wiki/cetacean'
+
+17 u'http://en.wikipedia.org/wiki/elephant'
+
+18 u'http://en.wikipedia.org/wiki/wikipedia'
+
+19 u'http://en.wikipedia.org/wiki/elephantidae'
+
+20 u'http://en.wikipedia.org/wiki/dictionary'
+
+21 u'http://en.wikipedia.org/wiki/word'
+
+22 u'http://en.wikipedia.org/wiki/gfdl'
+
+23 u'http://en.wikipedia.org/wiki/compendium'
+
+24 u'http://en.wikipedia.org/wiki/wiki'
+
+25 u'http://en.wikipedia.org/wiki/slogan'
+
+26 u'http://en.wikipedia.org/wiki/multilingualism'
+
+27 u'http://en.wikipedia.org/wiki/youtube'
+
+28 u'http://en.wikipedia.org/wiki/fact'
+
+29 u'http://en.wikipedia.org/wiki/encyclopedia'
+
+30 u'http://en.wikipedia.org/wiki/linguistics'
+
+31 u'http://en.wikipedia.org/wiki/cretaceous'
+
+32 u'http://en.wikipedia.org/wiki/voting'
+
+33 u'http://en.wikipedia.org/wiki/ordovician'
+
+34 u'http://en.wikipedia.org/wiki/knowledge'
+
+35 u'http://en.wikipedia.org/wiki/triassic'
+
+36 u'http://en.wikipedia.org/wiki/devonian'
+
+37 u'http://en.wikipedia.org/wiki/facebook'
