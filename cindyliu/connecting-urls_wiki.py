@@ -21,53 +21,58 @@ def main():
     depth = opts.depth
     qtype = opts.type
 
-    start_time = dict_time = time.clock()
+    start_time = dict_time = run_time = time.clock()
     dict = {}
 
     output_for_destination_urls = open("options_for_destination_urls.txt", "w+")     
     output_f = open("output_for_debugging.txt", "w+") 
+    stats = open("stats.txt", "a+")
 
     if opts.from_file :
+        print >> stats, qtype + " from file, depth", depth
         dict = build_dict(dictfilename)
         if len(dict) == 0 :
             print >> sys.stderr, "Error: empty dictionary"
             exit(1)
         dict_time = time.clock() - start_time
         print "Finished building dict from file: took %gms" % (1000*dict_time)
-        write_dict(dict, "File_Dict_Output-" + qtype + ".txt") 
-    else :   
+        write_dict(dict, "File_Dict_Output-" + qtype + ".txt")
+        print >> stats, "dict %g" % (1000*dict_time)
+    else :
+        print >> stats, qtype + " crawled, depth", depth
         print "Crawling %s (Max Depth: %d)" % (url, depth)
         crawler = Crawler(url, depth)
         crawler.crawl()
         dict = crawler.urls
         dict_time = time.clock() - start_time
         print "Got dict from crawler: crawling took %gms" % (1000*dict_time)
-        write_dict(dict, "Crawled_Dict_Output.txt") 
+        write_dict(dict, "Crawled_Dict_Output.txt")
+        print >> stats, "dict %g" % (1000*dict_time)
 
 #create fibheap/Dijkstra's graph with the urls found
     if qtype == "fibheap" :
         (fibheap,urlset) = from_dict_to_fibheap_urlset(dict, url, output_f)
-        print "Making Fibheap took %gms" %(1000*(time.clock() - start_time - dict_time))
+        run_time = 1000*(time.clock() - start_time - dict_time)
+        print "Making Fibheap took %gms" % run_time
         print "size of set %d" %(len(urlset))
     elif qtype == "binheap" :
         (bheap,urlset) = from_dict_to_binheap_urlset(dict, url)
-        print "Making Binheap took %gms" % (1000*(time.clock() - start_time - dict_time))
+        run_time = 1000*(time.clock() - start_time - dict_time)
+        print "Making Binheap took %gms" % run_time
         print "size of set %d" %(len(urlset))
     elif qtype == "prioqueue" :
         (prioq,urlset) = from_dict_to_prioqueue_urlset(dict, url)
-        print "Making PrioQueue took %gms" %(1000*(time.clock() - start_time - dict_time))
+        run_time = 1000*(time.clock() - start_time - dict_time)
+        print "Making PrioQueue took %gms" % run_time
         print "size of urlset %d" % len(urlset)
     else :
         print "Please specify one of the following priority structures:"
         print "\t  fibheap - Fibonacci Heap"
-<<<<<<< HEAD
         print "\t  binheap - min-priority binary heap (array implemented)"
         print "\tprioqueue - priority queue"
-=======
-#        print "\t    heapq - min-priority heap (array implemented)"
-        print "\t prioqueue - priority queue"
->>>>>>> bd1102ee111a3303a1f5695b0cc0079c0f86d7d8
         sys.exit(1)
+    print >> stats, "make %g" % run_time
+
     
     # should write a numbered list of potential destination urls to a list
     # and the list writes to options_for_destination_urls.txt
@@ -80,7 +85,9 @@ def main():
         print >> output_for_destination_urls, repr(i) + " " + repr(elt)
         i = i+1
     output_for_destination_urls.close()
-    print "Getting destination urls took %gms" % (1000*(time.clock() - start_time))
+    run_time = 1000*(time.clock() - start_time)
+    print "Getting destination urls took %gms" % run_time
+    print >> stats, "urls %g" % run_time
         
     # should ask user to input a number matching of these potential destination urls
     # and reject that are <0 or > len of the list    
@@ -102,7 +109,9 @@ def main():
         print >> sys.stderr, "Error: invalid priority structure given"
         sys.exit(1)
     
-    print "Dijkstra's took %gms." % (1000*(time.clock() - start_time))
+    run_time = 1000*(time.clock() - start_time)
+    print "Dijkstra's took %gms." % run_time
+    print >> stats, "path %g" % run_time
     
 if __name__ == "__main__":
     main()
