@@ -65,7 +65,7 @@ class Crawler(object):
                 #if it's not the same as the self.root
                 if self.root != url:
                     self.urls[self.root].append(url)
-                if len(self.urls[self.root]) >= 10:
+                if len(self.urls[self.root]) >= 5:
                     break
         followed = [self.root]
 

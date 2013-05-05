@@ -62,8 +62,12 @@ def main():
     #Creating graph for visualization from dict
     G = dict_2_graph(dict,url)
     
+<<<<<<< HEAD
   #create fibheap or priority queue from the urls found
     start_time = time.clock()
+=======
+    #create fibheap or priority queue from the urls found
+>>>>>>> f8d97d4f535ec5dfc78ba45b6b8d354fde2da837
     if qtype == "fibheap" :
         (fibheap,urlset) = from_dict_to_fibheap_urlset(dict, url, output_f)
         run_time = 1000*(time.clock() - start_time)
@@ -89,6 +93,9 @@ def main():
     
     json.dump(list(urlset), open('web_page/link_options.json','w'))
 
+    # open URL in  web browser
+    http_server.load_url('web_page/link_options.html')
+    
         
     # should ask user to input a number matching of these potential destination urls
     # and reject those that are <0 or > len of the list    
