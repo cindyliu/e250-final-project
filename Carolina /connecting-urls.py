@@ -62,12 +62,9 @@ def main():
     #Creating graph for visualization from dict
     G = dict_2_graph(dict,url)
     
-<<<<<<< HEAD
   #create fibheap or priority queue from the urls found
     start_time = time.clock()
-=======
-    #create fibheap or priority queue from the urls found
->>>>>>> f8d97d4f535ec5dfc78ba45b6b8d354fde2da837
+
     if qtype == "fibheap" :
         (fibheap,urlset) = from_dict_to_fibheap_urlset(dict, url, output_f)
         run_time = 1000*(time.clock() - start_time)
@@ -109,9 +106,6 @@ def main():
     print "The destination url you selected is %s" % (
         list_of_urls[int(float(index_dest_url))])
     
-    #print >> output_f, "\n this is the min of the heap" + fibheap.min.tree.root.self_url
-    
-    #(G,dij_path) = findShortestPath(fibheap,list_of_urls[int(float(index_dest_url))],output_f,G)
     
     start_time = time.clock()
     
