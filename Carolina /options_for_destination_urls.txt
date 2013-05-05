@@ -1,588 +1,528 @@
 
-0 'http://en.wikipedia.org/wiki/archaeology'
+0 'http://en.wikipedia.org/wiki/valedictorian'
 
-1 'http://en.wikipedia.org/wiki/canoe'
+1 'http://en.wikipedia.org/wiki/archaeology'
 
-2 'http://en.wikipedia.org/wiki/quart'
+2 'http://en.wikipedia.org/wiki/ascii'
 
-3 'http://en.wikipedia.org/wiki/ascii'
+3 'http://en.wikipedia.org/wiki/sociology'
 
-4 'http://en.wikipedia.org/wiki/sociology'
+4 'http://en.wikipedia.org/wiki/communication'
 
-5 'http://en.wikipedia.org/wiki/morriston'
+5 'http://en.wikipedia.org/wiki/myspace'
 
-6 'http://en.wikipedia.org/wiki/communication'
+6 'http://en.wikipedia.org/wiki/bit'
 
-7 'http://en.wikipedia.org/wiki/myspace'
+7 'http://en.wikipedia.org/wiki/primate'
 
-8 'http://en.wikipedia.org/wiki/bit'
+8 'http://en.wikipedia.org/wiki/tzolkin'
 
-9 'http://en.wikipedia.org/wiki/ntsc'
+9 'http://en.wikipedia.org/wiki/semantic'
 
-10 'http://en.wikipedia.org/wiki/gourd'
+10 'http://en.wikipedia.org/wiki/harvesting'
 
-11 'http://en.wikipedia.org/wiki/cdma'
+11 'http://en.wikipedia.org/wiki/zennor'
 
-12 'http://en.wikipedia.org/wiki/tzolkin'
+12 'http://en.wikipedia.org/wiki/copyleft'
 
-13 'http://en.wikipedia.org/wiki/semantic'
+13 'http://en.wikipedia.org/wiki/employment'
 
-14 'http://en.wikipedia.org/wiki/nynorsk'
+14 'http://en.wikipedia.org/wiki/parody'
 
-15 'http://en.wikipedia.org/wiki/website'
+15 'http://en.wikipedia.org/wiki/morpheme'
 
-16 'http://en.wikipedia.org/wiki/intermodulation'
+16 'http://en.wikipedia.org/wiki/sperm'
 
-17 'http://en.wikipedia.org/wiki/copyleft'
+17 'http://en.wikipedia.org/wiki/paleogene'
 
-18 'http://en.wikipedia.org/wiki/employment'
+18 'http://en.wikipedia.org/wiki/constituency'
 
-19 'http://en.wikipedia.org/wiki/parody'
+19 'http://en.wikipedia.org/wiki/solid'
 
-20 'http://en.wikipedia.org/wiki/norway'
+20 'http://en.wikipedia.org/wiki/internet'
 
-21 'http://en.wikipedia.org/wiki/morpheme'
+21 'http://en.wikipedia.org/wiki/argentina'
 
-22 'http://en.wikipedia.org/wiki/parish'
+22 'http://en.wikipedia.org/wiki/orthography'
 
-23 'http://en.wikipedia.org/wiki/telemark'
+23 'http://en.wikipedia.org/wiki/google'
 
-24 'http://en.wikipedia.org/wiki/solid'
+24 'http://en.wikipedia.org/wiki/tianjin'
 
-25 'http://en.wikipedia.org/wiki/internet'
+25 'http://en.wikipedia.org/wiki/fetus'
 
-26 'http://en.wikipedia.org/wiki/argentina'
+26 'http://en.wikipedia.org/wiki/floruit'
 
-27 'http://en.wikipedia.org/wiki/ethnography'
+27 'http://en.wikipedia.org/wiki/puberty'
 
-28 'http://en.wikipedia.org/wiki/google'
+28 'http://en.wikipedia.org/wiki/grammar'
 
-29 'http://en.wikipedia.org/wiki/vswr'
+29 'http://en.wikipedia.org/wiki/liquid'
 
-30 'http://en.wikipedia.org/wiki/duplexer'
+30 'http://en.wikipedia.org/wiki/information'
 
-31 'http://en.wikipedia.org/wiki/episteme'
+31 'http://en.wikipedia.org/wiki/experience'
 
-32 'http://en.wikipedia.org/wiki/wikivoyage'
+32 'http://en.wikipedia.org/wiki/ideographic'
 
-33 'http://en.wikipedia.org/wiki/entrepreneur'
+33 'http://en.wikipedia.org/wiki/salutation'
 
-34 'http://en.wikipedia.org/wiki/grammar'
+34 'http://en.wikipedia.org/wiki/finland'
 
-35 'http://en.wikipedia.org/wiki/information'
+35 'http://en.wikipedia.org/wiki/animal'
 
-36 'http://en.wikipedia.org/wiki/experience'
+36 'http://en.wikipedia.org/wiki/machiavellianism'
 
-37 'http://en.wikipedia.org/wiki/terminology'
+37 'http://en.wikipedia.org/wiki/clause'
 
-38 'http://en.wikipedia.org/wiki/twana'
+38 'http://en.wikipedia.org/wiki/diacritic'
 
-39 'http://en.wikipedia.org/wiki/sarod'
+39 'http://en.wikipedia.org/wiki/ecotax'
 
-40 'http://en.wikipedia.org/wiki/air'
+40 'http://en.wikipedia.org/wiki/myrmecology'
 
-41 'http://en.wikipedia.org/wiki/finland'
+41 'http://en.wikipedia.org/wiki/pressure'
 
-42 'http://en.wikipedia.org/wiki/machiavellianism'
+42 'http://en.wikipedia.org/wiki/wiki'
 
-43 'http://en.wikipedia.org/wiki/clause'
+43 'http://en.wikipedia.org/wiki/asset'
 
-44 'http://en.wikipedia.org/wiki/diacritic'
+44 'http://en.wikipedia.org/wiki/multilingualism'
 
-45 'http://en.wikipedia.org/wiki/ballot'
+45 'http://en.wikipedia.org/wiki/renminbi'
 
-46 'http://en.wikipedia.org/wiki/myrmecology'
+46 'http://en.wikipedia.org/wiki/fact'
 
-47 'http://en.wikipedia.org/wiki/pressure'
+47 'http://en.wikipedia.org/wiki/rhetorical'
 
-48 'http://en.wikipedia.org/wiki/wiki'
+48 'http://en.wikipedia.org/wiki/encyclopedia'
 
-49 'http://en.wikipedia.org/wiki/asset'
+49 'http://en.wikipedia.org/wiki/gallon'
 
-50 'http://en.wikipedia.org/wiki/multilingualism'
+50 'http://en.wikipedia.org/wiki/semiotics'
 
-51 'http://en.wikipedia.org/wiki/multiplexing'
+51 'http://en.wikipedia.org/wiki/yugoslavia'
 
-52 'http://en.wikipedia.org/wiki/precinct'
+52 'http://en.wikipedia.org/wiki/illinois'
 
-53 'http://en.wikipedia.org/wiki/telecommunications'
+53 'http://en.wikipedia.org/wiki/triassic'
 
-54 'http://en.wikipedia.org/wiki/fact'
+54 'http://en.wikipedia.org/wiki/thermodynamics'
 
-55 'http://en.wikipedia.org/wiki/rhetorical'
+55 'http://en.wikipedia.org/wiki/industry'
 
-56 'http://en.wikipedia.org/wiki/encyclopedia'
+56 'http://en.wikipedia.org/wiki/time'
 
-57 'http://en.wikipedia.org/wiki/diseqc'
+57 'http://en.wikipedia.org/wiki/grapheme'
 
-58 'http://en.wikipedia.org/wiki/gallon'
+58 'http://en.wikipedia.org/wiki/wikivoyage'
 
-59 'http://en.wikipedia.org/wiki/semiotics'
+59 'http://en.wikipedia.org/wiki/morphophonology'
 
-60 'http://en.wikipedia.org/wiki/yugoslavia'
+60 'http://en.wikipedia.org/wiki/china'
 
-61 'http://en.wikipedia.org/wiki/wtfpl'
+61 'http://en.wikipedia.org/wiki/ogonek'
 
-62 'http://en.wikipedia.org/wiki/thermodynamics'
+62 'http://en.wikipedia.org/wiki/valediction'
 
-63 'http://en.wikipedia.org/wiki/industry'
+63 'http://en.wikipedia.org/wiki/polyglotism'
 
-64 'http://en.wikipedia.org/wiki/klallam'
+64 'http://en.wikipedia.org/wiki/glyph'
 
-65 'http://en.wikipedia.org/wiki/dictionaries'
+65 'http://en.wikipedia.org/wiki/mesoderm'
 
-66 'http://en.wikipedia.org/wiki/grapheme'
+66 'http://en.wikipedia.org/wiki/syllabary'
 
-67 'http://en.wikipedia.org/wiki/morphophonology'
+67 'http://en.wikipedia.org/wiki/carboniferous'
 
-68 'http://en.wikipedia.org/wiki/ogonek'
+68 'http://en.wikipedia.org/wiki/nasdaq'
 
-69 'http://en.wikipedia.org/wiki/trolling'
+69 'http://en.wikipedia.org/wiki/hypothesis'
 
-70 'http://en.wikipedia.org/wiki/polyglotism'
+70 'http://en.wikipedia.org/wiki/embryogenesis'
 
-71 'http://en.wikipedia.org/wiki/glyph'
+71 'http://en.wikipedia.org/wiki/languages'
 
-72 'http://en.wikipedia.org/wiki/millilitre'
+72 'http://en.wikipedia.org/wiki/debian'
 
-73 'http://en.wikipedia.org/wiki/syllabary'
+73 'http://en.wikipedia.org/wiki/words'
 
-74 'http://en.wikipedia.org/wiki/swansea'
+74 'http://en.wikipedia.org/wiki/website'
 
-75 'http://en.wikipedia.org/wiki/nasdaq'
+75 'http://en.wikipedia.org/wiki/skill'
 
-76 'http://en.wikipedia.org/wiki/hypothesis'
+76 'http://en.wikipedia.org/wiki/lexicology'
 
-77 'http://en.wikipedia.org/wiki/ofdma'
+77 'http://en.wikipedia.org/wiki/wiktionary'
 
-78 'http://en.wikipedia.org/wiki/languages'
+78 'http://en.wikipedia.org/wiki/skills'
 
-79 'http://en.wikipedia.org/wiki/tambouras'
+79 'http://en.wikipedia.org/wiki/etymologies'
 
-80 'http://en.wikipedia.org/wiki/words'
+80 'http://en.wikipedia.org/wiki/millilitre'
 
-81 'http://en.wikipedia.org/wiki/escrow'
+81 'http://en.wikipedia.org/wiki/coldfusion'
 
-82 'http://en.wikipedia.org/wiki/blues'
+82 'http://en.wikipedia.org/wiki/ontology'
 
-83 'http://en.wikipedia.org/wiki/skill'
+83 'http://en.wikipedia.org/wiki/message'
 
-84 'http://en.wikipedia.org/wiki/gas'
+84 'http://en.wikipedia.org/wiki/ephesus'
 
-85 'http://en.wikipedia.org/wiki/chordophone'
+85 'http://en.wikipedia.org/wiki/lexeme'
 
-86 'http://en.wikipedia.org/wiki/badfinger'
+86 'http://en.wikipedia.org/wiki/poaching'
 
-87 'http://en.wikipedia.org/wiki/lexicology'
+87 'http://en.wikipedia.org/wiki/bankruptcy'
 
-88 'http://en.wikipedia.org/wiki/skills'
+88 'http://en.wikipedia.org/wiki/ginseng'
 
-89 'http://en.wikipedia.org/wiki/etymologies'
+89 'http://en.wikipedia.org/wiki/affix'
 
-90 'http://en.wikipedia.org/wiki/islam'
+90 'http://en.wikipedia.org/wiki/description'
 
-91 'http://en.wikipedia.org/wiki/coldfusion'
+91 'http://en.wikipedia.org/wiki/mitosis'
 
-92 'http://en.wikipedia.org/wiki/ontology'
+92 'http://en.wikipedia.org/wiki/elephant'
 
-93 'http://en.wikipedia.org/wiki/message'
+93 'http://en.wikipedia.org/wiki/dictionaries'
 
-94 'http://en.wikipedia.org/wiki/chinookan'
+94 'http://en.wikipedia.org/wiki/astronomy'
 
-95 'http://en.wikipedia.org/wiki/decoder'
+95 'http://en.wikipedia.org/wiki/chairman'
 
-96 'http://en.wikipedia.org/wiki/lexeme'
+96 'http://en.wikipedia.org/wiki/semantics'
 
-97 'http://en.wikipedia.org/wiki/misd'
+97 'http://en.wikipedia.org/wiki/phytosociology'
 
-98 'http://en.wikipedia.org/wiki/woking'
+98 'http://en.wikipedia.org/wiki/fertilization'
 
-99 'http://en.wikipedia.org/wiki/ephesus'
+99 'http://en.wikipedia.org/wiki/license'
 
-100 'http://en.wikipedia.org/wiki/sinusoidal'
+100 'http://en.wikipedia.org/wiki/macau'
 
-101 'http://en.wikipedia.org/wiki/wideband'
+101 'http://en.wikipedia.org/wiki/dictionary'
 
-102 'http://en.wikipedia.org/wiki/affix'
+102 'http://en.wikipedia.org/wiki/obfuscation'
 
-103 'http://en.wikipedia.org/wiki/seljordsvatnet'
+103 'http://en.wikipedia.org/wiki/shanghai'
 
-104 'http://en.wikipedia.org/wiki/description'
+104 'http://en.wikipedia.org/wiki/gfdl'
 
-105 'http://en.wikipedia.org/wiki/transformer'
+105 'http://en.wikipedia.org/wiki/language'
 
-106 'http://en.wikipedia.org/wiki/time'
+106 'http://en.wikipedia.org/wiki/bible'
 
-107 'http://en.wikipedia.org/wiki'
+107 'http://en.wikipedia.org/wiki/abstention'
 
-108 'http://en.wikipedia.org/wiki/astronomy'
+108 'http://en.wikipedia.org/wiki/pint'
 
-109 'http://en.wikipedia.org/wiki/chairman'
+109 'http://en.wikipedia.org/wiki/youtube'
 
-110 'http://en.wikipedia.org/wiki/semantics'
+110 'http://en.wikipedia.org/wiki/ownership'
 
-111 'http://en.wikipedia.org/wiki/license'
+111 'http://en.wikipedia.org/wiki/phoneme'
 
-112 'http://en.wikipedia.org/wiki/obfuscation'
+112 'http://en.wikipedia.org/wiki/wikinews'
 
-113 'http://en.wikipedia.org/wiki/logograph'
+113 'http://en.wikipedia.org/wiki/pinyin'
 
-114 'http://en.wikipedia.org/wiki/gfdl'
+114 'http://en.wikipedia.org/wiki/unesco'
 
-115 'http://en.wikipedia.org/wiki/bible'
+115 'http://en.wikipedia.org/wiki/brunch'
 
-116 'http://en.wikipedia.org/wiki/alphabet'
+116 'http://en.wikipedia.org/wiki/pragmatics'
 
-117 'http://en.wikipedia.org/wiki/abstention'
+117 'http://en.wikipedia.org/wiki/formula'
 
-118 'http://en.wikipedia.org/wiki/vowel'
+118 'http://en.wikipedia.org/wiki/entrepreneur'
 
-119 'http://en.wikipedia.org/wiki/muqam'
+119 'http://en.wikipedia.org/wiki/cretaceous'
 
-120 'http://en.wikipedia.org/wiki/broadcasting'
+120 'http://en.wikipedia.org/wiki/theory'
 
-121 'http://en.wikipedia.org/wiki/youtube'
+121 'http://en.wikipedia.org/wiki/adsense'
 
-122 'http://en.wikipedia.org/wiki/ownership'
+122 'http://en.wikipedia.org/wiki/philippines'
 
-123 'http://en.wikipedia.org/wiki/phoneme'
+123 'http://en.wikipedia.org/wiki/paleontology'
 
-124 'http://en.wikipedia.org/wiki/wikinews'
+124 'http://en.wikipedia.org/wiki/zygote'
 
-125 'http://en.wikipedia.org/wiki/unesco'
+125 'http://en.wikipedia.org/wiki/motto'
 
-126 'http://en.wikipedia.org/wiki/resonance'
+126 'http://en.wikipedia.org/wiki/fishing'
 
-127 'http://en.wikipedia.org/wiki/brunch'
+127 'http://en.wikipedia.org/wiki/tsar'
 
-128 'http://en.wikipedia.org/wiki/pragmatics'
+128 'http://en.wikipedia.org/wiki/genealogy'
 
-129 'http://en.wikipedia.org/wiki/formula'
+129 'http://en.wikipedia.org/wiki/blend'
 
-130 'http://en.wikipedia.org/wiki/jabberwocky'
+130 'http://en.wikipedia.org/wiki/geology'
 
-131 'http://en.wikipedia.org/wiki/willow'
+131 'http://en.wikipedia.org/wiki/canada'
 
-132 'http://en.wikipedia.org/wiki/adsense'
+132 'http://en.wikipedia.org/wiki/embryo'
 
-133 'http://en.wikipedia.org/wiki/socialization'
+133 'http://en.wikipedia.org/wiki/form'
 
-134 'http://en.wikipedia.org/wiki/knowledge'
+134 'http://en.wikipedia.org/wiki/permian'
 
-135 'http://en.wikipedia.org/wiki/liquid'
+135 'http://en.wikipedia.org/wiki/election'
 
-136 'http://en.wikipedia.org/wiki/motto'
+136 'http://en.wikipedia.org/wiki/paypal'
 
-137 'http://en.wikipedia.org/wiki/tsar'
+137 'http://en.wikipedia.org/wiki/monolingual'
 
-138 'http://en.wikipedia.org/wiki/genealogy'
+138 'http://en.wikipedia.org/wiki/positivism'
 
-139 'http://en.wikipedia.org/wiki/blend'
+139 'http://en.wikipedia.org/wiki/demonym'
 
-140 'http://en.wikipedia.org/wiki/geology'
+140 'http://en.wikipedia.org/wiki/vertebrates'
 
-141 'http://en.wikipedia.org/wiki/canada'
+141 'http://en.wikipedia.org/wiki/religious'
 
-142 'http://en.wikipedia.org/wiki/seljord'
+142 'http://en.wikipedia.org/wiki/belgium'
 
-143 'http://en.wikipedia.org/wiki/electricity'
+143 'http://en.wikipedia.org/wiki/volume'
 
-144 'http://en.wikipedia.org/wiki/form'
+144 'http://en.wikipedia.org/wiki/ovum'
 
-145 'http://en.wikipedia.org/wiki/persuasion'
+145 'http://en.wikipedia.org/wiki/morphemes'
 
-146 'http://en.wikipedia.org/wiki/surbahar'
+146 'http://en.wikipedia.org/wiki/trapping'
 
-147 'http://en.wikipedia.org/wiki/election'
+147 'http://en.wikipedia.org/wiki/precambrian'
 
-148 'http://en.wikipedia.org/wiki/formannskapsdistrikt'
+148 'http://en.wikipedia.org/wiki/alumnus'
 
-149 'http://en.wikipedia.org/wiki/tanbur'
+149 'http://en.wikipedia.org/wiki/yuga'
 
-150 'http://en.wikipedia.org/wiki/paypal'
+150 'http://en.wikipedia.org/wiki/portmanteau'
 
-151 'http://en.wikipedia.org/wiki/sitar'
+151 'http://en.wikipedia.org/wiki/classics'
 
-152 'http://en.wikipedia.org/wiki/monolingual'
+152 'http://en.wikipedia.org/wiki/spanglish'
 
-153 'http://en.wikipedia.org/wiki/positivism'
+153 'http://en.wikipedia.org/wiki/syntax'
 
-154 'http://en.wikipedia.org/wiki/demonym'
+154 'http://en.wikipedia.org/wiki/jurassic'
 
-155 'http://en.wikipedia.org/wiki/religious'
+155 'http://en.wikipedia.org/wiki/neologisms'
 
-156 'http://en.wikipedia.org/wiki/belgium'
+156 'http://en.wikipedia.org/wiki/treatise'
 
-157 'http://en.wikipedia.org/wiki/volume'
+157 'http://en.wikipedia.org/wiki/ichthyology'
 
-158 'http://en.wikipedia.org/wiki/sursingar'
+158 'http://en.wikipedia.org/wiki/latin'
 
-159 'http://en.wikipedia.org/wiki/morphemes'
+159 'http://en.wikipedia.org/wiki/publishing'
 
-160 'http://en.wikipedia.org/wiki/ideographic'
+160 'http://en.wikipedia.org/wiki/immigration'
 
-161 'http://en.wikipedia.org/wiki/pendulum'
+161 'http://en.wikipedia.org/wiki/logology'
 
-162 'http://en.wikipedia.org/wiki/yuga'
+162 'http://en.wikipedia.org/wiki/antipositivism'
 
-163 'http://en.wikipedia.org/wiki/simd'
+163 'http://en.wikipedia.org/wiki/wikipedia'
 
-164 'http://en.wikipedia.org/wiki/puberty'
+164 'http://en.wikipedia.org/wiki/tittle'
 
-165 'http://en.wikipedia.org/wiki/portmanteau'
+165 'http://en.wikipedia.org/wiki/salutatorian'
 
-166 'http://en.wikipedia.org/wiki/plectrum'
+166 'http://en.wikipedia.org/wiki/france'
 
-167 'http://en.wikipedia.org/wiki/syllable'
+167 'http://en.wikipedia.org/wiki/phrase'
 
-168 'http://en.wikipedia.org/wiki/miami'
+168 'http://en.wikipedia.org/wiki/england'
 
-169 'http://en.wikipedia.org/wiki/bamble'
+169 'http://en.wikipedia.org/wiki/monograph'
 
-170 'http://en.wikipedia.org/wiki/spanglish'
+170 'http://en.wikipedia.org/wiki/demography'
 
-171 'http://en.wikipedia.org/wiki/syntax'
+171 'http://en.wikipedia.org/wiki/compendium'
 
-172 'http://en.wikipedia.org/wiki/pint'
+172 'http://en.wikipedia.org/wiki/slogan'
 
-173 'http://en.wikipedia.org/wiki/neologisms'
+173 'http://en.wikipedia.org/wiki/epistemology'
 
-174 'http://en.wikipedia.org/wiki/treatise'
+174 'http://en.wikipedia.org/wiki/terminology'
 
-175 'http://en.wikipedia.org/wiki/ichthyology'
+175 'http://en.wikipedia.org/wiki/anglicisation'
 
-176 'http://en.wikipedia.org/wiki/latin'
+176 'http://en.wikipedia.org/wiki/democracy'
 
-177 'http://en.wikipedia.org/wiki/publishing'
+177 'http://en.wikipedia.org/wiki/buyei'
 
-178 'http://en.wikipedia.org/wiki/immigration'
+178 'http://en.wikipedia.org/wiki/votes'
 
-179 'http://en.wikipedia.org/wiki/logology'
+179 'http://en.wikipedia.org/wiki/cedilla'
 
-180 'http://en.wikipedia.org/wiki/antipositivism'
+180 'http://en.wikipedia.org/wiki/endangered'
 
-181 'http://en.wikipedia.org/wiki/wikipedia'
+181 'http://en.wikipedia.org/wiki/tremedda'
 
-182 'http://en.wikipedia.org/wiki/tittle'
+182 'http://en.wikipedia.org/wiki/revenue'
 
-183 'http://en.wikipedia.org/wiki/drangedal'
+183 'http://en.wikipedia.org/wiki/voting'
 
-184 'http://en.wikipedia.org/wiki/france'
+184 'http://en.wikipedia.org/wiki/jabberwocky'
 
-185 'http://en.wikipedia.org/wiki/phrase'
+185 'http://en.wikipedia.org/wiki/ordovician'
 
-186 'http://en.wikipedia.org/wiki/bagman'
+186 'http://en.wikipedia.org/wiki/cambrian'
 
-187 'http://en.wikipedia.org/wiki/orthography'
+187 'http://en.wikipedia.org/wiki/headquarters'
 
-188 'http://en.wikipedia.org/wiki/multiplexer'
+188 'http://en.wikipedia.org/wiki/devonian'
 
-189 'http://en.wikipedia.org/wiki/demography'
+189 'http://en.wikipedia.org/wiki/episteme'
 
-190 'http://en.wikipedia.org/wiki/compendium'
+190 'http://en.wikipedia.org/wiki/symbols'
 
-191 'http://en.wikipedia.org/wiki/slogan'
+191 'http://en.wikipedia.org/wiki/cantonese'
 
-192 'http://en.wikipedia.org/wiki/epistemology'
+192 'http://en.wikipedia.org/wiki/chant'
 
-193 'http://en.wikipedia.org/wiki/sorahi'
+193 'http://en.wikipedia.org/wiki/sequence'
 
-194 'http://en.wikipedia.org/wiki/frequency'
+194 'http://en.wikipedia.org/wiki/copyright'
 
-195 'http://en.wikipedia.org/wiki/persia'
+195 'http://en.wikipedia.org/wiki/pronunciations'
 
-196 'http://en.wikipedia.org/wiki/constituency'
+196 'http://en.wikipedia.org/wiki/allograph'
 
-197 'http://en.wikipedia.org/wiki/democracy'
+197 'http://en.wikipedia.org/wiki/hydrogeology'
 
-198 'http://en.wikipedia.org/wiki/harmonic'
+198 'http://en.wikipedia.org/wiki/gas'
 
-199 'http://en.wikipedia.org/wiki/votes'
+199 'http://en.wikipedia.org/wiki/massachusetts'
 
-200 'http://en.wikipedia.org/wiki/cedilla'
+200 'http://en.wikipedia.org/wiki/graphetics'
 
-201 'http://en.wikipedia.org/wiki/electromagnetism'
+201 'http://en.wikipedia.org/wiki/lexicon'
 
-202 'http://en.wikipedia.org/wiki/revenue'
+202 'http://en.wikipedia.org/wiki/socialization'
 
-203 'http://en.wikipedia.org/wiki/voting'
+203 'http://en.wikipedia.org/wiki/history'
 
-204 'http://en.wikipedia.org/wiki/language'
+204 'http://en.wikipedia.org/wiki/knowledge'
 
-205 'http://en.wikipedia.org/wiki/graphetics'
+205 'http://en.wikipedia.org/wiki'
 
-206 'http://en.wikipedia.org/wiki/gillnet'
+206 'http://en.wikipedia.org/wiki/ethnography'
 
-207 'http://en.wikipedia.org/wiki/liverpool'
+207 'http://en.wikipedia.org/wiki/anomie'
 
-208 'http://en.wikipedia.org/wiki/headquarters'
+208 'http://en.wikipedia.org/wiki/chronology'
 
-209 'http://en.wikipedia.org/wiki/electronics'
+209 'http://en.wikipedia.org/wiki/mongolia'
 
-210 'http://en.wikipedia.org/wiki/dictionary'
+210 'http://en.wikipedia.org/wiki/a'
 
-211 'http://en.wikipedia.org/wiki/sisd'
+211 'http://en.wikipedia.org/wiki/brazil'
 
-212 'http://en.wikipedia.org/wiki/debian'
+212 'http://en.wikipedia.org/wiki/australia'
 
-213 'http://en.wikipedia.org/wiki/symbols'
+213 'http://en.wikipedia.org/wiki/phonology'
 
-214 'http://en.wikipedia.org/wiki/cantonese'
+214 'http://en.wikipedia.org/wiki/vevo'
 
-215 'http://en.wikipedia.org/wiki/chant'
+215 'http://en.wikipedia.org/wiki/ceo'
 
-216 'http://en.wikipedia.org/wiki/sequence'
+216 'http://en.wikipedia.org/wiki/criminology'
 
-217 'http://en.wikipedia.org/wiki/copyright'
+217 'http://en.wikipedia.org/wiki/silurian'
 
-218 'http://en.wikipedia.org/wiki/pronunciations'
+218 'http://en.wikipedia.org/wiki/pictogram'
 
-219 'http://en.wikipedia.org/wiki/allograph'
+219 'http://en.wikipedia.org/wiki/reliabilism'
 
-220 'http://en.wikipedia.org/wiki/hydrogeology'
+220 'http://en.wikipedia.org/wiki/expert'
 
-221 'http://en.wikipedia.org/wiki/kamancheh'
+221 'http://en.wikipedia.org/wiki/gerrymander'
 
-222 'http://en.wikipedia.org/wiki/massachusetts'
+222 'http://en.wikipedia.org/wiki/quart'
 
-223 'http://en.wikipedia.org/wiki/oscillation'
+223 'http://en.wikipedia.org/wiki/lexicography'
 
-224 'http://en.wikipedia.org/wiki/theory'
+224 'http://en.wikipedia.org/wiki/circa'
 
-225 'http://en.wikipedia.org/wiki/superscalar'
+225 'http://en.wikipedia.org/wiki/phonetics'
 
-226 'http://en.wikipedia.org/wiki/lexicon'
+226 'http://en.wikipedia.org/wiki/cetacean'
 
-227 'http://en.wikipedia.org/wiki/anglicisation'
+227 'http://en.wikipedia.org/wiki/hunting'
 
-228 'http://en.wikipedia.org/wiki/history'
+228 'http://en.wikipedia.org/wiki/elephantidae'
 
-229 'http://en.wikipedia.org/wiki/routing'
+229 'http://en.wikipedia.org/wiki/secularization'
 
-230 'http://en.wikipedia.org/wiki/ghaychak'
+230 'http://en.wikipedia.org/wiki/persuasion'
 
-231 'http://en.wikipedia.org/wiki/paleontology'
+231 'http://en.wikipedia.org/wiki/paris'
 
-232 'http://en.wikipedia.org/wiki/floruit'
+232 'http://en.wikipedia.org/wiki/etymology'
 
-233 'http://en.wikipedia.org/wiki/anomie'
+233 'http://en.wikipedia.org/wiki/word'
 
-234 'http://en.wikipedia.org/wiki/chronology'
+234 'http://en.wikipedia.org/wiki/beijing'
 
-235 'http://en.wikipedia.org/wiki/amplitude'
+235 'http://en.wikipedia.org/wiki/ballot'
 
-236 'http://en.wikipedia.org/wiki/bangladesh'
+236 'http://en.wikipedia.org/wiki/plato'
 
-237 'http://en.wikipedia.org/wiki/a'
+237 'http://en.wikipedia.org/wiki/precinct'
 
-238 'http://en.wikipedia.org/wiki/brazil'
+238 'http://en.wikipedia.org/wiki/hieroglyph'
 
-239 'http://en.wikipedia.org/wiki/australia'
+239 'http://en.wikipedia.org/wiki/facebook'
 
-240 'http://en.wikipedia.org/wiki/phonology'
+240 'http://en.wikipedia.org/wiki/fullerton'
 
-241 'http://en.wikipedia.org/wiki/vevo'
+241 'http://en.wikipedia.org/wiki/education'
 
-242 'http://en.wikipedia.org/wiki/ceo'
+242 'http://en.wikipedia.org/wiki/taiwan'
 
-243 'http://en.wikipedia.org/wiki/criminology'
+243 'http://en.wikipedia.org/wiki/quantity'
 
-244 'http://en.wikipedia.org/wiki/pictogram'
+244 'http://en.wikipedia.org/wiki/graduation'
 
-245 'http://en.wikipedia.org/wiki/reliabilism'
+245 'http://en.wikipedia.org/wiki/philosophy'
 
-246 'http://en.wikipedia.org/wiki/expert'
+246 'http://en.wikipedia.org/wiki/california'
 
-247 'http://en.wikipedia.org/wiki/gerrymander'
+247 'http://en.wikipedia.org/wiki/linguistics'
 
-248 'http://en.wikipedia.org/wiki/mafia'
+248 'http://en.wikipedia.org/wiki/cornwall'
 
-249 'http://en.wikipedia.org/wiki/pandura'
+249 'http://en.wikipedia.org/wiki/historiography'
 
-250 'http://en.wikipedia.org/wiki/lexicography'
+250 'http://en.wikipedia.org/wiki/era'
 
-251 'http://en.wikipedia.org/wiki/circa'
+251 'http://en.wikipedia.org/wiki/bbc'
 
-252 'http://en.wikipedia.org/wiki/phonetics'
+252 'http://en.wikipedia.org/wiki/ectoderm'
 
-253 'http://en.wikipedia.org/wiki/abjad'
+253 'http://en.wikipedia.org/wiki/data'
 
-254 'http://en.wikipedia.org/wiki/chimakum'
+254 'http://en.wikipedia.org/wiki/graphemics'
 
-255 'http://en.wikipedia.org/wiki/secularization'
+255 'http://en.wikipedia.org/wiki/deception'
 
-256 'http://en.wikipedia.org/wiki/surrey'
+256 'http://en.wikipedia.org/wiki/fossils'
 
-257 'http://en.wikipedia.org/wiki/diplexer'
+257 'http://en.wikipedia.org/wiki/uncertainty'
 
-258 'http://en.wikipedia.org/wiki/paris'
+258 'http://en.wikipedia.org/wiki/tagline'
 
-259 'http://en.wikipedia.org/wiki/etymology'
+259 'http://en.wikipedia.org/wiki/friendster'
 
-260 'http://en.wikipedia.org/wiki/word'
+260 'http://en.wikipedia.org/wiki/cbs'
 
-261 'http://en.wikipedia.org/wiki/spearfishing'
+261 'http://en.wikipedia.org/wiki/wtfpl'
 
-262 'http://en.wikipedia.org/wiki/monograph'
+262 'http://en.wikipedia.org/wiki/chongqing'
 
-263 'http://en.wikipedia.org/wiki/plato'
-
-264 'http://en.wikipedia.org/wiki/hieroglyph'
-
-265 'http://en.wikipedia.org/wiki/facebook'
-
-266 'http://en.wikipedia.org/wiki/iran'
-
-267 'http://en.wikipedia.org/wiki/consonant'
-
-268 'http://en.wikipedia.org/wiki/education'
-
-269 'http://en.wikipedia.org/wiki/motown'
-
-270 'http://en.wikipedia.org/wiki/quantity'
-
-271 'http://en.wikipedia.org/wiki/phytosociology'
-
-272 'http://en.wikipedia.org/wiki/fyresdal'
-
-273 'http://en.wikipedia.org/wiki/philosophy'
-
-274 'http://en.wikipedia.org/wiki/california'
-
-275 'http://en.wikipedia.org/wiki/linguistics'
-
-276 'http://en.wikipedia.org/wiki/historiography'
-
-277 'http://en.wikipedia.org/wiki/era'
-
-278 'http://en.wikipedia.org/wiki/bbc'
-
-279 'http://en.wikipedia.org/wiki/graphemes'
-
-280 'http://en.wikipedia.org/wiki/data'
-
-281 'http://en.wikipedia.org/wiki/graphemics'
-
-282 'http://en.wikipedia.org/wiki/deception'
-
-283 'http://en.wikipedia.org/wiki/resonator'
-
-284 'http://en.wikipedia.org/wiki/dutar'
-
-285 'http://en.wikipedia.org/wiki/fossils'
-
-286 'http://en.wikipedia.org/wiki/uncertainty'
-
-287 'http://en.wikipedia.org/wiki/lute'
-
-288 'http://en.wikipedia.org/wiki/tagline'
-
-289 'http://en.wikipedia.org/wiki/friendster'
-
-290 'http://en.wikipedia.org/wiki/cbs'
-
-291 'http://en.wikipedia.org/wiki/setar'
-
-292 'http://en.wikipedia.org/wiki/definitions'
-
-293 'http://en.wikipedia.org/wiki/overtone'
+263 'http://en.wikipedia.org/wiki/definitions'
