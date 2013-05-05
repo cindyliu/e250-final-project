@@ -1,528 +1,504 @@
 
-0 'http://en.wikipedia.org/wiki/valedictorian'
+0 u'http://en.wikipedia.org/wiki/curule'
 
-1 'http://en.wikipedia.org/wiki/archaeology'
+1 u'http://en.wikipedia.org/wiki/happiness'
 
-2 'http://en.wikipedia.org/wiki/ascii'
+2 u'http://en.wikipedia.org/wiki/basor'
 
-3 'http://en.wikipedia.org/wiki/sociology'
+3 u'http://en.wikipedia.org/wiki/illness'
 
-4 'http://en.wikipedia.org/wiki/communication'
+4 u'http://en.wikipedia.org/wiki/love'
 
-5 'http://en.wikipedia.org/wiki/myspace'
+5 u'http://en.wikipedia.org/wiki/impressment'
 
-6 'http://en.wikipedia.org/wiki/bit'
+6 u'http://en.wikipedia.org/wiki/romulus'
 
-7 'http://en.wikipedia.org/wiki/primate'
+7 u'http://en.wikipedia.org/wiki/brightness'
 
-8 'http://en.wikipedia.org/wiki/tzolkin'
+8 u'http://en.wikipedia.org/wiki/manorialism'
 
-9 'http://en.wikipedia.org/wiki/semantic'
+9 u'http://en.wikipedia.org/wiki/almsgiving'
 
-10 'http://en.wikipedia.org/wiki/harvesting'
+10 u'http://en.wikipedia.org/wiki/feudalism'
 
-11 'http://en.wikipedia.org/wiki/zennor'
+11 u'http://en.wikipedia.org/wiki/lanugo'
 
-12 'http://en.wikipedia.org/wiki/copyleft'
+12 u'http://en.wikipedia.org/wiki/wavelength'
 
-13 'http://en.wikipedia.org/wiki/employment'
+13 u'http://en.wikipedia.org/wiki/frequency'
 
-14 'http://en.wikipedia.org/wiki/parody'
+14 u'http://en.wikipedia.org/wiki/light'
 
-15 'http://en.wikipedia.org/wiki/morpheme'
+15 u'http://en.wikipedia.org/wiki/infante'
 
-16 'http://en.wikipedia.org/wiki/sperm'
+16 u'http://en.wikipedia.org/wiki/nobiles'
 
-17 'http://en.wikipedia.org/wiki/paleogene'
+17 'http://en.wikipedia.org/wiki/purple'
 
-18 'http://en.wikipedia.org/wiki/constituency'
+18 u'http://en.wikipedia.org/wiki/anglican'
 
-19 'http://en.wikipedia.org/wiki/solid'
+19 u'http://en.wikipedia.org/wiki/hope'
 
-20 'http://en.wikipedia.org/wiki/internet'
+20 u'http://en.wikipedia.org/wiki/archduke'
 
-21 'http://en.wikipedia.org/wiki/argentina'
+21 u'http://en.wikipedia.org/wiki/italy'
 
-22 'http://en.wikipedia.org/wiki/orthography'
+22 u'http://en.wikipedia.org/wiki/genitive'
 
-23 'http://en.wikipedia.org/wiki/google'
+23 u'http://en.wikipedia.org/wiki/cowardice'
 
-24 'http://en.wikipedia.org/wiki/tianjin'
+24 u'http://en.wikipedia.org/wiki/christianity'
 
-25 'http://en.wikipedia.org/wiki/fetus'
+25 u'http://en.wikipedia.org/wiki/coal'
 
-26 'http://en.wikipedia.org/wiki/floruit'
+26 u'http://en.wikipedia.org/wiki/earl'
 
-27 'http://en.wikipedia.org/wiki/puberty'
+27 u'http://en.wikipedia.org/wiki/neologism'
 
-28 'http://en.wikipedia.org/wiki/grammar'
+28 u'http://en.wikipedia.org/wiki/anabaptist'
 
-29 'http://en.wikipedia.org/wiki/liquid'
+29 u'http://en.wikipedia.org/wiki/theravada'
 
-30 'http://en.wikipedia.org/wiki/information'
+30 u'http://en.wikipedia.org/wiki/livy'
 
-31 'http://en.wikipedia.org/wiki/experience'
+31 u'http://en.wikipedia.org/wiki/populares'
 
-32 'http://en.wikipedia.org/wiki/ideographic'
+32 u'http://en.wikipedia.org/wiki/forgiveness'
 
-33 'http://en.wikipedia.org/wiki/salutation'
+33 u'http://en.wikipedia.org/wiki/yellow'
 
-34 'http://en.wikipedia.org/wiki/finland'
+34 u'http://en.wikipedia.org/wiki/protestantism'
 
-35 'http://en.wikipedia.org/wiki/animal'
+35 u'http://en.wikipedia.org/wiki/sovereignty'
 
-36 'http://en.wikipedia.org/wiki/machiavellianism'
+36 u'http://en.wikipedia.org/wiki/feoffee'
 
-37 'http://en.wikipedia.org/wiki/clause'
+37 u'http://en.wikipedia.org/wiki/christian'
 
-38 'http://en.wikipedia.org/wiki/diacritic'
+38 u'http://en.wikipedia.org/wiki/sin'
 
-39 'http://en.wikipedia.org/wiki/ecotax'
+39 u'http://en.wikipedia.org/wiki/fidelity'
 
-40 'http://en.wikipedia.org/wiki/myrmecology'
+40 u'http://en.wikipedia.org/wiki/augustus'
 
-41 'http://en.wikipedia.org/wiki/pressure'
+41 u'http://en.wikipedia.org/wiki/lemon'
 
-42 'http://en.wikipedia.org/wiki/wiki'
+42 u'http://en.wikipedia.org/wiki/peerage'
 
-43 'http://en.wikipedia.org/wiki/asset'
+43 u'http://en.wikipedia.org/wiki/protectorate'
 
-44 'http://en.wikipedia.org/wiki/multilingualism'
+44 u'http://en.wikipedia.org/wiki/quinquagesima'
 
-45 'http://en.wikipedia.org/wiki/renminbi'
+45 u'http://en.wikipedia.org/wiki/suzerain'
 
-46 'http://en.wikipedia.org/wiki/fact'
+46 u'http://en.wikipedia.org/wiki/abstention'
 
-47 'http://en.wikipedia.org/wiki/rhetorical'
+47 u'http://en.wikipedia.org/wiki/region'
 
-48 'http://en.wikipedia.org/wiki/encyclopedia'
+48 u'http://en.wikipedia.org/wiki/medieval'
 
-49 'http://en.wikipedia.org/wiki/gallon'
+49 u'http://en.wikipedia.org/wiki/monarchical'
 
-50 'http://en.wikipedia.org/wiki/semiotics'
+50 u'http://en.wikipedia.org/wiki/exercise'
 
-51 'http://en.wikipedia.org/wiki/yugoslavia'
+51 u'http://en.wikipedia.org/wiki/death'
 
-52 'http://en.wikipedia.org/wiki/illinois'
+52 u'http://en.wikipedia.org/wiki/courage'
 
-53 'http://en.wikipedia.org/wiki/triassic'
+53 u'http://en.wikipedia.org/wiki/umbrian'
 
-54 'http://en.wikipedia.org/wiki/thermodynamics'
+54 u'http://en.wikipedia.org/wiki/nobility'
 
-55 'http://en.wikipedia.org/wiki/industry'
+55 u'http://en.wikipedia.org/wiki/enfeoffment'
 
-56 'http://en.wikipedia.org/wiki/time'
+56 u'http://en.wikipedia.org/wiki/reformation'
 
-57 'http://en.wikipedia.org/wiki/grapheme'
+57 u'http://en.wikipedia.org/wiki/christ'
 
-58 'http://en.wikipedia.org/wiki/wikivoyage'
+58 u'http://en.wikipedia.org/wiki/god'
 
-59 'http://en.wikipedia.org/wiki/morphophonology'
+59 u'http://en.wikipedia.org/wiki/metabolism'
 
-60 'http://en.wikipedia.org/wiki/china'
+60 u'http://en.wikipedia.org/wiki/seigniorage'
 
-61 'http://en.wikipedia.org/wiki/ogonek'
+61 u'http://en.wikipedia.org/wiki/colonialism'
 
-62 'http://en.wikipedia.org/wiki/valediction'
+62 u'http://en.wikipedia.org/wiki/nanometer'
 
-63 'http://en.wikipedia.org/wiki/polyglotism'
+63 u'http://en.wikipedia.org/wiki/mojibake'
 
-64 'http://en.wikipedia.org/wiki/glyph'
+64 u'http://en.wikipedia.org/wiki/bhikkhus'
 
-65 'http://en.wikipedia.org/wiki/mesoderm'
+65 u'http://en.wikipedia.org/wiki/cognomina'
 
-66 'http://en.wikipedia.org/wiki/syllabary'
+66 u'http://en.wikipedia.org/wiki/calvary'
 
-67 'http://en.wikipedia.org/wiki/carboniferous'
+67 u'http://en.wikipedia.org/wiki/patriarchy'
 
-68 'http://en.wikipedia.org/wiki/nasdaq'
+68 u'http://en.wikipedia.org/wiki/baronet'
 
-69 'http://en.wikipedia.org/wiki/hypothesis'
+69 u'http://en.wikipedia.org/wiki/homage'
 
-70 'http://en.wikipedia.org/wiki/embryogenesis'
+70 u'http://en.wikipedia.org/wiki/viscount'
 
-71 'http://en.wikipedia.org/wiki/languages'
+71 u'http://en.wikipedia.org/wiki/jainism'
 
-72 'http://en.wikipedia.org/wiki/debian'
+72 u'http://en.wikipedia.org/wiki/prayer'
 
-73 'http://en.wikipedia.org/wiki/words'
+73 u'http://en.wikipedia.org/wiki/aging'
 
-74 'http://en.wikipedia.org/wiki/website'
+74 u'http://en.wikipedia.org/wiki/mahayana'
 
-75 'http://en.wikipedia.org/wiki/skill'
+75 u'http://en.wikipedia.org/wiki/health'
 
-76 'http://en.wikipedia.org/wiki/lexicology'
+76 u'http://en.wikipedia.org/wiki/religion'
 
-77 'http://en.wikipedia.org/wiki/wiktionary'
+77 u'http://en.wikipedia.org/wiki/ice'
 
-78 'http://en.wikipedia.org/wiki/skills'
+78 u'http://en.wikipedia.org/wiki/traitor'
 
-79 'http://en.wikipedia.org/wiki/etymologies'
+79 u'http://en.wikipedia.org/wiki/darkness'
 
-80 'http://en.wikipedia.org/wiki/millilitre'
+80 u'http://en.wikipedia.org/wiki/cognomen'
 
-81 'http://en.wikipedia.org/wiki/coldfusion'
+81 u'http://en.wikipedia.org/wiki/tacitus'
 
-82 'http://en.wikipedia.org/wiki/ontology'
+82 u'http://en.wikipedia.org/wiki/marquess'
 
-83 'http://en.wikipedia.org/wiki/message'
+83 u'http://en.wikipedia.org/wiki/crime'
 
-84 'http://en.wikipedia.org/wiki/ephesus'
+84 u'http://en.wikipedia.org/wiki/iconoclasm'
 
-85 'http://en.wikipedia.org/wiki/lexeme'
+85 u'http://en.wikipedia.org/wiki/tenure'
 
-86 'http://en.wikipedia.org/wiki/poaching'
+86 u'http://en.wikipedia.org/wiki/pietism'
 
-87 'http://en.wikipedia.org/wiki/bankruptcy'
+87 u'http://en.wikipedia.org/wiki/manor'
 
-88 'http://en.wikipedia.org/wiki/ginseng'
+88 u'http://en.wikipedia.org/wiki/crucifixes'
 
-89 'http://en.wikipedia.org/wiki/affix'
+89 u'http://en.wikipedia.org/wiki/vassal'
 
-90 'http://en.wikipedia.org/wiki/description'
+90 u'http://en.wikipedia.org/wiki/vinaya'
 
-91 'http://en.wikipedia.org/wiki/mitosis'
+91 u'http://en.wikipedia.org/wiki/fealty'
 
-92 'http://en.wikipedia.org/wiki/elephant'
+92 u'http://en.wikipedia.org/wiki/protestant'
 
-93 'http://en.wikipedia.org/wiki/dictionaries'
+93 u'http://en.wikipedia.org/wiki/shogun'
 
-94 'http://en.wikipedia.org/wiki/astronomy'
+94 u'http://en.wikipedia.org/wiki/salvation'
 
-95 'http://en.wikipedia.org/wiki/chairman'
+95 u'http://en.wikipedia.org/wiki/right'
 
-96 'http://en.wikipedia.org/wiki/semantics'
+96 u'http://en.wikipedia.org/wiki/rite'
 
-97 'http://en.wikipedia.org/wiki/phytosociology'
+97 u'http://en.wikipedia.org/wiki/crucifixion'
 
-98 'http://en.wikipedia.org/wiki/fertilization'
+98 u'http://en.wikipedia.org/wiki/aestheticism'
 
-99 'http://en.wikipedia.org/wiki/license'
+99 u'http://en.wikipedia.org/wiki/fief'
 
-100 'http://en.wikipedia.org/wiki/macau'
+100 u'http://en.wikipedia.org/wiki/colosseum'
 
-101 'http://en.wikipedia.org/wiki/dictionary'
+101 u'http://en.wikipedia.org/wiki/analogy'
 
-102 'http://en.wikipedia.org/wiki/obfuscation'
+102 u'http://en.wikipedia.org/wiki/water'
 
-103 'http://en.wikipedia.org/wiki/shanghai'
+103 u'http://en.wikipedia.org/wiki/contrition'
 
-104 'http://en.wikipedia.org/wiki/gfdl'
+104 u'http://en.wikipedia.org/wiki/demonstrative'
 
-105 'http://en.wikipedia.org/wiki/language'
+105 u'http://en.wikipedia.org/wiki/sky'
 
-106 'http://en.wikipedia.org/wiki/bible'
+106 u'http://en.wikipedia.org/wiki/lucullus'
 
-107 'http://en.wikipedia.org/wiki/abstention'
+107 u'http://en.wikipedia.org/wiki/nature'
 
-108 'http://en.wikipedia.org/wiki/pint'
+108 u'http://en.wikipedia.org/wiki/endogamy'
 
-109 'http://en.wikipedia.org/wiki/youtube'
+109 u'http://en.wikipedia.org/wiki/evil'
 
-110 'http://en.wikipedia.org/wiki/ownership'
+110 u'http://en.wikipedia.org/wiki/negara'
 
-111 'http://en.wikipedia.org/wiki/phoneme'
+111 u'http://en.wikipedia.org/wiki/paramita'
 
-112 'http://en.wikipedia.org/wiki/wikinews'
+112 u'http://en.wikipedia.org/wiki/oscan'
 
-113 'http://en.wikipedia.org/wiki/pinyin'
+113 u'http://en.wikipedia.org/wiki/bible'
 
-114 'http://en.wikipedia.org/wiki/unesco'
+114 u'http://en.wikipedia.org/wiki/recreation'
 
-115 'http://en.wikipedia.org/wiki/brunch'
+115 u'http://en.wikipedia.org/wiki/hanukkah'
 
-116 'http://en.wikipedia.org/wiki/pragmatics'
+116 u'http://en.wikipedia.org/wiki/inheritance'
 
-117 'http://en.wikipedia.org/wiki/formula'
+117 u'http://en.wikipedia.org/wiki/margrave'
 
-118 'http://en.wikipedia.org/wiki/entrepreneur'
+118 u'http://en.wikipedia.org/wiki/sexagesima'
 
-119 'http://en.wikipedia.org/wiki/cretaceous'
+119 u'http://en.wikipedia.org/wiki/friendship'
 
-120 'http://en.wikipedia.org/wiki/theory'
+120 u'http://en.wikipedia.org/wiki/hue'
 
-121 'http://en.wikipedia.org/wiki/adsense'
+121 u'http://en.wikipedia.org/wiki/cicero'
 
-122 'http://en.wikipedia.org/wiki/philippines'
+122 u'http://en.wikipedia.org/wiki/valerii'
 
-123 'http://en.wikipedia.org/wiki/paleontology'
+123 u'http://en.wikipedia.org/wiki/lent'
 
-124 'http://en.wikipedia.org/wiki/zygote'
+124 u'http://en.wikipedia.org/wiki/experience'
 
-125 'http://en.wikipedia.org/wiki/motto'
+125 u'http://en.wikipedia.org/wiki/ecclesiology'
 
-126 'http://en.wikipedia.org/wiki/fishing'
+126 u'http://en.wikipedia.org/wiki/optimates'
 
-127 'http://en.wikipedia.org/wiki/tsar'
+127 u'http://en.wikipedia.org/wiki/heat'
 
-128 'http://en.wikipedia.org/wiki/genealogy'
+128 u'http://en.wikipedia.org/wiki/citizen'
 
-129 'http://en.wikipedia.org/wiki/blend'
+129 u'http://en.wikipedia.org/wiki/colloquialism'
 
-130 'http://en.wikipedia.org/wiki/geology'
+130 u'http://en.wikipedia.org/wiki/septuagint'
 
-131 'http://en.wikipedia.org/wiki/canada'
+131 u'http://en.wikipedia.org/wiki/subinfeudation'
 
-132 'http://en.wikipedia.org/wiki/embryo'
+132 u'http://en.wikipedia.org/wiki/monarch'
 
-133 'http://en.wikipedia.org/wiki/form'
+133 u'http://en.wikipedia.org/wiki/slave'
 
-134 'http://en.wikipedia.org/wiki/permian'
+134 u'http://en.wikipedia.org/wiki/summer'
 
-135 'http://en.wikipedia.org/wiki/election'
+135 u'http://en.wikipedia.org/wiki/anglicanism'
 
-136 'http://en.wikipedia.org/wiki/paypal'
+136 u'http://en.wikipedia.org/wiki/freedman'
 
-137 'http://en.wikipedia.org/wiki/monolingual'
+137 u'http://en.wikipedia.org/wiki/septuagesima'
 
-138 'http://en.wikipedia.org/wiki/positivism'
+138 u'http://en.wikipedia.org/wiki/sunshine'
 
-139 'http://en.wikipedia.org/wiki/demonym'
+139 u'http://en.wikipedia.org/wiki/germany'
 
-140 'http://en.wikipedia.org/wiki/vertebrates'
+140 u'http://en.wikipedia.org/wiki/food'
 
-141 'http://en.wikipedia.org/wiki/religious'
+141 u'http://en.wikipedia.org/wiki/lord'
 
-142 'http://en.wikipedia.org/wiki/belgium'
+142 u'http://en.wikipedia.org/wiki/latium'
 
-143 'http://en.wikipedia.org/wiki/volume'
+143 u'http://en.wikipedia.org/wiki/sadness'
 
-144 'http://en.wikipedia.org/wiki/ovum'
+144 u'http://en.wikipedia.org/wiki/duke'
 
-145 'http://en.wikipedia.org/wiki/morphemes'
+145 u'http://en.wikipedia.org/wiki/bhikkhuni'
 
-146 'http://en.wikipedia.org/wiki/trapping'
+146 u'http://en.wikipedia.org/wiki/hindu'
 
-147 'http://en.wikipedia.org/wiki/precambrian'
+147 u'http://en.wikipedia.org/wiki/hittites'
 
-148 'http://en.wikipedia.org/wiki/alumnus'
+148 u'http://en.wikipedia.org/wiki/emigration'
 
-149 'http://en.wikipedia.org/wiki/yuga'
+149 u'http://en.wikipedia.org/wiki/naturalisation'
 
-150 'http://en.wikipedia.org/wiki/portmanteau'
+150 u'http://en.wikipedia.org/wiki/petroleum'
 
-151 'http://en.wikipedia.org/wiki/classics'
+151 u'http://en.wikipedia.org/wiki/police'
 
-152 'http://en.wikipedia.org/wiki/spanglish'
+152 u'http://en.wikipedia.org/wiki/cilice'
 
-153 'http://en.wikipedia.org/wiki/syntax'
+153 u'http://en.wikipedia.org/wiki/clergy'
 
-154 'http://en.wikipedia.org/wiki/jurassic'
+154 u'http://en.wikipedia.org/wiki/unicode'
 
-155 'http://en.wikipedia.org/wiki/neologisms'
+155 u'http://en.wikipedia.org/wiki/roland'
 
-156 'http://en.wikipedia.org/wiki/treatise'
+156 u'http://en.wikipedia.org/wiki/fabii'
 
-157 'http://en.wikipedia.org/wiki/ichthyology'
+157 u'http://en.wikipedia.org/wiki/bhikkhu'
 
-158 'http://en.wikipedia.org/wiki/latin'
+158 u'http://en.wikipedia.org/wiki/luxury'
 
-159 'http://en.wikipedia.org/wiki/publishing'
+159 u'http://en.wikipedia.org/wiki/gondar'
 
-160 'http://en.wikipedia.org/wiki/immigration'
+160 u'http://en.wikipedia.org/wiki/youth'
 
-161 'http://en.wikipedia.org/wiki/logology'
+161 u'http://en.wikipedia.org/wiki/manchu'
 
-162 'http://en.wikipedia.org/wiki/antipositivism'
+162 u'http://en.wikipedia.org/wiki/diabetes'
 
-163 'http://en.wikipedia.org/wiki/wikipedia'
+163 u'http://en.wikipedia.org/wiki/halloween'
 
-164 'http://en.wikipedia.org/wiki/tittle'
+164 u'http://en.wikipedia.org/wiki/penitentes'
 
-165 'http://en.wikipedia.org/wiki/salutatorian'
+165 u'http://en.wikipedia.org/wiki/tibet'
 
-166 'http://en.wikipedia.org/wiki/france'
+166 u'http://en.wikipedia.org/wiki/cancer'
 
-167 'http://en.wikipedia.org/wiki/phrase'
+167 u'http://en.wikipedia.org/wiki/latin'
 
-168 'http://en.wikipedia.org/wiki/england'
+168 u'http://en.wikipedia.org/wiki/force'
 
-169 'http://en.wikipedia.org/wiki/monograph'
+169 u'http://en.wikipedia.org/wiki/training'
 
-170 'http://en.wikipedia.org/wiki/demography'
+170 u'http://en.wikipedia.org/wiki/hinduism'
 
-171 'http://en.wikipedia.org/wiki/compendium'
+171 u'http://en.wikipedia.org/wiki/easter'
 
-172 'http://en.wikipedia.org/wiki/slogan'
+172 u'http://en.wikipedia.org/wiki/winter'
 
-173 'http://en.wikipedia.org/wiki/epistemology'
+173 u'http://en.wikipedia.org/wiki/tribune'
 
-174 'http://en.wikipedia.org/wiki/terminology'
+174 u'http://en.wikipedia.org/wiki/messiah'
 
-175 'http://en.wikipedia.org/wiki/anglicisation'
+175 u'http://en.wikipedia.org/wiki/green'
 
-176 'http://en.wikipedia.org/wiki/democracy'
+176 u'http://en.wikipedia.org/wiki/resurrection'
 
-177 'http://en.wikipedia.org/wiki/buyei'
+177 u'http://en.wikipedia.org/wiki/magenta'
 
-178 'http://en.wikipedia.org/wiki/votes'
+178 u'http://en.wikipedia.org/wiki/aggression'
 
-179 'http://en.wikipedia.org/wiki/cedilla'
+179 u'http://en.wikipedia.org/wiki/boniface'
 
-180 'http://en.wikipedia.org/wiki/endangered'
+180 u'http://en.wikipedia.org/wiki/monk'
 
-181 'http://en.wikipedia.org/wiki/tremedda'
+181 u'http://en.wikipedia.org/wiki/temperature'
 
-182 'http://en.wikipedia.org/wiki/revenue'
+182 u'http://en.wikipedia.org/wiki/aesthetic'
 
-183 'http://en.wikipedia.org/wiki/voting'
+183 u'http://en.wikipedia.org/wiki/vassalage'
 
-184 'http://en.wikipedia.org/wiki/jabberwocky'
+184 u'http://en.wikipedia.org/wiki/anarchism'
 
-185 'http://en.wikipedia.org/wiki/ordovician'
+185 u'http://en.wikipedia.org/wiki/abstinence'
 
-186 'http://en.wikipedia.org/wiki/cambrian'
+186 u'http://en.wikipedia.org/wiki/jesus'
 
-187 'http://en.wikipedia.org/wiki/headquarters'
+187 u'http://en.wikipedia.org/wiki/hypoglycemia'
 
-188 'http://en.wikipedia.org/wiki/devonian'
+188 u'http://en.wikipedia.org/wiki/nontrinitarianism'
 
-189 'http://en.wikipedia.org/wiki/episteme'
+189 u'http://en.wikipedia.org/wiki/emperor'
 
-190 'http://en.wikipedia.org/wiki/symbols'
+190 u'http://en.wikipedia.org/wiki/count'
 
-191 'http://en.wikipedia.org/wiki/cantonese'
+191 u'http://en.wikipedia.org/wiki/paracetamol'
 
-192 'http://en.wikipedia.org/wiki/chant'
+192 u'http://en.wikipedia.org/wiki/epigraphy'
 
-193 'http://en.wikipedia.org/wiki/sequence'
+193 u'http://en.wikipedia.org/wiki/asceticism'
 
-194 'http://en.wikipedia.org/wiki/copyright'
+194 u'http://en.wikipedia.org/wiki/lutheranism'
 
-195 'http://en.wikipedia.org/wiki/pronunciations'
+195 u'http://en.wikipedia.org/wiki/black'
 
-196 'http://en.wikipedia.org/wiki/allograph'
+196 u'http://en.wikipedia.org/wiki/drink'
 
-197 'http://en.wikipedia.org/wiki/hydrogeology'
+197 u'http://en.wikipedia.org/wiki/feudal'
 
-198 'http://en.wikipedia.org/wiki/gas'
+198 u'http://en.wikipedia.org/wiki/matriarchy'
 
-199 'http://en.wikipedia.org/wiki/massachusetts'
+199 u'http://en.wikipedia.org/wiki/chiefdom'
 
-200 'http://en.wikipedia.org/wiki/graphetics'
+200 u'http://en.wikipedia.org/wiki/blue'
 
-201 'http://en.wikipedia.org/wiki/lexicon'
+201 u'http://en.wikipedia.org/wiki/pentecost'
 
-202 'http://en.wikipedia.org/wiki/socialization'
+202 u'http://en.wikipedia.org/wiki/night'
 
-203 'http://en.wikipedia.org/wiki/history'
+203 u'http://en.wikipedia.org/wiki/prince'
 
-204 'http://en.wikipedia.org/wiki/knowledge'
+204 u'http://en.wikipedia.org/wiki/takuhatsu'
 
-205 'http://en.wikipedia.org/wiki'
+205 u'http://en.wikipedia.org/wiki/reprisal'
 
-206 'http://en.wikipedia.org/wiki/ethnography'
+206 u'http://en.wikipedia.org/wiki/lutheran'
 
-207 'http://en.wikipedia.org/wiki/anomie'
+207 u'http://en.wikipedia.org/wiki/terahertz'
 
-208 'http://en.wikipedia.org/wiki/chronology'
+208 u'http://en.wikipedia.org/wiki/relief'
 
-209 'http://en.wikipedia.org/wiki/mongolia'
+209 u'http://en.wikipedia.org/wiki/praenomen'
 
-210 'http://en.wikipedia.org/wiki/a'
+210 u'http://en.wikipedia.org/wiki/sacrament'
 
-211 'http://en.wikipedia.org/wiki/brazil'
+211 u'http://en.wikipedia.org/wiki/evangelical'
 
-212 'http://en.wikipedia.org/wiki/australia'
+212 u'http://en.wikipedia.org/wiki/acetic'
 
-213 'http://en.wikipedia.org/wiki/phonology'
+213 u'http://en.wikipedia.org/wiki/latins'
 
-214 'http://en.wikipedia.org/wiki/vevo'
+214 u'http://en.wikipedia.org/wiki/ethiopia'
 
-215 'http://en.wikipedia.org/wiki/ceo'
+215 u'http://en.wikipedia.org/wiki/catholics'
 
-216 'http://en.wikipedia.org/wiki/criminology'
+216 u'http://en.wikipedia.org/wiki/libertas'
 
-217 'http://en.wikipedia.org/wiki/silurian'
+217 u'http://en.wikipedia.org/wiki/reinforcement'
 
-218 'http://en.wikipedia.org/wiki/pictogram'
+218 u'http://en.wikipedia.org/wiki/plebs'
 
-219 'http://en.wikipedia.org/wiki/reliabilism'
+219 u'http://en.wikipedia.org/wiki/elegance'
 
-220 'http://en.wikipedia.org/wiki/expert'
+220 u'http://en.wikipedia.org/wiki/catholic'
 
-221 'http://en.wikipedia.org/wiki/gerrymander'
+221 u'http://en.wikipedia.org/wiki/privilege'
 
-222 'http://en.wikipedia.org/wiki/quart'
+222 u'http://en.wikipedia.org/wiki/renaissance'
 
-223 'http://en.wikipedia.org/wiki/lexicography'
+223 u'http://en.wikipedia.org/wiki/anointing'
 
-224 'http://en.wikipedia.org/wiki/circa'
+224 u'http://en.wikipedia.org/wiki/spirituality'
 
-225 'http://en.wikipedia.org/wiki/phonetics'
+225 u'http://en.wikipedia.org/wiki/allegiance'
 
-226 'http://en.wikipedia.org/wiki/cetacean'
+226 u'http://en.wikipedia.org/wiki/aedile'
 
-227 'http://en.wikipedia.org/wiki/hunting'
+227 u'http://en.wikipedia.org/wiki/kapu'
 
-228 'http://en.wikipedia.org/wiki/elephantidae'
+228 u'http://en.wikipedia.org/wiki/entitlement'
 
-229 'http://en.wikipedia.org/wiki/secularization'
+229 u'http://en.wikipedia.org/wiki/itivuttaka'
 
-230 'http://en.wikipedia.org/wiki/persuasion'
+230 u'http://en.wikipedia.org/wiki/gens'
 
-231 'http://en.wikipedia.org/wiki/paris'
+231 u'http://en.wikipedia.org/wiki/meditation'
 
-232 'http://en.wikipedia.org/wiki/etymology'
+232 u'http://en.wikipedia.org/wiki/passover'
 
-233 'http://en.wikipedia.org/wiki/word'
+233 u'http://en.wikipedia.org/wiki/nation'
 
-234 'http://en.wikipedia.org/wiki/beijing'
+234 u'http://en.wikipedia.org/wiki/trinity'
 
-235 'http://en.wikipedia.org/wiki/ballot'
+235 u'http://en.wikipedia.org/wiki/principate'
 
-236 'http://en.wikipedia.org/wiki/plato'
+236 u'http://en.wikipedia.org/wiki/religious'
 
-237 'http://en.wikipedia.org/wiki/precinct'
+237 u'http://en.wikipedia.org/wiki/grass'
 
-238 'http://en.wikipedia.org/wiki/hieroglyph'
+238 u'http://en.wikipedia.org/wiki/penance'
 
-239 'http://en.wikipedia.org/wiki/facebook'
+239 u'http://en.wikipedia.org/wiki/charlemagne'
 
-240 'http://en.wikipedia.org/wiki/fullerton'
+240 u'http://en.wikipedia.org/wiki/cyan'
 
-241 'http://en.wikipedia.org/wiki/education'
+241 u'http://en.wikipedia.org/wiki/red'
 
-242 'http://en.wikipedia.org/wiki/taiwan'
+242 u'http://en.wikipedia.org/wiki/hate'
 
-243 'http://en.wikipedia.org/wiki/quantity'
+243 u'http://en.wikipedia.org/wiki/allod'
 
-244 'http://en.wikipedia.org/wiki/graduation'
+244 u'http://en.wikipedia.org/wiki/digestion'
 
-245 'http://en.wikipedia.org/wiki/philosophy'
+245 u'http://en.wikipedia.org/wiki/tribe'
 
-246 'http://en.wikipedia.org/wiki/california'
+246 u'http://en.wikipedia.org/wiki/color'
 
-247 'http://en.wikipedia.org/wiki/linguistics'
+247 u'http://en.wikipedia.org/wiki/fasting'
 
-248 'http://en.wikipedia.org/wiki/cornwall'
+248 u'http://en.wikipedia.org/wiki/unicef'
 
-249 'http://en.wikipedia.org/wiki/historiography'
+249 u'http://en.wikipedia.org/wiki/nanometre'
 
-250 'http://en.wikipedia.org/wiki/era'
+250 u'http://en.wikipedia.org/wiki/buddhism'
 
-251 'http://en.wikipedia.org/wiki/bbc'
-
-252 'http://en.wikipedia.org/wiki/ectoderm'
-
-253 'http://en.wikipedia.org/wiki/data'
-
-254 'http://en.wikipedia.org/wiki/graphemics'
-
-255 'http://en.wikipedia.org/wiki/deception'
-
-256 'http://en.wikipedia.org/wiki/fossils'
-
-257 'http://en.wikipedia.org/wiki/uncertainty'
-
-258 'http://en.wikipedia.org/wiki/tagline'
-
-259 'http://en.wikipedia.org/wiki/friendster'
-
-260 'http://en.wikipedia.org/wiki/cbs'
-
-261 'http://en.wikipedia.org/wiki/wtfpl'
-
-262 'http://en.wikipedia.org/wiki/chongqing'
-
-263 'http://en.wikipedia.org/wiki/definitions'
+251 u'http://en.wikipedia.org/wiki/caste'

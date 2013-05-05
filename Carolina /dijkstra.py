@@ -11,12 +11,12 @@ def findShortestPath_PQ(prioq,destination,G):
     dij_path = []
     dij_path.append(prioq.queue[0].self_url) 
     print ("Starting shortest path...")
-    print (prioq.empty())
     while not prioq.empty() :
         # set current node
         current = prioq.queue[0]
         if current.self_url == destination.lower():
-                print "Shortest path from starting url to destination url is " + repr(current.key) + " steps"
+                print "Shortest path from starting url to destination url is ",
+                print repr(current.key) + " steps"
                 # print out shortest path back to starting url 
                 current_tnode_printed = current
                 while current_tnode_printed.dij_prev != None:
@@ -46,7 +46,6 @@ def findShortestPath_PQ(prioq,destination,G):
        	    	
         
         pq_pop(prioq)
-        
     return G, dij_path
     
     
@@ -58,10 +57,12 @@ def findShortestPath(fibheap,destination,output_f,G):
         # set current node
         current = fibheap.min.tree.root
         if current.self_url == destination.lower():
-                print "Shortest path from starting url to destination URL is " + repr(current.key) + " steps"
+                print "Shortest path from starting url to destination URL is ",
+                print repr(current.key) + " steps"
                 # print out shortest path back to starting url 
                 current_tnode_printed = current
                 while current_tnode_printed.dij_prev != None:
+                    print current_tnode_printed.self_url
                     G[current_tnode_printed.self_url][current_tnode_printed.dij_prev.self_url]["type"]="dij"
                     G.add_node(current_tnode_printed.self_url,type="dij",dist=current_tnode_printed.key) 
                     dij_path.append(current_tnode_printed.self_url)   
@@ -77,7 +78,8 @@ def findShortestPath(fibheap,destination,output_f,G):
                 #Updating dist field in graph nodes
                 G.add_node(current.self_url,dist=current.key)  
                 
-        #after checking all neighbors and updating as necessary, this node is in "finished" pile
+        #after checking all neighbors and updating as necessary,
+        #this node is in "finished" pile
         current.finished = True
         
     	G.add_node(current.self_url,status="finished",dist=current.key)

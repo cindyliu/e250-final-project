@@ -33,7 +33,7 @@ def main():
         dict = build_dict(dictfilename)
         if len(dict) == 0 :
             print >> sys.stderr, "Error: empty dictionary"
-            exit(1)
+            sys.exit(1)
         dict_time = time.clock() - start_time
         print "Finished building dict from file: took %gms" % (1000*dict_time)
         write_dict(dict, "File_Dict_Output-" + qtype + ".txt")

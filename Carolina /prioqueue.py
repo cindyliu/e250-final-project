@@ -1,52 +1,25 @@
 from operator import attrgetter
 
+# These functions add on to those currently provided by Python's
+# built-in Priority Queue class
+
+# Checks a prioqueue to see if the given url is already in that prioqueue.
 def pq_member(prioq, url) :
     for any in prioq.queue :
         if any.self_url.lower() == url.lower() :
             return any
     return None
 
+# The built-in Python Priority Queue doesn't seem to allow for sorting by
+# keys within complex objects, so I reimplemented queue pushing for our use
 def pq_push(prioq, tnode) :
     prioq.put_nowait(tnode)
     prioq.queue.sort(key=attrgetter("key"))
-    
+
+# Same; using the Priority Queue inbuilt pop method wasn't producing correct
+# results and it seemed to be due to sorting inconsistencies, so I also
+# redefined pop for our use
 def pq_pop(prioq) :
     rv = prioq.get_nowait()
     prioq.queue.sort(key=attrgetter("key"))
     return rv
-
-
-
-"""
-class TNodePriorityQueue(object) :
-    def __init__(self) :
-        queue = []
-        qsize = 0
-        empty = True
-
-        
-
-    def push(self, elt) :
-        self.queue.append(elt)
-        qsize += 1
-        empty = qsize == 0
-        self.queue = self.sort()
-    
-    def pop(self) :
-        self.queue.pop(0)
-        qsize -= 1
-        empty = qsize == 0
-        
-    def sort(self) :
-        h = []
-        for each in self.queue :
-            h.heappush(each.key)
-        
-        
-    def index(self, key) :
-    
-    
-    
-    
-def TNodeHeapSort(queue) :
-    """

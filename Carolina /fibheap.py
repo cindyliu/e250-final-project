@@ -13,10 +13,12 @@ class TreeNode(object):
         self.key = key
         #this contains the url string of itself
         self.self_url = url
-        # this contains the list of neighbors (e.g., list of tnodes corresponding to urls that I link to)
+        # this contains the list of neighbors (e.g., list of tnodes 
+        # corresponding to urls that I link to)
         # list will be list of refs to these tnodes
         self.neighbors = []
-        #this contains a ref to the tnode which leads back to the starting url in the most shortest route
+        # this contains a ref to the tnode which leads back to the
+        # starting url in the most shortest route
         self.dij_prev = None
         # this means that it was processed through Dijkstra's
         self.finished = False
@@ -27,6 +29,8 @@ class TreeNode(object):
         self.marked = False
         # added pointer to parent, if any
         self.parent = None
+        # pointer to enclosing CircNode, if any
+        self.cnode = None
 
     # adds a child to this parent node, updating its linked-list of children
     # O(1)
@@ -81,10 +85,9 @@ class TreeNode(object):
 
     def print_treenode_and_children(self,tnode,s,output_f) :
         for child in tnode.children :
-            print >> output_f, (s + 'Node key:' + repr(child.key)+ 'Self_url:' + repr(child.self_url) + 'Number of neighbors' + repr(len(child.neighbors)))
             if len(child.children) > 0 :
                 child.print_treenode_and_children(child,'\t'+s, output_f)
-    
+
     def treenode_and_children_to_list(self, tnode, output_f):
         list = []
         for child in tnode.children :
@@ -130,21 +133,16 @@ class Tree(object) :
     def __getattr__(self, attr):
         if attr == "degree":
             return len(getattr(self.root,"children"))
-        # degree is the number of children that the node has
-        #self.degree = len(self.root.children)
 
     def add(self,tnode,output_f) :
         # YJP: changed this around to be consistent with other functions
         # if the node to be added is less than root, root becomes
         # child of the node to be added
         self.root.add_child(tnode, output_f)
-        # I don't think this is necessary b/c degree is read as len of children list
-        #self.degree += 1
             
     def cut(self,tnode,output_f) :
         #index returns the index pos of first occurrence of tnode in list
         new_root = self.root.cut_child(self.root.children.index(tnode),output_f)
-        #self.root.degree -= 1
         return Tree(new_root)
         
     def merge_with(self,tree,output_f) :
@@ -162,7 +160,8 @@ class Tree(object) :
         
     def tree_to_list(self, output_f):
         list = [self.root.self_url]
-        list.extend(self.root.treenode_and_children_to_list(self.root, output_f))
+        list.extend(self.root.treenode_and_children_to_list(
+            self.root, output_f))
         return list
 
 # this class represents a node of the linked list at the core of the Fibonacci
@@ -170,12 +169,12 @@ class Tree(object) :
 # it contains the tree as well as fields to maintain the doubly linked list
 # it contains methods to look at the key at the top of its tree and to merge
 # itself with another CircNode
-
 class CircNode(object) :
     def __init__(self, tree) :
         tree.root.marked = False
         tree.root.parent = None
         tree.root.prev = tree.root.next = tree.root
+        tree.root.cnode = self
         self.tree = tree
         self.prev = self.next = self
         self.checked_for_consolidation = False
@@ -193,16 +192,19 @@ class CircNode(object) :
 class FibHeap(object) :
     def __init__(self) :
         self.min = None
-        #the below refers to number of nodes in the core doubly-linked list/ ring
+        # size here refers to number of nodes in the core doubly-linked 
+        # list/ring, NOT total number of nodes in the heap
         self.size = 0
-        # the below refers to total number of nodes in the fibheap (not just in the ring)
+        # the below refers to total number of nodes in the fibheap
+        # (not just in the ring)
         self.total_size = 0
 
     # returns whether or not this heap is empty
     def is_empty(self,output_f) :
         return self.min == None
 
-    # inserts the given TreeNode into the heap at the circnode level("adds a new tree")
+    # inserts the given TreeNode into the heap at the circnode level
+    # ("adds a new tree")
     def insert(self,tnode,output_f) :
         tnode.parent = None
         cnode = CircNode(Tree(tnode))
@@ -218,7 +220,7 @@ class FibHeap(object) :
                  self.min = cnode
         self.size += 1
         self.total_size += 1
-        print>> output_f, "after an insert*************"
+        print >> output_f, "after an insert*************"
         self.print_heap(output_f)
         return cnode
 			
@@ -230,7 +232,7 @@ class FibHeap(object) :
     # returns the minimum element of the heap (as a TreeNode) and removes
     # it from the heap
     def pop(self,output_f) :
-        print>> output_f, "\npop happened ***************"
+        print >> output_f, "\npop happened ***************"
         if self.is_empty(output_f) :
             return None
         else :
@@ -312,16 +314,17 @@ class FibHeap(object) :
                 temp_min_key = self.min.key(output_f)
             # if we run across a cnode with a degree larger than we are tracking
             if currCNode.tree.degree > max_degree :
-                print>>output_f, "THIS IS THE PROBLEM AREA!! (A)**********"
+                print >>output_f, "THIS IS THE PROBLEM AREA!! (A)**********"
                 for i in range (max_degree, currCNode.tree.degree) :
                     degrees.append(None)
                 degrees[currCNode.tree.degree] = currCNode
                 currCNode = currCNode.next
                 continue
             # if we have come all the way back to the same cnode, and the next 
-            # cnode has been checked to have no duplicates either, we've run the whole ring
+            # cnode has been checked to have no duplicates either, we've run
+            # the whole ring
             if degrees[currCNode.tree.degree] is currCNode :
-                print>>output_f, "THIS IS THE PROBLEM AREA!! (B)**********"
+                print >>output_f, "THIS IS THE PROBLEM AREA!! (B)**********"
                 currCNode.checked_for_consolidation = True
                 if currCNode.next.checked_for_consolidation == True:
                     break
@@ -329,11 +332,12 @@ class FibHeap(object) :
                     currCNode = currCNode.next
                     continue
             if degrees[currCNode.tree.degree] == None :
-                print>>output_f, "THIS IS THE PROBLEM AREA!! (C)**********"
+                print >>output_f, "THIS IS THE PROBLEM AREA!! (C)**********"
                 degrees[currCNode.tree.degree] = currCNode
                 currCNode = currCNode.next
             else :
-                #this is the cnode prev identified as one having same degree as our current cnode
+                # this is the cnode prev identified as one having same degree
+                # as our current cnode
                 mergeNode = degrees[currCNode.tree.degree]
                 degrees[currCNode.tree.degree] = None
                 if mergeNode.key(output_f) < currCNode.key(output_f):
@@ -381,32 +385,19 @@ class FibHeap(object) :
                 if (tnode.key < tnode.parent.key) :
                     #fix_heap uses insert, which should update the min 
                     self.fix_heap_recursive(tnode, output_f)
-            else :
-                self.reset_min(self.min,output_f)
+            elif tnode.key < self.min.tree.root.key :
+                self.min = tnode.cnode
     
     def fix_heap_recursive(self, tnode, output_f) :
         if tnode.parent != None :
             theParent = tnode.parent
             parent_marked = theParent.marked
-            new_root = theParent.cut_child(theParent.children.index(tnode),output_f)
+            new_root = theParent.cut_child(theParent.children.index(tnode), output_f)
             self.insert(new_root, output_f)
-            # before, when you marked the parent in cut_child, you always get a parent_marked (e.g., never a case 1 in ppt)
             if parent_marked :
                 self.fix_heap_recursive(theParent,output_f)
             else:
                 theParent.marked = True
-
-    def reset_min(self,circnode,output_f) : 
-        start_circnode = circnode
-        curr_circnode = circnode
-        temp_min = circnode
-        while True :
-            if curr_circnode.next is start_circnode:
-                break
-            elif curr_circnode.next.tree.root.key < temp_min.tree.root.key :
-                temp_min = curr_circnode.next
-            curr_circnode = curr_circnode.next
-        self.min = temp_min
 
     # removes the given TreeNode from the heap (does not return the node)
     def delete(self,tnode, output_f) :
@@ -452,7 +443,7 @@ class FibHeap(object) :
             if curr_circnode.next == start_circnode :
                 return None
             curr_circnode = curr_circnode.next 
-            answer_tnode = curr_circnode.tree.root.find_on_self_url(url,output_f)
+            answer_tnode = curr_circnode.tree.root.find_on_self_url(url, output_f)
             if answer_tnode != None:
                 return answer_tnode   
                 
@@ -477,6 +468,8 @@ class FibHeap(object) :
             list.extend(curr_circnode.tree.tree_to_list(output_f))
         return list
 
+    # cjl: prints only the keys of the nodes in the core doubly-linked list.
+    #      this is used to check correct circularity of list.
     def print_CDDL(self, output_f) :
         print >> output_f, "\nHeap CDDL:"
         curr_circnode = self.min
@@ -484,4 +477,3 @@ class FibHeap(object) :
         while curr_circnode.next is not self.min:
             curr_circnode = curr_circnode.next
             print >> output_f, "Circnode " + repr(curr_circnode.tree.root.key)
-            

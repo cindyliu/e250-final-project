@@ -61,7 +61,8 @@ class Crawler(object):
             if re.match('http://en.wikipedia.org/wiki/([a-z]*)$', url.lower()):
                 q.put(url)
                 dictfile.write(val_prefix + url + '\n')
-                #put in each link in the dict value (list of links), if it's not the same as the self.root
+                #put in each link in the dict value (list of links),
+                #if it's not the same as the self.root
                 if self.root != url:
                     self.urls[self.root].append(url)
                 if len(self.urls[self.root]) >= 10:
@@ -91,7 +92,8 @@ class Crawler(object):
                             if re.match('http://en.wikipedia.org/wiki/([a-z]*)$', url_2.lower()) == None:
                                 continue
                             if not self.urls.has_key(url):
-                                #I try to put in the link as an item in the value corresponding to the key
+                                #I try to put in the link as an item in
+                                #the value corresponding to the key
                                 self.urls[url] = [url_2]
                                 dictfile.write(val_prefix + url_2 + '\n')
                             elif url != url_2:
@@ -186,8 +188,8 @@ def parse_options():
     		help="The type of priority structure to use for Dijkstra")
     parser.add_option("-f", "--file",
             action="store_true", default=False, dest="from_file",
-            help="If specified, will read dict from file instead of\
-                  from crawler")
+            help="If specified, will read dict from 'url_dict.txt' instead" +
+                 " of from crawler")
 
     opts, args = parser.parse_args()
 
