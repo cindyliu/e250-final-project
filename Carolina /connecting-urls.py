@@ -62,7 +62,7 @@ def main():
     #Creating graph for visualization from dict
     G = dict_2_graph(dict,url)
     
-  #create fibheap or priority queue from the urls found
+    #create fibheap or priority queue from the urls found
     start_time = time.clock()
 
     if qtype == "fibheap" :
