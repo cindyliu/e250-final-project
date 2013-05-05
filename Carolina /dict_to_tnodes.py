@@ -2,7 +2,7 @@
 # and returns a doubly-linked ring of tnodes, one tnode for each unique url
 # with pointer to starting url and fields for each tnode set to the default values
 
-from fibheap import TreeNode
+from fibheap import *
 from simple_crawler import *
 from prioqueue import *
 from Queue import PriorityQueue

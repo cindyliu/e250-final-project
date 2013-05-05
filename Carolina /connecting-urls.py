@@ -84,6 +84,9 @@ def main():
     
     json.dump(list(urlset), open('web_page/link_options.json','w'))
 
+    # open URL in  web browser
+    http_server.load_url('web_page/link_options.html')
+    
         
     # should ask user to input a number matching of these potential destination urls
     # and reject that are <0 or > len of the list    

@@ -66,7 +66,7 @@ d3.json("links.json", function(json) {
   });
   
   
-	 d3.json("options.json", function(json) {
+	 d3.json("link_options.json", function(json) {
           
     var table = document.getElementById("table");
 	var header = table.createTHead();
