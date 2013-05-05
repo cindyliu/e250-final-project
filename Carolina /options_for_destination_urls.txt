@@ -1,5 +1,6 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 0 u'http://en.wikipedia.org/wiki/curule'
 
 1 u'http://en.wikipedia.org/wiki/happiness'
@@ -505,810 +506,817 @@
 251 u'http://en.wikipedia.org/wiki/caste'
 =======
 0 u'http://en.wikipedia.org/wiki/marketing'
+=======
+0 'http://en.wikipedia.org/wiki/marketing'
+>>>>>>> miscs
 
-1 u'http://en.wikipedia.org/wiki/ascii'
+1 'http://en.wikipedia.org/wiki/ascii'
 
-2 u'http://en.wikipedia.org/wiki/diacritic'
+2 'http://en.wikipedia.org/wiki/diacritic'
 
-3 u'http://en.wikipedia.org/wiki/obfuscation'
+3 'http://en.wikipedia.org/wiki/obfuscation'
 
-4 u'http://en.wikipedia.org/wiki/software'
+4 'http://en.wikipedia.org/wiki/software'
 
-5 u'http://en.wikipedia.org/wiki/discourse'
+5 'http://en.wikipedia.org/wiki/discourse'
 
-6 u'http://en.wikipedia.org/wiki/christianity'
+6 'http://en.wikipedia.org/wiki/christianity'
 
-7 u'http://en.wikipedia.org/wiki/argentina'
+7 'http://en.wikipedia.org/wiki/argentina'
 
-8 u'http://en.wikipedia.org/wiki/democracy'
+8 'http://en.wikipedia.org/wiki/democracy'
 
-9 u'http://en.wikipedia.org/wiki/neoplatonism'
+9 'http://en.wikipedia.org/wiki/neoplatonism'
 
-10 u'http://en.wikipedia.org/wiki/titlo'
+10 'http://en.wikipedia.org/wiki/titlo'
 
-11 u'http://en.wikipedia.org/wiki/tilde'
+11 'http://en.wikipedia.org/wiki/tilde'
 
-12 u'http://en.wikipedia.org/wiki/title'
+12 'http://en.wikipedia.org/wiki/title'
 
-13 u'http://en.wikipedia.org/wiki/myrmecology'
+13 'http://en.wikipedia.org/wiki/myrmecology'
 
-14 u'http://en.wikipedia.org/wiki/wiki'
+14 'http://en.wikipedia.org/wiki/wiki'
 
-15 u'http://en.wikipedia.org/wiki/transcendentalism'
+15 'http://en.wikipedia.org/wiki/transcendentalism'
 
-16 u'http://en.wikipedia.org/wiki/autograph'
+16 'http://en.wikipedia.org/wiki/autograph'
 
-17 u'http://en.wikipedia.org/wiki/semiotics'
+17 'http://en.wikipedia.org/wiki/semiotics'
 
-18 u'http://en.wikipedia.org/wiki/triassic'
+18 'http://en.wikipedia.org/wiki/triassic'
 
-19 u'http://en.wikipedia.org/wiki/jingle'
+19 'http://en.wikipedia.org/wiki/jingle'
 
-20 u'http://en.wikipedia.org/wiki/plural'
+20 'http://en.wikipedia.org/wiki/plural'
 
-21 u'http://en.wikipedia.org/wiki/solid'
+21 'http://en.wikipedia.org/wiki/solid'
 
-22 u'http://en.wikipedia.org/wiki/camouflage'
+22 'http://en.wikipedia.org/wiki/camouflage'
 
-23 u'http://en.wikipedia.org/wiki/languages'
+23 'http://en.wikipedia.org/wiki/languages'
 
-24 u'http://en.wikipedia.org/wiki/psychology'
+24 'http://en.wikipedia.org/wiki/psychology'
 
-25 u'http://en.wikipedia.org/wiki/renaissance'
+25 'http://en.wikipedia.org/wiki/renaissance'
 
-26 u'http://en.wikipedia.org/wiki/etymologies'
+26 'http://en.wikipedia.org/wiki/etymologies'
 
-27 u'http://en.wikipedia.org/wiki/propaganda'
+27 'http://en.wikipedia.org/wiki/propaganda'
 
-28 u'http://en.wikipedia.org/wiki/hermeticism'
+28 'http://en.wikipedia.org/wiki/hermeticism'
 
-29 u'http://en.wikipedia.org/wiki/singing'
+29 'http://en.wikipedia.org/wiki/singing'
 
-30 u'http://en.wikipedia.org/wiki/newspaper'
+30 'http://en.wikipedia.org/wiki/newspaper'
 
-31 u'http://en.wikipedia.org/wiki/elephant'
+31 'http://en.wikipedia.org/wiki/elephant'
 
-32 u'http://en.wikipedia.org/wiki/gfdl'
+32 'http://en.wikipedia.org/wiki/gfdl'
 
-33 u'http://en.wikipedia.org/wiki/shorthand'
+33 'http://en.wikipedia.org/wiki/shorthand'
 
-34 u'http://en.wikipedia.org/wiki/criticism'
+34 'http://en.wikipedia.org/wiki/criticism'
 
-35 u'http://en.wikipedia.org/wiki/offertory'
+35 'http://en.wikipedia.org/wiki/offertory'
 
-36 u'http://en.wikipedia.org/wiki/obligation'
+36 'http://en.wikipedia.org/wiki/obligation'
 
-37 u'http://en.wikipedia.org/wiki/pragmatics'
+37 'http://en.wikipedia.org/wiki/pragmatics'
 
-38 u'http://en.wikipedia.org/wiki/memory'
+38 'http://en.wikipedia.org/wiki/memory'
 
-39 u'http://en.wikipedia.org/wiki/intranet'
+39 'http://en.wikipedia.org/wiki/intranet'
 
-40 u'http://en.wikipedia.org/wiki/theory'
+40 'http://en.wikipedia.org/wiki/theory'
 
-41 u'http://en.wikipedia.org/wiki/socialization'
+41 'http://en.wikipedia.org/wiki/socialization'
 
-42 u'http://en.wikipedia.org/wiki/knowledge'
+42 'http://en.wikipedia.org/wiki/knowledge'
 
-43 u'http://en.wikipedia.org/wiki/wales'
+43 'http://en.wikipedia.org/wiki/wales'
 
-44 u'http://en.wikipedia.org/wiki/sequence'
+44 'http://en.wikipedia.org/wiki/sequence'
 
-45 u'http://en.wikipedia.org/wiki/consonant'
+45 'http://en.wikipedia.org/wiki/consonant'
 
-46 u'http://en.wikipedia.org/wiki/wtfpl'
+46 'http://en.wikipedia.org/wiki/wtfpl'
 
-47 u'http://en.wikipedia.org/wiki/persuasion'
+47 'http://en.wikipedia.org/wiki/persuasion'
 
 48 'http://en.wikipedia.org'
 
-49 u'http://en.wikipedia.org/wiki/paypal'
+49 'http://en.wikipedia.org/wiki/paypal'
 
-50 u'http://en.wikipedia.org/wiki/embarrassment'
+50 'http://en.wikipedia.org/wiki/embarrassment'
 
-51 u'http://en.wikipedia.org/wiki/rhythm'
+51 'http://en.wikipedia.org/wiki/rhythm'
 
-52 u'http://en.wikipedia.org/wiki/exocentric'
+52 'http://en.wikipedia.org/wiki/exocentric'
 
-53 u'http://en.wikipedia.org/wiki/vevo'
+53 'http://en.wikipedia.org/wiki/vevo'
 
-54 u'http://en.wikipedia.org/wiki/portmanteau'
+54 'http://en.wikipedia.org/wiki/portmanteau'
 
-55 u'http://en.wikipedia.org/wiki/latin'
+55 'http://en.wikipedia.org/wiki/latin'
 
-56 u'http://en.wikipedia.org/wiki/art'
+56 'http://en.wikipedia.org/wiki/art'
 
-57 u'http://en.wikipedia.org/wiki/hyphen'
+57 'http://en.wikipedia.org/wiki/hyphen'
 
-58 u'http://en.wikipedia.org/wiki/universalism'
+58 'http://en.wikipedia.org/wiki/universalism'
 
-59 u'http://en.wikipedia.org/wiki/sound'
+59 'http://en.wikipedia.org/wiki/sound'
 
-60 u'http://en.wikipedia.org/wiki/signature'
+60 'http://en.wikipedia.org/wiki/signature'
 
-61 u'http://en.wikipedia.org/wiki/leet'
+61 'http://en.wikipedia.org/wiki/leet'
 
-62 u'http://en.wikipedia.org/wiki/dispositio'
+62 'http://en.wikipedia.org/wiki/dispositio'
 
-63 u'http://en.wikipedia.org/wiki/inventio'
+63 'http://en.wikipedia.org/wiki/inventio'
 
-64 u'http://en.wikipedia.org/wiki/jabberwocky'
+64 'http://en.wikipedia.org/wiki/jabberwocky'
 
-65 u'http://en.wikipedia.org/wiki/snake'
+65 'http://en.wikipedia.org/wiki/snake'
 
-66 u'http://en.wikipedia.org/wiki/alphabet'
+66 'http://en.wikipedia.org/wiki/alphabet'
 
-67 u'http://en.wikipedia.org/wiki/asset'
+67 'http://en.wikipedia.org/wiki/asset'
 
-68 u'http://en.wikipedia.org/wiki/apostrophe'
+68 'http://en.wikipedia.org/wiki/apostrophe'
 
-69 u'http://en.wikipedia.org/wiki/hydrogeology'
+69 'http://en.wikipedia.org/wiki/hydrogeology'
 
-70 u'http://en.wikipedia.org/wiki/belief'
+70 'http://en.wikipedia.org/wiki/belief'
 
-71 u'http://en.wikipedia.org/wiki/massachusetts'
+71 'http://en.wikipedia.org/wiki/massachusetts'
 
-72 u'http://en.wikipedia.org/wiki/liquid'
+72 'http://en.wikipedia.org/wiki/liquid'
 
-73 u'http://en.wikipedia.org/wiki/copyleft'
+73 'http://en.wikipedia.org/wiki/copyleft'
 
-74 u'http://en.wikipedia.org/wiki/criminology'
+74 'http://en.wikipedia.org/wiki/criminology'
 
-75 u'http://en.wikipedia.org/wiki/silurian'
+75 'http://en.wikipedia.org/wiki/silurian'
 
-76 u'http://en.wikipedia.org/wiki/pictogram'
+76 'http://en.wikipedia.org/wiki/pictogram'
 
-77 u'http://en.wikipedia.org/wiki/quart'
+77 'http://en.wikipedia.org/wiki/quart'
 
-78 u'http://en.wikipedia.org/wiki/circa'
+78 'http://en.wikipedia.org/wiki/circa'
 
-79 u'http://en.wikipedia.org/wiki/africa'
+79 'http://en.wikipedia.org/wiki/africa'
 
-80 u'http://en.wikipedia.org/wiki/ethos'
+80 'http://en.wikipedia.org/wiki/ethos'
 
-81 u'http://en.wikipedia.org/wiki/authentication'
+81 'http://en.wikipedia.org/wiki/authentication'
 
-82 u'http://en.wikipedia.org/wiki/ephesus'
+82 'http://en.wikipedia.org/wiki/ephesus'
 
-83 u'http://en.wikipedia.org/wiki/syncretism'
+83 'http://en.wikipedia.org/wiki/syncretism'
 
-84 u'http://en.wikipedia.org/wiki/jargon'
+84 'http://en.wikipedia.org/wiki/jargon'
 
-85 u'http://en.wikipedia.org/wiki/ceo'
+85 'http://en.wikipedia.org/wiki/ceo'
 
-86 u'http://en.wikipedia.org/wiki/anglicisation'
+86 'http://en.wikipedia.org/wiki/anglicisation'
 
-87 u'http://en.wikipedia.org/wiki/cbs'
+87 'http://en.wikipedia.org/wiki/cbs'
 
-88 u'http://en.wikipedia.org/wiki/deception'
+88 'http://en.wikipedia.org/wiki/deception'
 
-89 u'http://en.wikipedia.org/wiki/wikitext'
+89 'http://en.wikipedia.org/wiki/wikitext'
 
-90 u'http://en.wikipedia.org/wiki/animals'
+90 'http://en.wikipedia.org/wiki/animals'
 
-91 u'http://en.wikipedia.org/wiki/uncertainty'
+91 'http://en.wikipedia.org/wiki/uncertainty'
 
-92 u'http://en.wikipedia.org/wiki/tagline'
+92 'http://en.wikipedia.org/wiki/tagline'
 
-93 u'http://en.wikipedia.org/wiki/narcissism'
+93 'http://en.wikipedia.org/wiki/narcissism'
 
-94 u'http://en.wikipedia.org/wiki/memoria'
+94 'http://en.wikipedia.org/wiki/memoria'
 
-95 u'http://en.wikipedia.org/wiki/caron'
+95 'http://en.wikipedia.org/wiki/caron'
 
-96 u'http://en.wikipedia.org/wiki/serif'
+96 'http://en.wikipedia.org/wiki/serif'
 
-97 u'http://en.wikipedia.org/wiki/sociology'
+97 'http://en.wikipedia.org/wiki/sociology'
 
-98 u'http://en.wikipedia.org/wiki/ideographic'
+98 'http://en.wikipedia.org/wiki/ideographic'
 
-99 u'http://en.wikipedia.org/wiki/psychopathy'
+99 'http://en.wikipedia.org/wiki/psychopathy'
 
-100 u'http://en.wikipedia.org/wiki/typeface'
+100 'http://en.wikipedia.org/wiki/typeface'
 
-101 u'http://en.wikipedia.org/wiki/semantic'
+101 'http://en.wikipedia.org/wiki/semantic'
 
-102 u'http://en.wikipedia.org/wiki/employment'
+102 'http://en.wikipedia.org/wiki/employment'
 
-103 u'http://en.wikipedia.org/wiki/italy'
+103 'http://en.wikipedia.org/wiki/italy'
 
-104 u'http://en.wikipedia.org/wiki/neologism'
+104 'http://en.wikipedia.org/wiki/neologism'
 
-105 u'http://en.wikipedia.org/wiki/wikivoyage'
+105 'http://en.wikipedia.org/wiki/wikivoyage'
 
-106 u'http://en.wikipedia.org/wiki/grammar'
+106 'http://en.wikipedia.org/wiki/grammar'
 
-107 u'http://en.wikipedia.org/wiki/mountbatten'
+107 'http://en.wikipedia.org/wiki/mountbatten'
 
-108 u'http://en.wikipedia.org/wiki/finland'
+108 'http://en.wikipedia.org/wiki/finland'
 
-109 u'http://en.wikipedia.org/wiki/handwriting'
+109 'http://en.wikipedia.org/wiki/handwriting'
 
-110 u'http://en.wikipedia.org/wiki/aristotle'
+110 'http://en.wikipedia.org/wiki/aristotle'
 
-111 u'http://en.wikipedia.org/wiki/multilingualism'
+111 'http://en.wikipedia.org/wiki/multilingualism'
 
-112 u'http://en.wikipedia.org/wiki/graphetics'
+112 'http://en.wikipedia.org/wiki/graphetics'
 
-113 u'http://en.wikipedia.org/wiki/yugoslavia'
+113 'http://en.wikipedia.org/wiki/yugoslavia'
 
-114 u'http://en.wikipedia.org/wiki/thermodynamics'
+114 'http://en.wikipedia.org/wiki/thermodynamics'
 
-115 u'http://en.wikipedia.org/wiki/carboniferous'
+115 'http://en.wikipedia.org/wiki/carboniferous'
 
-116 u'http://en.wikipedia.org/wiki/occultism'
+116 'http://en.wikipedia.org/wiki/occultism'
 
-117 u'http://en.wikipedia.org/wiki/skill'
+117 'http://en.wikipedia.org/wiki/skill'
 
-118 u'http://en.wikipedia.org/wiki/literature'
+118 'http://en.wikipedia.org/wiki/literature'
 
-119 u'http://en.wikipedia.org/wiki/ideogram'
+119 'http://en.wikipedia.org/wiki/ideogram'
 
-120 u'http://en.wikipedia.org/wiki/coldfusion'
+120 'http://en.wikipedia.org/wiki/coldfusion'
 
-121 u'http://en.wikipedia.org/wiki/ontology'
+121 'http://en.wikipedia.org/wiki/ontology'
 
-122 u'http://en.wikipedia.org/wiki/message'
+122 'http://en.wikipedia.org/wiki/message'
 
-123 u'http://en.wikipedia.org/wiki/circumflex'
+123 'http://en.wikipedia.org/wiki/circumflex'
 
-124 u'http://en.wikipedia.org/wiki/gallon'
+124 'http://en.wikipedia.org/wiki/gallon'
 
-125 u'http://en.wikipedia.org/wiki/precambrian'
+125 'http://en.wikipedia.org/wiki/precambrian'
 
-126 u'http://en.wikipedia.org/wiki/chairman'
+126 'http://en.wikipedia.org/wiki/chairman'
 
-127 u'http://en.wikipedia.org/wiki/semantics'
+127 'http://en.wikipedia.org/wiki/semantics'
 
-128 u'http://en.wikipedia.org/wiki/unesco'
+128 'http://en.wikipedia.org/wiki/unesco'
 
-129 u'http://en.wikipedia.org/wiki/yuga'
+129 'http://en.wikipedia.org/wiki/yuga'
 
-130 u'http://en.wikipedia.org/wiki/empathy'
+130 'http://en.wikipedia.org/wiki/empathy'
 
-131 u'http://en.wikipedia.org/wiki/elocutio'
+131 'http://en.wikipedia.org/wiki/elocutio'
 
-132 u'http://en.wikipedia.org/wiki/paleontology'
+132 'http://en.wikipedia.org/wiki/paleontology'
 
-133 u'http://en.wikipedia.org/wiki/motto'
+133 'http://en.wikipedia.org/wiki/motto'
 
-134 u'http://en.wikipedia.org/wiki/tsar'
+134 'http://en.wikipedia.org/wiki/tsar'
 
-135 u'http://en.wikipedia.org/wiki/truth'
+135 'http://en.wikipedia.org/wiki/truth'
 
-136 u'http://en.wikipedia.org/wiki/hendiatris'
+136 'http://en.wikipedia.org/wiki/hendiatris'
 
-137 u'http://en.wikipedia.org/wiki/logogram'
+137 'http://en.wikipedia.org/wiki/logogram'
 
-138 u'http://en.wikipedia.org/wiki/faith'
+138 'http://en.wikipedia.org/wiki/faith'
 
-139 u'http://en.wikipedia.org/wiki/election'
+139 'http://en.wikipedia.org/wiki/election'
 
-140 u'http://en.wikipedia.org/wiki/positivism'
+140 'http://en.wikipedia.org/wiki/positivism'
 
-141 u'http://en.wikipedia.org/wiki/gas'
+141 'http://en.wikipedia.org/wiki/gas'
 
-142 u'http://en.wikipedia.org/wiki/f'
+142 'http://en.wikipedia.org/wiki/f'
 
-143 u'http://en.wikipedia.org/wiki/lexicology'
+143 'http://en.wikipedia.org/wiki/lexicology'
 
-144 u'http://en.wikipedia.org/wiki/hyperlink'
+144 'http://en.wikipedia.org/wiki/hyperlink'
 
-145 u'http://en.wikipedia.org/wiki/neologisms'
+145 'http://en.wikipedia.org/wiki/neologisms'
 
-146 u'http://en.wikipedia.org/wiki/publishing'
+146 'http://en.wikipedia.org/wiki/publishing'
 
-147 u'http://en.wikipedia.org/wiki/symbolics'
+147 'http://en.wikipedia.org/wiki/symbolics'
 
-148 u'http://en.wikipedia.org/wiki/tonalpohualli'
+148 'http://en.wikipedia.org/wiki/tonalpohualli'
 
-149 u'http://en.wikipedia.org/wiki/antipositivism'
+149 'http://en.wikipedia.org/wiki/antipositivism'
 
-150 u'http://en.wikipedia.org/wiki/abugida'
+150 'http://en.wikipedia.org/wiki/abugida'
 
-151 u'http://en.wikipedia.org/wiki/orthography'
+151 'http://en.wikipedia.org/wiki/orthography'
 
-152 u'http://en.wikipedia.org/wiki/compendium'
+152 'http://en.wikipedia.org/wiki/compendium'
 
-153 u'http://en.wikipedia.org/wiki/sumer'
+153 'http://en.wikipedia.org/wiki/sumer'
 
-154 u'http://en.wikipedia.org/wiki/deceive'
+154 'http://en.wikipedia.org/wiki/deceive'
 
-155 u'http://en.wikipedia.org/wiki/cedilla'
+155 'http://en.wikipedia.org/wiki/cedilla'
 
-156 u'http://en.wikipedia.org/wiki/revenue'
+156 'http://en.wikipedia.org/wiki/revenue'
 
-157 u'http://en.wikipedia.org/wiki/voting'
+157 'http://en.wikipedia.org/wiki/voting'
 
-158 u'http://en.wikipedia.org/wiki/executable'
+158 'http://en.wikipedia.org/wiki/executable'
 
-159 u'http://en.wikipedia.org/wiki/cambrian'
+159 'http://en.wikipedia.org/wiki/cambrian'
 
-160 u'http://en.wikipedia.org/wiki/devon'
+160 'http://en.wikipedia.org/wiki/devon'
 
-161 u'http://en.wikipedia.org/wiki/chant'
+161 'http://en.wikipedia.org/wiki/chant'
 
-162 u'http://en.wikipedia.org/wiki/bbc'
+162 'http://en.wikipedia.org/wiki/bbc'
 
-163 u'http://en.wikipedia.org/wiki/mesopotamia'
+163 'http://en.wikipedia.org/wiki/mesopotamia'
 
-164 u'http://en.wikipedia.org/wiki/imprint'
+164 'http://en.wikipedia.org/wiki/imprint'
 
-165 u'http://en.wikipedia.org/wiki/presentation'
+165 'http://en.wikipedia.org/wiki/presentation'
 
-166 u'http://en.wikipedia.org/wiki/etymology'
+166 'http://en.wikipedia.org/wiki/etymology'
 
-167 u'http://en.wikipedia.org/wiki/anomie'
+167 'http://en.wikipedia.org/wiki/anomie'
 
-168 u'http://en.wikipedia.org/wiki/exonym'
+168 'http://en.wikipedia.org/wiki/exonym'
 
-169 u'http://en.wikipedia.org/wiki/prussia'
+169 'http://en.wikipedia.org/wiki/prussia'
 
-170 u'http://en.wikipedia.org/wiki/expert'
+170 'http://en.wikipedia.org/wiki/expert'
 
-171 u'http://en.wikipedia.org/wiki/gerrymander'
+171 'http://en.wikipedia.org/wiki/gerrymander'
 
-172 u'http://en.wikipedia.org/wiki/graphene'
+172 'http://en.wikipedia.org/wiki/graphene'
 
-173 u'http://en.wikipedia.org/wiki/aztec'
+173 'http://en.wikipedia.org/wiki/aztec'
 
-174 u'http://en.wikipedia.org/wiki/spirituality'
+174 'http://en.wikipedia.org/wiki/spirituality'
 
-175 u'http://en.wikipedia.org/wiki/phonetics'
+175 'http://en.wikipedia.org/wiki/phonetics'
 
-176 u'http://en.wikipedia.org/wiki/writing'
+176 'http://en.wikipedia.org/wiki/writing'
 
-177 u'http://en.wikipedia.org/wiki/elephantidae'
+177 'http://en.wikipedia.org/wiki/elephantidae'
 
-178 u'http://en.wikipedia.org/wiki/word'
+178 'http://en.wikipedia.org/wiki/word'
 
-179 u'http://en.wikipedia.org/wiki/pint'
+179 'http://en.wikipedia.org/wiki/pint'
 
-180 u'http://en.wikipedia.org/wiki/plato'
+180 'http://en.wikipedia.org/wiki/plato'
 
-181 u'http://en.wikipedia.org/wiki/confusing'
+181 'http://en.wikipedia.org/wiki/confusing'
 
-182 u'http://en.wikipedia.org/wiki/education'
+182 'http://en.wikipedia.org/wiki/education'
 
-183 u'http://en.wikipedia.org/wiki/pronuntiatio'
+183 'http://en.wikipedia.org/wiki/pronuntiatio'
 
-184 u'http://en.wikipedia.org/wiki/government'
+184 'http://en.wikipedia.org/wiki/government'
 
-185 u'http://en.wikipedia.org/wiki/phytosociology'
+185 'http://en.wikipedia.org/wiki/phytosociology'
 
-186 u'http://en.wikipedia.org/wiki/law'
+186 'http://en.wikipedia.org/wiki/law'
 
-187 u'http://en.wikipedia.org/wiki/mantling'
+187 'http://en.wikipedia.org/wiki/mantling'
 
-188 u'http://en.wikipedia.org/wiki/era'
+188 'http://en.wikipedia.org/wiki/era'
 
-189 u'http://en.wikipedia.org/wiki/logos'
+189 'http://en.wikipedia.org/wiki/logos'
 
-190 u'http://en.wikipedia.org/wiki/prayer'
+190 'http://en.wikipedia.org/wiki/prayer'
 
-191 u'http://en.wikipedia.org/wiki/definitions'
+191 'http://en.wikipedia.org/wiki/definitions'
 
-192 u'http://en.wikipedia.org/wiki/archaeology'
+192 'http://en.wikipedia.org/wiki/archaeology'
 
-193 u'http://en.wikipedia.org/wiki/epistemology'
+193 'http://en.wikipedia.org/wiki/epistemology'
 
-194 u'http://en.wikipedia.org/wiki/communication'
+194 'http://en.wikipedia.org/wiki/communication'
 
-195 u'http://en.wikipedia.org/wiki/myspace'
+195 'http://en.wikipedia.org/wiki/myspace'
 
-196 u'http://en.wikipedia.org/wiki/interpret'
+196 'http://en.wikipedia.org/wiki/interpret'
 
-197 u'http://en.wikipedia.org/wiki/website'
+197 'http://en.wikipedia.org/wiki/website'
 
-198 u'http://en.wikipedia.org/wiki/parody'
+198 'http://en.wikipedia.org/wiki/parody'
 
-199 u'http://en.wikipedia.org/wiki/astronomy'
+199 'http://en.wikipedia.org/wiki/astronomy'
 
-200 u'http://en.wikipedia.org/wiki/formula'
+200 'http://en.wikipedia.org/wiki/formula'
 
-201 u'http://en.wikipedia.org/wiki/dissemination'
+201 'http://en.wikipedia.org/wiki/dissemination'
 
-202 u'http://en.wikipedia.org/wiki/puberty'
+202 'http://en.wikipedia.org/wiki/puberty'
 
-203 u'http://en.wikipedia.org/wiki/france'
+203 'http://en.wikipedia.org/wiki/france'
 
-204 u'http://en.wikipedia.org/wiki/machiavellianism'
+204 'http://en.wikipedia.org/wiki/machiavellianism'
 
-205 u'http://en.wikipedia.org/wiki/clause'
+205 'http://en.wikipedia.org/wiki/clause'
 
-206 u'http://en.wikipedia.org/wiki/subtext'
+206 'http://en.wikipedia.org/wiki/subtext'
 
-207 u'http://en.wikipedia.org/wiki/ballot'
+207 'http://en.wikipedia.org/wiki/ballot'
 
-208 u'http://en.wikipedia.org/wiki/precinct'
+208 'http://en.wikipedia.org/wiki/precinct'
 
-209 u'http://en.wikipedia.org/wiki/libre'
+209 'http://en.wikipedia.org/wiki/libre'
 
-210 u'http://en.wikipedia.org/wiki/melody'
+210 'http://en.wikipedia.org/wiki/melody'
 
-211 u'http://en.wikipedia.org/wiki/encyclopedia'
+211 'http://en.wikipedia.org/wiki/encyclopedia'
 
-212 u'http://en.wikipedia.org/wiki/hypothesis'
+212 'http://en.wikipedia.org/wiki/hypothesis'
 
-213 u'http://en.wikipedia.org/wiki/heraldry'
+213 'http://en.wikipedia.org/wiki/heraldry'
 
-214 u'http://en.wikipedia.org/wiki/dictionaries'
+214 'http://en.wikipedia.org/wiki/dictionaries'
 
-215 u'http://en.wikipedia.org/wiki/mesoamerica'
+215 'http://en.wikipedia.org/wiki/mesoamerica'
 
-216 u'http://en.wikipedia.org/wiki/morphophonology'
+216 'http://en.wikipedia.org/wiki/morphophonology'
 
-217 u'http://en.wikipedia.org/wiki/b'
+217 'http://en.wikipedia.org/wiki/b'
 
-218 u'http://en.wikipedia.org/wiki/c'
+218 'http://en.wikipedia.org/wiki/c'
 
-219 u'http://en.wikipedia.org/wiki/a'
+219 'http://en.wikipedia.org/wiki/a'
 
-220 u'http://en.wikipedia.org/wiki/glyph'
+220 'http://en.wikipedia.org/wiki/glyph'
 
-221 u'http://en.wikipedia.org/wiki/g'
+221 'http://en.wikipedia.org/wiki/g'
 
-222 u'http://en.wikipedia.org/wiki/d'
+222 'http://en.wikipedia.org/wiki/d'
 
-223 u'http://en.wikipedia.org/wiki/e'
+223 'http://en.wikipedia.org/wiki/e'
 
-224 u'http://en.wikipedia.org/wiki/j'
+224 'http://en.wikipedia.org/wiki/j'
 
-225 u'http://en.wikipedia.org/wiki/k'
+225 'http://en.wikipedia.org/wiki/k'
 
-226 u'http://en.wikipedia.org/wiki/h'
+226 'http://en.wikipedia.org/wiki/h'
 
-227 u'http://en.wikipedia.org/wiki/i'
+227 'http://en.wikipedia.org/wiki/i'
 
-228 u'http://en.wikipedia.org/wiki/l'
+228 'http://en.wikipedia.org/wiki/l'
 
-229 u'http://en.wikipedia.org/wiki/iq'
+229 'http://en.wikipedia.org/wiki/iq'
 
-230 u'http://en.wikipedia.org/wiki/debian'
+230 'http://en.wikipedia.org/wiki/debian'
 
-231 u'http://en.wikipedia.org/wiki/volume'
+231 'http://en.wikipedia.org/wiki/volume'
 
-232 u'http://en.wikipedia.org/wiki/skills'
+232 'http://en.wikipedia.org/wiki/skills'
 
-233 u'http://en.wikipedia.org/wiki/pietism'
+233 'http://en.wikipedia.org/wiki/pietism'
 
-234 u'http://en.wikipedia.org/wiki/breve'
+234 'http://en.wikipedia.org/wiki/breve'
 
-235 u'http://en.wikipedia.org/wiki/mayanists'
+235 'http://en.wikipedia.org/wiki/mayanists'
 
-236 u'http://en.wikipedia.org/wiki/affix'
+236 'http://en.wikipedia.org/wiki/affix'
 
-237 u'http://en.wikipedia.org/wiki/sharealike'
+237 'http://en.wikipedia.org/wiki/sharealike'
 
-238 u'http://en.wikipedia.org/wiki/heuristics'
+238 'http://en.wikipedia.org/wiki/heuristics'
 
-239 u'http://en.wikipedia.org/wiki/coronet'
+239 'http://en.wikipedia.org/wiki/coronet'
 
-240 u'http://en.wikipedia.org/wiki/license'
+240 'http://en.wikipedia.org/wiki/license'
 
-241 u'http://en.wikipedia.org/wiki/dictionary'
+241 'http://en.wikipedia.org/wiki/dictionary'
 
-242 u'http://en.wikipedia.org/wiki/ogoniok'
+242 'http://en.wikipedia.org/wiki/ogoniok'
 
-243 u'http://en.wikipedia.org/wiki/advertising'
+243 'http://en.wikipedia.org/wiki/advertising'
 
-244 u'http://en.wikipedia.org/wiki/syllable'
+244 'http://en.wikipedia.org/wiki/syllable'
 
-245 u'http://en.wikipedia.org/wiki/logic'
+245 'http://en.wikipedia.org/wiki/logic'
 
-246 u'http://en.wikipedia.org/wiki/ownership'
+246 'http://en.wikipedia.org/wiki/ownership'
 
-247 u'http://en.wikipedia.org/wiki/trecena'
+247 'http://en.wikipedia.org/wiki/trecena'
 
-248 u'http://en.wikipedia.org/wiki/vulgate'
+248 'http://en.wikipedia.org/wiki/vulgate'
 
-249 u'http://en.wikipedia.org/wiki/documents'
+249 'http://en.wikipedia.org/wiki/documents'
 
-250 u'http://en.wikipedia.org/wiki/genealogy'
+250 'http://en.wikipedia.org/wiki/genealogy'
 
-251 u'http://en.wikipedia.org/wiki/blend'
+251 'http://en.wikipedia.org/wiki/blend'
 
-252 u'http://en.wikipedia.org/wiki/geology'
+252 'http://en.wikipedia.org/wiki/geology'
 
-253 u'http://en.wikipedia.org/wiki/canada'
+253 'http://en.wikipedia.org/wiki/canada'
 
-254 u'http://en.wikipedia.org/wiki/intention'
+254 'http://en.wikipedia.org/wiki/intention'
 
-255 u'http://en.wikipedia.org/wiki/cuneiform'
+255 'http://en.wikipedia.org/wiki/cuneiform'
 
-256 u'http://en.wikipedia.org/wiki/permian'
+256 'http://en.wikipedia.org/wiki/permian'
 
-257 u'http://en.wikipedia.org/wiki/morphemes'
+257 'http://en.wikipedia.org/wiki/morphemes'
 
-258 u'http://en.wikipedia.org/wiki/javascript'
+258 'http://en.wikipedia.org/wiki/javascript'
 
-259 u'http://en.wikipedia.org/wiki/wikinews'
+259 'http://en.wikipedia.org/wiki/wikinews'
 
-260 u'http://en.wikipedia.org/wiki/monolingual'
+260 'http://en.wikipedia.org/wiki/monolingual'
 
-261 u'http://en.wikipedia.org/wiki/syntax'
+261 'http://en.wikipedia.org/wiki/syntax'
 
-262 u'http://en.wikipedia.org/wiki/immigration'
+262 'http://en.wikipedia.org/wiki/immigration'
 
-263 u'http://en.wikipedia.org/wiki/wikipedia'
+263 'http://en.wikipedia.org/wiki/wikipedia'
 
-264 u'http://en.wikipedia.org/wiki/phrase'
+264 'http://en.wikipedia.org/wiki/phrase'
 
-265 u'http://en.wikipedia.org/wiki/monograph'
+265 'http://en.wikipedia.org/wiki/monograph'
 
-266 u'http://en.wikipedia.org/wiki/demography'
+266 'http://en.wikipedia.org/wiki/demography'
 
-267 u'http://en.wikipedia.org/wiki/pressure'
+267 'http://en.wikipedia.org/wiki/pressure'
 
-268 u'http://en.wikipedia.org/wiki/slogan'
+268 'http://en.wikipedia.org/wiki/slogan'
 
-269 u'http://en.wikipedia.org/wiki/immigrant'
+269 'http://en.wikipedia.org/wiki/immigrant'
 
-270 u'http://en.wikipedia.org/wiki/epigram'
+270 'http://en.wikipedia.org/wiki/epigram'
 
-271 u'http://en.wikipedia.org/wiki/votes'
+271 'http://en.wikipedia.org/wiki/votes'
 
-272 u'http://en.wikipedia.org/wiki/polyglotism'
+272 'http://en.wikipedia.org/wiki/polyglotism'
 
-273 u'http://en.wikipedia.org/wiki/ordovician'
+273 'http://en.wikipedia.org/wiki/ordovician'
 
-274 u'http://en.wikipedia.org/wiki/revoke'
+274 'http://en.wikipedia.org/wiki/revoke'
 
-275 u'http://en.wikipedia.org/wiki/loanword'
+275 'http://en.wikipedia.org/wiki/loanword'
 
-276 u'http://en.wikipedia.org/wiki/cantonese'
+276 'http://en.wikipedia.org/wiki/cantonese'
 
-277 u'http://en.wikipedia.org/wiki/dissimulation'
+277 'http://en.wikipedia.org/wiki/dissimulation'
 
-278 u'http://en.wikipedia.org/wiki/pronunciations'
+278 'http://en.wikipedia.org/wiki/pronunciations'
 
-279 u'http://en.wikipedia.org/wiki/allograph'
+279 'http://en.wikipedia.org/wiki/allograph'
 
-280 u'http://en.wikipedia.org/wiki/keraia'
+280 'http://en.wikipedia.org/wiki/keraia'
 
-281 u'http://en.wikipedia.org/wiki/lie'
+281 'http://en.wikipedia.org/wiki/lie'
 
-282 u'http://en.wikipedia.org/wiki/neogene'
+282 'http://en.wikipedia.org/wiki/neogene'
 
-283 u'http://en.wikipedia.org/wiki/html'
+283 'http://en.wikipedia.org/wiki/html'
 
-284 u'http://en.wikipedia.org/wiki/macron'
+284 'http://en.wikipedia.org/wiki/macron'
 
-285 u'http://en.wikipedia.org/wiki/floruit'
+285 'http://en.wikipedia.org/wiki/floruit'
 
-286 u'http://en.wikipedia.org/wiki/publication'
+286 'http://en.wikipedia.org/wiki/publication'
 
-287 u'http://en.wikipedia.org/wiki/brazil'
+287 'http://en.wikipedia.org/wiki/brazil'
 
-288 u'http://en.wikipedia.org/wiki/lowercase'
+288 'http://en.wikipedia.org/wiki/lowercase'
 
-289 u'http://en.wikipedia.org/wiki/printing'
+289 'http://en.wikipedia.org/wiki/printing'
 
-290 u'http://en.wikipedia.org/wiki/asterisk'
+290 'http://en.wikipedia.org/wiki/asterisk'
 
-291 u'http://en.wikipedia.org/wiki/yodh'
+291 'http://en.wikipedia.org/wiki/yodh'
 
-292 u'http://en.wikipedia.org/wiki/secularization'
+292 'http://en.wikipedia.org/wiki/secularization'
 
-293 u'http://en.wikipedia.org/wiki/paris'
+293 'http://en.wikipedia.org/wiki/paris'
 
-294 u'http://en.wikipedia.org/wiki/sedilia'
+294 'http://en.wikipedia.org/wiki/sedilia'
 
-295 u'http://en.wikipedia.org/wiki/mantra'
+295 'http://en.wikipedia.org/wiki/mantra'
 
-296 u'http://en.wikipedia.org/wiki/byline'
+296 'http://en.wikipedia.org/wiki/byline'
 
-297 u'http://en.wikipedia.org/wiki/hieroglyph'
+297 'http://en.wikipedia.org/wiki/hieroglyph'
 
-298 u'http://en.wikipedia.org/wiki/quebec'
+298 'http://en.wikipedia.org/wiki/quebec'
 
-299 u'http://en.wikipedia.org/wiki/religious'
+299 'http://en.wikipedia.org/wiki/religious'
 
-300 u'http://en.wikipedia.org/wiki/anusvara'
+300 'http://en.wikipedia.org/wiki/anusvara'
 
-301 u'http://en.wikipedia.org/wiki/california'
+301 'http://en.wikipedia.org/wiki/california'
 
-302 u'http://en.wikipedia.org/wiki/linguistics'
+302 'http://en.wikipedia.org/wiki/linguistics'
 
-303 u'http://en.wikipedia.org/wiki/philosophy'
+303 'http://en.wikipedia.org/wiki/philosophy'
 
-304 u'http://en.wikipedia.org/wiki/graphemics'
+304 'http://en.wikipedia.org/wiki/graphemics'
 
-305 u'http://en.wikipedia.org/wiki/romanticism'
+305 'http://en.wikipedia.org/wiki/romanticism'
 
-306 u'http://en.wikipedia.org/wiki/lexicon'
+306 'http://en.wikipedia.org/wiki/lexicon'
 
-307 u'http://en.wikipedia.org/wiki/friendster'
+307 'http://en.wikipedia.org/wiki/friendster'
 
-308 u'http://en.wikipedia.org/wiki/entrepreneur'
+308 'http://en.wikipedia.org/wiki/entrepreneur'
 
-309 u'http://en.wikipedia.org/wiki/iota'
+309 'http://en.wikipedia.org/wiki/iota'
 
-310 u'http://en.wikipedia.org/wiki/bit'
+310 'http://en.wikipedia.org/wiki/bit'
 
-311 u'http://en.wikipedia.org/wiki/primate'
+311 'http://en.wikipedia.org/wiki/primate'
 
-312 u'http://en.wikipedia.org/wiki/ireland'
+312 'http://en.wikipedia.org/wiki/ireland'
 
-313 u'http://en.wikipedia.org/wiki/morpheme'
+313 'http://en.wikipedia.org/wiki/morpheme'
 
-314 u'http://en.wikipedia.org/wiki/paleogene'
+314 'http://en.wikipedia.org/wiki/paleogene'
 
-315 u'http://en.wikipedia.org/wiki/internet'
+315 'http://en.wikipedia.org/wiki/internet'
 
-316 u'http://en.wikipedia.org/wiki/google'
+316 'http://en.wikipedia.org/wiki/google'
 
-317 u'http://en.wikipedia.org/wiki/information'
+317 'http://en.wikipedia.org/wiki/information'
 
-318 u'http://en.wikipedia.org/wiki/experience'
+318 'http://en.wikipedia.org/wiki/experience'
 
-319 u'http://en.wikipedia.org/wiki/terminology'
+319 'http://en.wikipedia.org/wiki/terminology'
 
-320 u'http://en.wikipedia.org/wiki/wikiwikiweb'
+320 'http://en.wikipedia.org/wiki/wikiwikiweb'
 
-321 u'http://en.wikipedia.org/wiki/equivocations'
+321 'http://en.wikipedia.org/wiki/equivocations'
 
-322 u'http://en.wikipedia.org/wiki/paleocene'
+322 'http://en.wikipedia.org/wiki/paleocene'
 
-323 u'http://en.wikipedia.org/wiki/ninotchka'
+323 'http://en.wikipedia.org/wiki/ninotchka'
 
-324 u'http://en.wikipedia.org/wiki/fact'
+324 'http://en.wikipedia.org/wiki/fact'
 
-325 u'http://en.wikipedia.org/wiki/rhetorical'
+325 'http://en.wikipedia.org/wiki/rhetorical'
 
-326 u'http://en.wikipedia.org/wiki/evangelicalism'
+326 'http://en.wikipedia.org/wiki/evangelicalism'
 
-327 u'http://en.wikipedia.org/wiki/industry'
+327 'http://en.wikipedia.org/wiki/industry'
 
-328 u'http://en.wikipedia.org/wiki/grapheme'
+328 'http://en.wikipedia.org/wiki/grapheme'
 
-329 u'http://en.wikipedia.org/wiki/tzolkin'
+329 'http://en.wikipedia.org/wiki/tzolkin'
 
-330 u'http://en.wikipedia.org/wiki/nasdaq'
+330 'http://en.wikipedia.org/wiki/nasdaq'
 
-331 u'http://en.wikipedia.org/wiki/words'
+331 'http://en.wikipedia.org/wiki/words'
 
-332 u'http://en.wikipedia.org/wiki/language'
+332 'http://en.wikipedia.org/wiki/language'
 
-333 u'http://en.wikipedia.org/wiki/wallaby'
+333 'http://en.wikipedia.org/wiki/wallaby'
 
-334 u'http://en.wikipedia.org/wiki/lexeme'
+334 'http://en.wikipedia.org/wiki/lexeme'
 
-335 u'http://en.wikipedia.org/wiki/rhetoric'
+335 'http://en.wikipedia.org/wiki/rhetoric'
 
-336 u'http://en.wikipedia.org/wiki/description'
+336 'http://en.wikipedia.org/wiki/description'
 
-337 u'http://en.wikipedia.org/wiki/pathos'
+337 'http://en.wikipedia.org/wiki/pathos'
 
-338 u'http://en.wikipedia.org/wiki/time'
+338 'http://en.wikipedia.org/wiki/time'
 
-339 u'http://en.wikipedia.org/wiki/fossils'
+339 'http://en.wikipedia.org/wiki/fossils'
 
-340 u'http://en.wikipedia.org/wiki/bible'
+340 'http://en.wikipedia.org/wiki/bible'
 
-341 u'http://en.wikipedia.org/wiki/guatemala'
+341 'http://en.wikipedia.org/wiki/guatemala'
 
-342 u'http://en.wikipedia.org/wiki/motivation'
+342 'http://en.wikipedia.org/wiki/motivation'
 
-343 u'http://en.wikipedia.org/wiki/youtube'
+343 'http://en.wikipedia.org/wiki/youtube'
 
-344 u'http://en.wikipedia.org/wiki/phoneme'
+344 'http://en.wikipedia.org/wiki/phoneme'
 
-345 u'http://en.wikipedia.org/wiki/fumblerules'
+345 'http://en.wikipedia.org/wiki/fumblerules'
 
-346 u'http://en.wikipedia.org/wiki/brunch'
+346 'http://en.wikipedia.org/wiki/brunch'
 
-347 u'http://en.wikipedia.org/wiki/cretaceous'
+347 'http://en.wikipedia.org/wiki/cretaceous'
 
-348 u'http://en.wikipedia.org/wiki/adsense'
+348 'http://en.wikipedia.org/wiki/adsense'
 
-349 u'http://en.wikipedia.org/wiki/behavior'
+349 'http://en.wikipedia.org/wiki/behavior'
 
-350 u'http://en.wikipedia.org/wiki/voltaire'
+350 'http://en.wikipedia.org/wiki/voltaire'
 
-351 u'http://en.wikipedia.org/wiki/form'
+351 'http://en.wikipedia.org/wiki/form'
 
-352 u'http://en.wikipedia.org/wiki/anger'
+352 'http://en.wikipedia.org/wiki/anger'
 
-353 u'http://en.wikipedia.org/wiki/belgium'
+353 'http://en.wikipedia.org/wiki/belgium'
 
-354 u'http://en.wikipedia.org/wiki/huguenot'
+354 'http://en.wikipedia.org/wiki/huguenot'
 
-355 u'http://en.wikipedia.org/wiki/nymphaeaceae'
+355 'http://en.wikipedia.org/wiki/nymphaeaceae'
 
-356 u'http://en.wikipedia.org/wiki/scotland'
+356 'http://en.wikipedia.org/wiki/scotland'
 
-357 u'http://en.wikipedia.org/wiki/spanglish'
+357 'http://en.wikipedia.org/wiki/spanglish'
 
-358 u'http://en.wikipedia.org/wiki/jurassic'
+358 'http://en.wikipedia.org/wiki/jurassic'
 
-359 u'http://en.wikipedia.org/wiki/treatise'
+359 'http://en.wikipedia.org/wiki/treatise'
 
-360 u'http://en.wikipedia.org/wiki/quantity'
+360 'http://en.wikipedia.org/wiki/quantity'
 
-361 u'http://en.wikipedia.org/wiki/ichthyology'
+361 'http://en.wikipedia.org/wiki/ichthyology'
 
-362 u'http://en.wikipedia.org/wiki/irony'
+362 'http://en.wikipedia.org/wiki/irony'
 
-363 u'http://en.wikipedia.org/wiki/logology'
+363 'http://en.wikipedia.org/wiki/logology'
 
-364 u'http://en.wikipedia.org/wiki/hieros'
+364 'http://en.wikipedia.org/wiki/hieros'
 
-365 u'http://en.wikipedia.org/wiki/tittle'
+365 'http://en.wikipedia.org/wiki/tittle'
 
-366 u'http://en.wikipedia.org/wiki/drawing'
+366 'http://en.wikipedia.org/wiki/drawing'
 
-367 u'http://en.wikipedia.org/wiki/heterological'
+367 'http://en.wikipedia.org/wiki/heterological'
 
-368 u'http://en.wikipedia.org/wiki/constituency'
+368 'http://en.wikipedia.org/wiki/constituency'
 
-369 u'http://en.wikipedia.org/wiki/torse'
+369 'http://en.wikipedia.org/wiki/torse'
 
-370 u'http://en.wikipedia.org/wiki/inscription'
+370 'http://en.wikipedia.org/wiki/inscription'
 
-371 u'http://en.wikipedia.org/wiki/headquarters'
+371 'http://en.wikipedia.org/wiki/headquarters'
 
-372 u'http://en.wikipedia.org/wiki/devonian'
+372 'http://en.wikipedia.org/wiki/devonian'
 
-373 u'http://en.wikipedia.org/wiki/episteme'
+373 'http://en.wikipedia.org/wiki/episteme'
 
-374 u'http://en.wikipedia.org/wiki/symbols'
+374 'http://en.wikipedia.org/wiki/symbols'
 
-375 u'http://en.wikipedia.org/wiki/millilitre'
+375 'http://en.wikipedia.org/wiki/millilitre'
 
-376 u'http://en.wikipedia.org/wiki/somerset'
+376 'http://en.wikipedia.org/wiki/somerset'
 
-377 u'http://en.wikipedia.org/wiki/history'
+377 'http://en.wikipedia.org/wiki/history'
 
-378 u'http://en.wikipedia.org/wiki/relief'
+378 'http://en.wikipedia.org/wiki/relief'
 
-379 u'http://en.wikipedia.org/wiki/copyright'
+379 'http://en.wikipedia.org/wiki/copyright'
 
-380 u'http://en.wikipedia.org/wiki/ethnography'
+380 'http://en.wikipedia.org/wiki/ethnography'
 
-381 u'http://en.wikipedia.org/wiki/chronology'
+381 'http://en.wikipedia.org/wiki/chronology'
 
-382 u'http://en.wikipedia.org/wiki/mysticism'
+382 'http://en.wikipedia.org/wiki/mysticism'
 
-383 u'http://en.wikipedia.org/wiki/phonology'
+383 'http://en.wikipedia.org/wiki/phonology'
 
-384 u'http://en.wikipedia.org/wiki/reliabilism'
+384 'http://en.wikipedia.org/wiki/reliabilism'
 
-385 u'http://en.wikipedia.org/wiki/selfishness'
+385 'http://en.wikipedia.org/wiki/selfishness'
 
-386 u'http://en.wikipedia.org/wiki/lexicography'
+386 'http://en.wikipedia.org/wiki/lexicography'
 
-387 u'http://en.wikipedia.org/wiki/abstention'
+387 'http://en.wikipedia.org/wiki/abstention'
 
-388 u'http://en.wikipedia.org/wiki/exaggerations'
+388 'http://en.wikipedia.org/wiki/exaggerations'
 
-389 u'http://en.wikipedia.org/wiki/abjad'
+389 'http://en.wikipedia.org/wiki/abjad'
 
-390 u'http://en.wikipedia.org/wiki/cetacean'
+390 'http://en.wikipedia.org/wiki/cetacean'
 
-391 u'http://en.wikipedia.org/wiki/australia'
+391 'http://en.wikipedia.org/wiki/australia'
 
-392 u'http://en.wikipedia.org/wiki/endocentric'
+392 'http://en.wikipedia.org/wiki/endocentric'
 
-393 u'http://en.wikipedia.org/wiki/syllabary'
+393 'http://en.wikipedia.org/wiki/syllabary'
 
-394 u'http://en.wikipedia.org/wiki/facebook'
+394 'http://en.wikipedia.org/wiki/facebook'
 
-395 u'http://en.wikipedia.org/wiki/kjv'
+395 'http://en.wikipedia.org/wiki/kjv'
 
-396 u'http://en.wikipedia.org/wiki/music'
+396 'http://en.wikipedia.org/wiki/music'
 
-397 u'http://en.wikipedia.org/wiki/ambiguity'
+397 'http://en.wikipedia.org/wiki/ambiguity'
 
-398 u'http://en.wikipedia.org/wiki/historiography'
+398 'http://en.wikipedia.org/wiki/historiography'
 
-399 u'http://en.wikipedia.org/wiki/ogonek'
+399 'http://en.wikipedia.org/wiki/ogonek'
 
-400 u'http://en.wikipedia.org/wiki/data'
+400 'http://en.wikipedia.org/wiki/data'
 
-401 u'http://en.wikipedia.org/wiki/mediawiki'
+401 'http://en.wikipedia.org/wiki/mediawiki'
 
-402 u'http://en.wikipedia.org/wiki/logographic'
+402 'http://en.wikipedia.org/wiki/logographic'
 
+<<<<<<< HEAD
 403 u'http://en.wikipedia.org/wiki/brand'
 >>>>>>> f8d97d4f535ec5dfc78ba45b6b8d354fde2da837
+=======
+403 'http://en.wikipedia.org/wiki/brand'
+>>>>>>> miscs
